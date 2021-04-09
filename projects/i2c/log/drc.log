@@ -1,0 +1,27 @@
+Qflow DRC logfile created on Пт 09 апр 2021 16:30:40 MSK
+magic -dnull -noconsole  /home/oleg/tool_RTL_to_GDSII/projects/i2c/layout/run_drc_i2c_master_top.tcl
+
+Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+Loading "/home/oleg/tool_RTL_to_GDSII/projects/i2c/layout/run_drc_i2c_master_top.tcl" from command line.
+Reading LEF data from file /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 3179 lines.
+Scaled magic input cell i2c_master_top geometry by factor of 2
+i2c_master_top: 10000 rects
+Processing timestamp mismatches: FILL, INVX1, DFFSR, NAND2X1, AOI21X1, NOR2X1, NAND3X1, OAI21X1, OAI22X1, NOR3X1, INVX2, AND2X2, BUFX2, CLKBUF1, AOI22X1, INVX4, OR2X2, DFFPOSX1, MUX2X1.
+drc = 0
+DRC checking script ended on Пт 09 апр 2021 16:30:41 MSK

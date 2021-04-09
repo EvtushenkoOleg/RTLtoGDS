@@ -1,0 +1,1951 @@
+Static timing analysis logfile created on Пт 09 апр 2021 17:27:51 MSK
+Converting qrouter output to vesta delay format
+Running rc2dly -r map9v3.rc -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -V /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtl.v
+-d map9v3.dly
+Converting qrouter output to SDF delay format
+Running rc2dly -r map9v3.rc -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -V /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtl.v
+-d map9v3.sdf
+Creating example SDC file for timing
+Creating OpenSTA input file map9v3.conf
+Running OpenSTA static timing analysis with back-annotated extracted wire delays
+sta  < map9v3.conf
+OpenSTA 2.0.16 b12a89de0a Copyright (c) 2019, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Error: history.tcl, 330 invoked "return" outside of a proc.
+Warning: /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib, line 8 library osu035_stdcells already exists.
+Warning: map9v3.rtlnopwr.v, line 178 module FILL not found.  Creating black box for SFILL7920x14100.
+Warning: There are 11 input ports missing set_input_delay.
+Warning: There are 26 output ports missing set_output_delay.
+Warning: There are 27 unconstrained endpoints.
+                                                          Not   
+Check type                        Total    Annotated   Annotated
+----------------------------------------------------------------
+cell setup arcs                      33           0          33
+cell hold arcs                       33           0          33
+cell recovery arcs                  132           0         132
+cell removal arcs                    66           0          66
+cell width arcs                     132           0         132
+----------------------------------------------------------------
+                                    396           0         396
+                                                          Not   
+Delay type                        Total    Annotated   Annotated
+----------------------------------------------------------------
+cell arcs                           442           0         442
+internal net arcs                   413         413           0
+net arcs from primary inputs         29          29           0
+net arcs to primary outputs          26          26           0
+----------------------------------------------------------------
+                                    910         468         442
+Startpoint: _273_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _274_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _273_/CLK (DFFSR)
+   0.38    0.59 ^ _273_/Q (DFFSR)
+   0.00    0.59 ^ _274_/D (DFFSR)
+           0.59   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _274_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.59   data arrival time
+---------------------------------------------------------
+           0.38   slack (MET)
+
+
+Startpoint: _270_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _272_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _270_/CLK (DFFSR)
+   0.38    0.60 ^ _270_/Q (DFFSR)
+   0.00    0.60 ^ _272_/D (DFFSR)
+           0.60   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _272_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.60   data arrival time
+---------------------------------------------------------
+           0.39   slack (MET)
+
+
+Startpoint: _269_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _269_/CLK (DFFSR)
+   0.39    0.61 ^ _269_/Q (DFFSR)
+   0.11    0.72 ^ _157_/Y (AND2X2)
+   0.00    0.72 ^ _268_/D (DFFSR)
+           0.72   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _268_/CLK (DFFSR)
+   0.00    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.72   data arrival time
+---------------------------------------------------------
+           0.51   slack (MET)
+
+
+Startpoint: _292_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _292_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _292_/CLK (DFFSR)
+   0.39    0.61 ^ _292_/Q (DFFSR)
+   0.06    0.66 v _258_/Y (NAND2X1)
+   0.08    0.74 ^ _259_/Y (OAI21X1)
+   0.00    0.74 ^ _292_/D (DFFSR)
+           0.74   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _292_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.74   data arrival time
+---------------------------------------------------------
+           0.53   slack (MET)
+
+
+Startpoint: _272_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _269_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _272_/CLK (DFFSR)
+   0.41    0.62 v _272_/Q (DFFSR)
+   0.07    0.70 ^ _152_/Y (INVX1)
+   0.06    0.76 v _156_/Y (OAI21X1)
+   0.00    0.76 v _269_/D (DFFSR)
+           0.76   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _269_/CLK (DFFSR)
+   0.01    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.76   data arrival time
+---------------------------------------------------------
+           0.54   slack (MET)
+
+
+Startpoint: _283_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _283_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _283_/CLK (DFFSR)
+   0.40    0.62 v _283_/Q (DFFSR)
+   0.09    0.70 ^ _228_/Y (INVX1)
+   0.09    0.79 v _232_/Y (OAI21X1)
+   0.00    0.79 v _283_/D (DFFSR)
+           0.79   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _283_/CLK (DFFSR)
+   0.01    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.79   data arrival time
+---------------------------------------------------------
+           0.57   slack (MET)
+
+
+Startpoint: _276_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _276_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _276_/CLK (DFFSR)
+   0.43    0.65 ^ _276_/Q (DFFSR)
+   0.06    0.71 v _165_/Y (NAND2X1)
+   0.08    0.78 ^ _172_/Y (OAI21X1)
+   0.00    0.78 ^ _276_/D (DFFSR)
+           0.78   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _276_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.78   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _278_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _278_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _278_/CLK (DFFSR)
+   0.43    0.65 ^ _278_/Q (DFFSR)
+   0.06    0.71 v _184_/Y (NAND2X1)
+   0.08    0.78 ^ _192_/Y (OAI21X1)
+   0.00    0.78 ^ _278_/D (DFFSR)
+           0.78   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _278_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.78   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _284_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _284_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _284_/CLK (DFFSR)
+   0.42    0.63 v _284_/Q (DFFSR)
+   0.09    0.73 ^ _234_/Y (NOR2X1)
+   0.08    0.80 v _235_/Y (AOI21X1)
+   0.00    0.80 v _284_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _284_/CLK (DFFSR)
+   0.01    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _288_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _288_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _288_/CLK (DFFSR)
+   0.42    0.63 v _288_/Q (DFFSR)
+   0.09    0.73 ^ _246_/Y (NOR2X1)
+   0.08    0.80 v _247_/Y (AOI21X1)
+   0.00    0.80 v _288_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _288_/CLK (DFFSR)
+   0.01    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _290_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _290_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _290_/CLK (DFFSR)
+   0.42    0.63 v _290_/Q (DFFSR)
+   0.09    0.73 ^ _252_/Y (NOR2X1)
+   0.08    0.80 v _253_/Y (AOI21X1)
+   0.00    0.80 v _290_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _290_/CLK (DFFSR)
+   0.01    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _285_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _285_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _285_/CLK (DFFSR)
+   0.41    0.62 v _285_/Q (DFFSR)
+   0.09    0.72 ^ _237_/Y (NOR2X1)
+   0.08    0.80 v _238_/Y (AOI21X1)
+   0.00    0.80 v _285_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _285_/CLK (DFFSR)
+   0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _286_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _286_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _286_/CLK (DFFSR)
+   0.41    0.62 v _286_/Q (DFFSR)
+   0.09    0.72 ^ _240_/Y (NOR2X1)
+   0.08    0.80 v _241_/Y (AOI21X1)
+   0.00    0.80 v _286_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _286_/CLK (DFFSR)
+   0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _287_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _287_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _287_/CLK (DFFSR)
+   0.41    0.62 v _287_/Q (DFFSR)
+   0.09    0.72 ^ _243_/Y (NOR2X1)
+   0.08    0.80 v _244_/Y (AOI21X1)
+   0.00    0.80 v _287_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _287_/CLK (DFFSR)
+   0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _289_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _289_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _289_/CLK (DFFSR)
+   0.41    0.62 v _289_/Q (DFFSR)
+   0.09    0.72 ^ _249_/Y (NOR2X1)
+   0.08    0.80 v _250_/Y (AOI21X1)
+   0.00    0.80 v _289_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _289_/CLK (DFFSR)
+   0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _291_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _291_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _291_/CLK (DFFSR)
+   0.41    0.62 v _291_/Q (DFFSR)
+   0.09    0.72 ^ _255_/Y (NOR2X1)
+   0.08    0.80 v _256_/Y (AOI21X1)
+   0.00    0.80 v _291_/D (DFFSR)
+           0.80   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _291_/CLK (DFFSR)
+   0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.80   data arrival time
+---------------------------------------------------------
+           0.58   slack (MET)
+
+
+Startpoint: _271_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _270_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _271_/CLK (DFFSR)
+   0.49    0.70 ^ _271_/Q (DFFSR)
+   0.12    0.82 ^ _158_/Y (AND2X2)
+   0.00    0.82 ^ _270_/D (DFFSR)
+           0.82   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _270_/CLK (DFFSR)
+   0.00    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.82   data arrival time
+---------------------------------------------------------
+           0.60   slack (MET)
+
+
+Startpoint: _275_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _275_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _275_/CLK (DFFSR)
+   0.47    0.68 ^ _275_/Q (DFFSR)
+   0.06    0.74 v _162_/Y (NAND2X1)
+   0.08    0.82 ^ _163_/Y (OAI21X1)
+   0.00    0.82 ^ _275_/D (DFFSR)
+           0.82   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _275_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.82   data arrival time
+---------------------------------------------------------
+           0.62   slack (MET)
+
+
+Startpoint: _277_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _277_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _277_/CLK (DFFSR)
+   0.46    0.68 ^ _277_/Q (DFFSR)
+   0.08    0.76 v _174_/Y (OAI21X1)
+   0.08    0.84 ^ _181_/Y (OAI21X1)
+   0.00    0.84 ^ _277_/D (DFFSR)
+           0.84   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _277_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.84   data arrival time
+---------------------------------------------------------
+           0.63   slack (MET)
+
+
+Startpoint: _293_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _294_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _293_/CLK (DFFSR)
+   0.38    0.59 ^ _293_/Q (DFFSR)
+   0.18    0.77 v _233_/Y (INVX1)
+   0.10    0.87 ^ _266_/Y (OAI22X1)
+   0.00    0.87 ^ _294_/D (DFFSR)
+           0.87   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _294_/CLK (DFFSR)
+  -0.02    0.19   library hold time
+           0.19   data required time
+---------------------------------------------------------
+           0.19   data required time
+          -0.87   data arrival time
+---------------------------------------------------------
+           0.68   slack (MET)
+
+
+Startpoint: _295_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _296_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _295_/CLK (DFFSR)
+   0.38    0.59 ^ _295_/Q (DFFSR)
+   0.18    0.77 v _239_/Y (INVX1)
+   0.10    0.87 ^ _136_/Y (OAI22X1)
+   0.00    0.87 ^ _296_/D (DFFSR)
+           0.87   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _296_/CLK (DFFSR)
+  -0.02    0.19   library hold time
+           0.19   data required time
+---------------------------------------------------------
+           0.19   data required time
+          -0.87   data arrival time
+---------------------------------------------------------
+           0.68   slack (MET)
+
+
+Startpoint: _294_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _295_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _294_/CLK (DFFSR)
+   0.38    0.59 ^ _294_/Q (DFFSR)
+   0.18    0.77 v _236_/Y (INVX1)
+   0.10    0.87 ^ _267_/Y (OAI22X1)
+   0.00    0.87 ^ _295_/D (DFFSR)
+           0.87   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _295_/CLK (DFFSR)
+  -0.02    0.19   library hold time
+           0.19   data required time
+---------------------------------------------------------
+           0.19   data required time
+          -0.87   data arrival time
+---------------------------------------------------------
+           0.68   slack (MET)
+
+
+Startpoint: _299_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _300_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _299_/CLK (DFFSR)
+   0.38    0.60 ^ _299_/Q (DFFSR)
+   0.18    0.77 v _251_/Y (INVX1)
+   0.10    0.88 ^ _140_/Y (OAI22X1)
+   0.00    0.88 ^ _300_/D (DFFSR)
+           0.88   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _300_/CLK (DFFSR)
+  -0.02    0.19   library hold time
+           0.19   data required time
+---------------------------------------------------------
+           0.19   data required time
+          -0.88   data arrival time
+---------------------------------------------------------
+           0.68   slack (MET)
+
+
+Startpoint: _282_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _282_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _282_/CLK (DFFSR)
+   0.46    0.68 ^ _282_/Q (DFFSR)
+   0.10    0.78 v _218_/Y (INVX1)
+   0.12    0.89 ^ _227_/Y (AOI22X1)
+   0.00    0.89 ^ _282_/D (DFFSR)
+           0.89   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _282_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.89   data arrival time
+---------------------------------------------------------
+           0.69   slack (MET)
+
+
+Startpoint: _293_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _293_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _293_/CLK (DFFSR)
+   0.38    0.59 ^ _293_/Q (DFFSR)
+   0.18    0.77 v _233_/Y (INVX1)
+   0.13    0.90 ^ _264_/Y (OAI22X1)
+   0.00    0.90 ^ _293_/D (DFFSR)
+           0.90   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _293_/CLK (DFFSR)
+  -0.01    0.20   library hold time
+           0.20   data required time
+---------------------------------------------------------
+           0.20   data required time
+          -0.90   data arrival time
+---------------------------------------------------------
+           0.70   slack (MET)
+
+
+Startpoint: _299_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _299_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _299_/CLK (DFFSR)
+   0.40    0.62 v _299_/Q (DFFSR)
+   0.19    0.81 ^ _251_/Y (INVX1)
+   0.11    0.92 v _139_/Y (OAI22X1)
+   0.00    0.92 v _299_/D (DFFSR)
+           0.92   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _299_/CLK (DFFSR)
+   0.00    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.92   data arrival time
+---------------------------------------------------------
+           0.70   slack (MET)
+
+
+Startpoint: _281_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _281_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _281_/CLK (DFFSR)
+   0.53    0.74 ^ _281_/Q (DFFSR)
+   0.06    0.80 v _212_/Y (NAND2X1)
+   0.12    0.92 ^ _217_/Y (NAND3X1)
+   0.00    0.92 ^ _281_/D (DFFSR)
+           0.92   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _281_/CLK (DFFSR)
+   0.00    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.92   data arrival time
+---------------------------------------------------------
+           0.71   slack (MET)
+
+
+Startpoint: _279_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _279_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _279_/CLK (DFFSR)
+   0.53    0.74 ^ _279_/Q (DFFSR)
+   0.13    0.88 v _198_/Y (OAI22X1)
+   0.07    0.95 ^ _199_/Y (AOI21X1)
+   0.00    0.95 ^ _279_/D (DFFSR)
+           0.95   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _279_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -0.95   data arrival time
+---------------------------------------------------------
+           0.74   slack (MET)
+
+
+Startpoint: _271_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _271_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _271_/CLK (DFFSR)
+   0.49    0.71 v _271_/Q (DFFSR)
+   0.17    0.88 ^ _142_/Y (INVX1)
+   0.09    0.97 v _151_/Y (OAI21X1)
+   0.00    0.97 v _271_/D (DFFSR)
+           0.97   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _271_/CLK (DFFSR)
+   0.01    0.22   library hold time
+           0.22   data required time
+---------------------------------------------------------
+           0.22   data required time
+          -0.97   data arrival time
+---------------------------------------------------------
+           0.75   slack (MET)
+
+
+Startpoint: _297_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _298_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _297_/CLK (DFFSR)
+   0.47    0.67 ^ _297_/Q (DFFSR)
+   0.21    0.88 v _245_/Y (INVX1)
+   0.10    0.99 ^ _138_/Y (OAI22X1)
+   0.00    0.99 ^ _298_/D (DFFSR)
+           0.99   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _298_/CLK (DFFSR)
+  -0.02    0.20   library hold time
+           0.20   data required time
+---------------------------------------------------------
+           0.20   data required time
+          -0.99   data arrival time
+---------------------------------------------------------
+           0.79   slack (MET)
+
+
+Startpoint: _297_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _297_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _297_/CLK (DFFSR)
+   0.47    0.68 v _297_/Q (DFFSR)
+   0.22    0.91 ^ _245_/Y (INVX1)
+   0.11    1.02 v _137_/Y (OAI22X1)
+   0.00    1.02 v _297_/D (DFFSR)
+           1.02   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21   clock reconvergence pessimism
+           0.21 ^ _297_/CLK (DFFSR)
+   0.00    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -1.02   data arrival time
+---------------------------------------------------------
+           0.81   slack (MET)
+
+
+Startpoint: _280_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _280_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _280_/CLK (DFFSR)
+   0.65    0.86 ^ _280_/Q (DFFSR)
+   0.14    1.00 v _207_/Y (OAI22X1)
+   0.07    1.08 ^ _208_/Y (AOI21X1)
+   0.00    1.08 ^ _280_/D (DFFSR)
+           1.08   data arrival time
+
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22   clock reconvergence pessimism
+           0.22 ^ _280_/CLK (DFFSR)
+  -0.01    0.21   library hold time
+           0.21   data required time
+---------------------------------------------------------
+           0.21   data required time
+          -1.08   data arrival time
+---------------------------------------------------------
+           0.87   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _287_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.27    2.63 v BUFX2_insert11/Y (BUFX2)
+   0.10    2.73 ^ _243_/Y (NOR2X1)
+   0.08    2.82 v _244_/Y (AOI21X1)
+   0.00    2.82 v _287_/D (DFFSR)
+           2.82   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _287_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.82   data arrival time
+---------------------------------------------------------
+          17.26   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _291_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.27    2.63 v BUFX2_insert11/Y (BUFX2)
+   0.10    2.73 ^ _255_/Y (NOR2X1)
+   0.08    2.82 v _256_/Y (AOI21X1)
+   0.00    2.82 v _291_/D (DFFSR)
+           2.82   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _291_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.82   data arrival time
+---------------------------------------------------------
+          17.26   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _288_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.27    2.63 v BUFX2_insert10/Y (BUFX2)
+   0.10    2.73 ^ _246_/Y (NOR2X1)
+   0.08    2.81 v _247_/Y (AOI21X1)
+   0.00    2.81 v _288_/D (DFFSR)
+           2.81   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _288_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.81   data arrival time
+---------------------------------------------------------
+          17.27   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _284_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.27    2.63 v BUFX2_insert10/Y (BUFX2)
+   0.10    2.73 ^ _234_/Y (NOR2X1)
+   0.08    2.81 v _235_/Y (AOI21X1)
+   0.00    2.81 v _284_/D (DFFSR)
+           2.81   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _284_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.81   data arrival time
+---------------------------------------------------------
+          17.27   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _290_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.27    2.63 v BUFX2_insert10/Y (BUFX2)
+   0.10    2.73 ^ _252_/Y (NOR2X1)
+   0.08    2.81 v _253_/Y (AOI21X1)
+   0.00    2.81 v _290_/D (DFFSR)
+           2.81   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _290_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.81   data arrival time
+---------------------------------------------------------
+          17.27   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _285_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.25    2.61 v BUFX2_insert12/Y (BUFX2)
+   0.10    2.70 ^ _237_/Y (NOR2X1)
+   0.08    2.78 v _238_/Y (AOI21X1)
+   0.00    2.78 v _285_/D (DFFSR)
+           2.78   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _285_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.78   data arrival time
+---------------------------------------------------------
+          17.29   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _286_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.25    2.61 v BUFX2_insert12/Y (BUFX2)
+   0.10    2.70 ^ _240_/Y (NOR2X1)
+   0.08    2.78 v _241_/Y (AOI21X1)
+   0.00    2.78 v _286_/D (DFFSR)
+           2.78   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _286_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.78   data arrival time
+---------------------------------------------------------
+          17.29   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _289_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.24    2.60 v BUFX2_insert13/Y (BUFX2)
+   0.09    2.70 ^ _249_/Y (NOR2X1)
+   0.08    2.78 v _250_/Y (AOI21X1)
+   0.00    2.78 v _289_/D (DFFSR)
+           2.78   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _289_/CLK (DFFSR)
+  -0.13   20.08   library setup time
+          20.08   data required time
+---------------------------------------------------------
+          20.08   data required time
+          -2.78   data arrival time
+---------------------------------------------------------
+          17.30   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _283_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.20    2.36 v _230_/Y (NOR2X1)
+   0.24    2.60 v BUFX2_insert13/Y (BUFX2)
+   0.11    2.71 ^ _232_/Y (OAI21X1)
+   0.00    2.71 ^ _283_/D (DFFSR)
+           2.71   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _283_/CLK (DFFSR)
+  -0.19   20.03   library setup time
+          20.03   data required time
+---------------------------------------------------------
+          20.03   data required time
+          -2.71   data arrival time
+---------------------------------------------------------
+          17.31   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _282_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.10    2.25 v _225_/Y (OAI21X1)
+   0.11    2.36 ^ _226_/Y (AOI21X1)
+   0.08    2.44 v _227_/Y (AOI22X1)
+   0.00    2.44 v _282_/D (DFFSR)
+           2.44   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _282_/CLK (DFFSR)
+  -0.21   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.44   data arrival time
+---------------------------------------------------------
+          17.56   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _278_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.09    2.24 v _183_/Y (OAI21X1)
+   0.12    2.36 ^ _184_/Y (NAND2X1)
+   0.07    2.43 v _192_/Y (OAI21X1)
+   0.00    2.43 v _278_/D (DFFSR)
+           2.43   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _278_/CLK (DFFSR)
+  -0.20   20.02   library setup time
+          20.02   data required time
+---------------------------------------------------------
+          20.02   data required time
+          -2.43   data arrival time
+---------------------------------------------------------
+          17.59   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _280_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.11    2.26 v _207_/Y (OAI22X1)
+   0.09    2.35 ^ _208_/Y (AOI21X1)
+   0.00    2.35 ^ _280_/D (DFFSR)
+           2.35   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _280_/CLK (DFFSR)
+  -0.20   20.01   library setup time
+          20.01   data required time
+---------------------------------------------------------
+          20.01   data required time
+          -2.35   data arrival time
+---------------------------------------------------------
+          17.66   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _279_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.37    2.16 ^ _182_/Y (INVX4)
+   0.11    2.26 v _198_/Y (OAI22X1)
+   0.08    2.35 ^ _199_/Y (AOI21X1)
+   0.00    2.35 ^ _279_/D (DFFSR)
+           2.35   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _279_/CLK (DFFSR)
+  -0.20   20.01   library setup time
+          20.01   data required time
+---------------------------------------------------------
+          20.01   data required time
+          -2.35   data arrival time
+---------------------------------------------------------
+          17.67   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _293_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _264_/Y (OAI22X1)
+   0.00    2.22 ^ _293_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _293_/CLK (DFFSR)
+  -0.20   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.79   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _294_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _266_/Y (OAI22X1)
+   0.00    2.22 ^ _294_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _294_/CLK (DFFSR)
+  -0.20   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.79   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _295_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _267_/Y (OAI22X1)
+   0.00    2.22 ^ _295_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _295_/CLK (DFFSR)
+  -0.20   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.79   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _296_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _136_/Y (OAI22X1)
+   0.00    2.22 ^ _296_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _296_/CLK (DFFSR)
+  -0.20   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.79   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _297_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _137_/Y (OAI22X1)
+   0.00    2.22 ^ _297_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _297_/CLK (DFFSR)
+  -0.20   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.79   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _300_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _140_/Y (OAI22X1)
+   0.00    2.22 ^ _300_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.21   20.21   clock network delay (propagated)
+   0.00   20.21   clock reconvergence pessimism
+          20.21 ^ _300_/CLK (DFFSR)
+  -0.20   20.00   library setup time
+          20.00   data required time
+---------------------------------------------------------
+          20.00   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.79   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _298_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _138_/Y (OAI22X1)
+   0.00    2.22 ^ _298_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _298_/CLK (DFFSR)
+  -0.20   20.01   library setup time
+          20.01   data required time
+---------------------------------------------------------
+          20.01   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.80   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _299_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.17    2.22 ^ _139_/Y (OAI22X1)
+   0.00    2.22 ^ _299_/D (DFFSR)
+           2.22   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _299_/CLK (DFFSR)
+  -0.20   20.01   library setup time
+          20.01   data required time
+---------------------------------------------------------
+          20.01   data required time
+          -2.22   data arrival time
+---------------------------------------------------------
+          17.80   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _292_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.85    1.06 v _268_/Q (DFFSR)
+   0.66    1.72 ^ _159_/Y (NOR2X1)
+   0.32    2.04 v _182_/Y (INVX4)
+   0.16    2.20 ^ _259_/Y (OAI21X1)
+   0.00    2.20 ^ _292_/D (DFFSR)
+           2.20   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _292_/CLK (DFFSR)
+  -0.19   20.02   library setup time
+          20.02   data required time
+---------------------------------------------------------
+          20.02   data required time
+          -2.20   data arrival time
+---------------------------------------------------------
+          17.82   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _275_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.21    1.99 ^ _162_/Y (NAND2X1)
+   0.07    2.07 v _163_/Y (OAI21X1)
+   0.00    2.07 v _275_/D (DFFSR)
+           2.07   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _275_/CLK (DFFSR)
+  -0.20   20.02   library setup time
+          20.02   data required time
+---------------------------------------------------------
+          20.02   data required time
+          -2.07   data arrival time
+---------------------------------------------------------
+          17.95   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _277_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.19    1.97 ^ _174_/Y (OAI21X1)
+   0.07    2.04 v _181_/Y (OAI21X1)
+   0.00    2.04 v _277_/D (DFFSR)
+           2.04   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _277_/CLK (DFFSR)
+  -0.20   20.02   library setup time
+          20.02   data required time
+---------------------------------------------------------
+          20.02   data required time
+          -2.04   data arrival time
+---------------------------------------------------------
+          17.97   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _281_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.22    2.01 ^ _212_/Y (NAND2X1)
+   0.06    2.07 v _217_/Y (NAND3X1)
+   0.00    2.07 v _281_/D (DFFSR)
+           2.07   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _281_/CLK (DFFSR)
+  -0.12   20.10   library setup time
+          20.10   data required time
+---------------------------------------------------------
+          20.10   data required time
+          -2.07   data arrival time
+---------------------------------------------------------
+          18.03   slack (MET)
+
+
+Startpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _276_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _268_/CLK (DFFSR)
+   0.89    1.10 ^ _268_/Q (DFFSR)
+   0.68    1.78 v _159_/Y (NOR2X1)
+   0.18    1.96 ^ _172_/Y (OAI21X1)
+   0.00    1.96 ^ _276_/D (DFFSR)
+           1.96   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _276_/CLK (DFFSR)
+  -0.21   20.01   library setup time
+          20.01   data required time
+---------------------------------------------------------
+          20.01   data required time
+          -1.96   data arrival time
+---------------------------------------------------------
+          18.05   slack (MET)
+
+
+Startpoint: _275_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _271_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _275_/CLK (DFFSR)
+   0.47    0.68 ^ _275_/Q (DFFSR)
+   0.27    0.96 v _144_/Y (NOR2X1)
+   0.26    1.22 ^ _146_/Y (NAND2X1)
+   0.24    1.46 v _150_/Y (NOR2X1)
+   0.13    1.59 ^ _151_/Y (OAI21X1)
+   0.00    1.59 ^ _271_/D (DFFSR)
+           1.59   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _271_/CLK (DFFSR)
+  -0.19   20.02   library setup time
+          20.02   data required time
+---------------------------------------------------------
+          20.02   data required time
+          -1.59   data arrival time
+---------------------------------------------------------
+          18.44   slack (MET)
+
+
+Startpoint: _275_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _270_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _275_/CLK (DFFSR)
+   0.47    0.68 ^ _275_/Q (DFFSR)
+   0.27    0.96 v _144_/Y (NOR2X1)
+   0.26    1.22 ^ _146_/Y (NAND2X1)
+   0.24    1.46 v _150_/Y (NOR2X1)
+   0.19    1.64 v _158_/Y (AND2X2)
+   0.00    1.64 v _270_/D (DFFSR)
+           1.64   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _270_/CLK (DFFSR)
+  -0.09   20.12   library setup time
+          20.12   data required time
+---------------------------------------------------------
+          20.12   data required time
+          -1.64   data arrival time
+---------------------------------------------------------
+          18.48   slack (MET)
+
+
+Startpoint: _273_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _269_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _273_/CLK (DFFSR)
+   0.40    0.61 v _273_/Q (DFFSR)
+   0.08    0.69 ^ _154_/Y (INVX1)
+   0.13    0.82 v _155_/Y (NOR2X1)
+   0.11    0.93 ^ _156_/Y (OAI21X1)
+   0.00    0.93 ^ _269_/D (DFFSR)
+           0.93   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _269_/CLK (DFFSR)
+  -0.19   20.03   library setup time
+          20.03   data required time
+---------------------------------------------------------
+          20.03   data required time
+          -0.93   data arrival time
+---------------------------------------------------------
+          19.09   slack (MET)
+
+
+Startpoint: _273_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _268_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _273_/CLK (DFFSR)
+   0.38    0.59 ^ _273_/Q (DFFSR)
+   0.07    0.66 v _154_/Y (INVX1)
+   0.13    0.79 ^ _155_/Y (NOR2X1)
+   0.12    0.91 ^ _157_/Y (AND2X2)
+   0.00    0.91 ^ _268_/D (DFFSR)
+           0.91   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _268_/CLK (DFFSR)
+  -0.18   20.04   library setup time
+          20.04   data required time
+---------------------------------------------------------
+          20.04   data required time
+          -0.91   data arrival time
+---------------------------------------------------------
+          19.13   slack (MET)
+
+
+Startpoint: _270_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _272_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.22    0.22   clock network delay (propagated)
+   0.00    0.22 ^ _270_/CLK (DFFSR)
+   0.38    0.60 ^ _270_/Q (DFFSR)
+   0.00    0.60 ^ _272_/D (DFFSR)
+           0.60   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _272_/CLK (DFFSR)
+  -0.18   20.03   library setup time
+          20.03   data required time
+---------------------------------------------------------
+          20.03   data required time
+          -0.60   data arrival time
+---------------------------------------------------------
+          19.43   slack (MET)
+
+
+Startpoint: _273_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _274_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clock (rise edge)
+   0.21    0.21   clock network delay (propagated)
+   0.00    0.21 ^ _273_/CLK (DFFSR)
+   0.38    0.59 ^ _273_/Q (DFFSR)
+   0.00    0.59 ^ _274_/D (DFFSR)
+           0.59   data arrival time
+
+  20.00   20.00   clock clock (rise edge)
+   0.22   20.22   clock network delay (propagated)
+   0.00   20.22   clock reconvergence pessimism
+          20.22 ^ _274_/CLK (DFFSR)
+  -0.18   20.03   library setup time
+          20.03   data required time
+---------------------------------------------------------
+          20.03   data required time
+          -0.59   data arrival time
+---------------------------------------------------------
+          19.44   slack (MET)
+
+

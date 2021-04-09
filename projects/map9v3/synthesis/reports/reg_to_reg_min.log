@@ -1,0 +1,121 @@
+Vesta static timing analysis, register-to-register minimum timing
+
+Top 20 minimum delay paths:
+Path _273_/CLK to _274_/D delay 341.538 ps
+      0.0 ps  clock_bF$buf1: CLKBUF1_insert3/Y -> _273_/CLK
+    365.1 ps    startbuf[0]:           _273_/Q -> _274_/D
+
+   clock skew at destination = -6.4046
+   hold at destination = -17.1329
+
+Path _270_/CLK to _272_/D delay 347.942 ps
+      0.0 ps  clock_bF$buf3: CLKBUF1_insert1/Y -> _270_/CLK
+    365.1 ps       state[2]:           _270_/Q -> _272_/D
+
+   clock skew at destination = 0
+   hold at destination = -17.1329
+
+Path _294_/CLK to output pin sr[1] delay 472.527 ps
+      0.0 ps  clock_bF$buf0: CLKBUF1_insert4/Y -> _294_/CLK
+    364.9 ps       _135_[1]:           _294_/Q -> _320_/A
+    472.5 ps          sr[1]:           _320_/Y -> sr[1]
+
+Path _293_/CLK to output pin sr[0] delay 472.527 ps
+      0.0 ps  clock_bF$buf0: CLKBUF1_insert4/Y -> _293_/CLK
+    364.9 ps       _135_[0]:           _293_/Q -> _319_/A
+    472.5 ps          sr[0]:           _319_/Y -> sr[0]
+
+Path _295_/CLK to output pin sr[2] delay 472.527 ps
+      0.0 ps  clock_bF$buf1: CLKBUF1_insert3/Y -> _295_/CLK
+    364.9 ps       _135_[2]:           _295_/Q -> _321_/A
+    472.5 ps          sr[2]:           _321_/Y -> sr[2]
+
+Path _283_/CLK to output pin dp[0] delay 472.527 ps
+      0.0 ps  clock_bF$buf4: CLKBUF1_insert0/Y -> _283_/CLK
+    364.9 ps       _134_[0]:           _283_/Q -> _310_/A
+    472.5 ps          dp[0]:           _310_/Y -> dp[0]
+
+Path _299_/CLK to output pin sr[6] delay 472.527 ps
+      0.0 ps  clock_bF$buf3: CLKBUF1_insert1/Y -> _299_/CLK
+    364.9 ps       _135_[6]:           _299_/Q -> _325_/A
+    472.5 ps          sr[6]:           _325_/Y -> sr[6]
+
+Path _269_/CLK to _268_/D delay 488.835 ps
+      0.0 ps  clock_bF$buf4: CLKBUF1_insert0/Y -> _269_/CLK
+    373.4 ps       state[1]:           _269_/Q -> _157_/B
+    487.7 ps            _0_:           _157_/Y -> _268_/D
+
+   clock skew at destination = 0
+   hold at destination = 1.16296
+
+Path _291_/CLK to output pin dp[8] delay 492.445 ps
+      0.0 ps  clock_bF$buf0: CLKBUF1_insert4/Y -> _291_/CLK
+    381.6 ps       _134_[8]:           _291_/Q -> _318_/A
+    492.4 ps          dp[8]:           _318_/Y -> dp[8]
+
+Path _287_/CLK to output pin dp[4] delay 492.445 ps
+      0.0 ps  clock_bF$buf0: CLKBUF1_insert4/Y -> _287_/CLK
+    381.6 ps       _134_[4]:           _287_/Q -> _314_/A
+    492.4 ps          dp[4]:           _314_/Y -> dp[4]
+
+Path _288_/CLK to output pin dp[5] delay 492.445 ps
+      0.0 ps  clock_bF$buf2: CLKBUF1_insert2/Y -> _288_/CLK
+    381.6 ps       _134_[5]:           _288_/Q -> _315_/A
+    492.4 ps          dp[5]:           _315_/Y -> dp[5]
+
+Path _290_/CLK to output pin dp[7] delay 492.445 ps
+      0.0 ps  clock_bF$buf2: CLKBUF1_insert2/Y -> _290_/CLK
+    381.6 ps       _134_[7]:           _290_/Q -> _317_/A
+    492.4 ps          dp[7]:           _317_/Y -> dp[7]
+
+Path _285_/CLK to output pin dp[2] delay 492.445 ps
+      0.0 ps  clock_bF$buf1: CLKBUF1_insert3/Y -> _285_/CLK
+    381.6 ps       _134_[2]:           _285_/Q -> _312_/A
+    492.4 ps          dp[2]:           _312_/Y -> dp[2]
+
+Path _289_/CLK to output pin dp[6] delay 492.445 ps
+      0.0 ps  clock_bF$buf1: CLKBUF1_insert3/Y -> _289_/CLK
+    381.6 ps       _134_[6]:           _289_/Q -> _316_/A
+    492.4 ps          dp[6]:           _316_/Y -> dp[6]
+
+Path _286_/CLK to output pin dp[3] delay 492.445 ps
+      0.0 ps  clock_bF$buf1: CLKBUF1_insert3/Y -> _286_/CLK
+    381.6 ps       _134_[3]:           _286_/Q -> _313_/A
+    492.4 ps          dp[3]:           _313_/Y -> dp[3]
+
+Path _284_/CLK to output pin dp[1] delay 492.445 ps
+      0.0 ps  clock_bF$buf3: CLKBUF1_insert1/Y -> _284_/CLK
+    381.6 ps       _134_[1]:           _284_/Q -> _311_/A
+    492.4 ps          dp[1]:           _311_/Y -> dp[1]
+
+Path _272_/CLK to _269_/D delay 501.7 ps
+      0.0 ps  clock_bF$buf4: CLKBUF1_insert0/Y -> _272_/CLK
+    373.3 ps       state[4]:           _272_/Q -> _152_/A
+    446.6 ps          _121_:           _152_/Y -> _156_/C
+    509.2 ps            _2_:           _156_/Y -> _269_/D
+
+   clock skew at destination = 0
+   hold at destination = -7.48885
+
+Path _276_/CLK to output pin counter[1] delay 533.29 ps
+      0.0 ps  clock_bF$buf2: CLKBUF1_insert2/Y -> _276_/CLK
+    416.0 ps       _132_[1]:           _276_/Q -> _302_/A
+    533.3 ps     counter[1]:           _302_/Y -> counter[1]
+
+Path _278_/CLK to output pin counter[3] delay 533.29 ps
+      0.0 ps  clock_bF$buf2: CLKBUF1_insert2/Y -> _278_/CLK
+    416.0 ps       _132_[3]:           _278_/Q -> _304_/A
+    533.3 ps     counter[3]:           _304_/Y -> counter[3]
+
+Path _283_/CLK to _283_/D delay 534.607 ps
+      0.0 ps  clock_bF$buf4: CLKBUF1_insert0/Y -> _283_/CLK
+    364.9 ps       _134_[0]:           _283_/Q -> _228_/A
+    452.6 ps           _85_:           _228_/Y -> _232_/A
+    539.8 ps           _13_:           _232_/Y -> _283_/D
+
+   clock skew at destination = 0
+   hold at destination = -5.23308
+
+Design meets minimum hold timing.
+-----------------------------------------
+

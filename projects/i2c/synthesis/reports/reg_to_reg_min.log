@@ -1,0 +1,148 @@
+Vesta static timing analysis, register-to-register minimum timing
+
+Top 20 minimum delay paths:
+Path _1010_/CLK to output pin wb_dat_o[0] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf1: CLKBUF1_insert16/Y -> _1010_/CLK
+      8.1 ps          _787_[0]:           _1010_/Q -> _1756_/A
+    102.6 ps       wb_dat_o[0]:           _1756_/Y -> wb_dat_o[0]
+
+Path _1013_/CLK to output pin wb_dat_o[3] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1013_/CLK
+      8.1 ps          _787_[3]:          _1013_/Q -> _1759_/A
+    102.6 ps       wb_dat_o[3]:          _1759_/Y -> wb_dat_o[3]
+
+Path _1014_/CLK to output pin wb_dat_o[4] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1014_/CLK
+      8.1 ps          _787_[4]:          _1014_/Q -> _1760_/A
+    102.6 ps       wb_dat_o[4]:          _1760_/Y -> wb_dat_o[4]
+
+Path _1011_/CLK to output pin wb_dat_o[1] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1011_/CLK
+      8.1 ps          _787_[1]:          _1011_/Q -> _1757_/A
+    102.6 ps       wb_dat_o[1]:          _1757_/Y -> wb_dat_o[1]
+
+Path _1016_/CLK to output pin wb_dat_o[6] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf9: CLKBUF1_insert8/Y -> _1016_/CLK
+      8.1 ps          _787_[6]:          _1016_/Q -> _1762_/A
+    102.6 ps       wb_dat_o[6]:          _1762_/Y -> wb_dat_o[6]
+
+Path _1015_/CLK to output pin wb_dat_o[5] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf9: CLKBUF1_insert8/Y -> _1015_/CLK
+      8.1 ps          _787_[5]:          _1015_/Q -> _1761_/A
+    102.6 ps       wb_dat_o[5]:          _1761_/Y -> wb_dat_o[5]
+
+Path _1012_/CLK to output pin wb_dat_o[2] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf7: CLKBUF1_insert10/Y -> _1012_/CLK
+      8.1 ps          _787_[2]:           _1012_/Q -> _1758_/A
+    102.6 ps       wb_dat_o[2]:           _1758_/Y -> wb_dat_o[2]
+
+Path _1017_/CLK to output pin wb_dat_o[7] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf7: CLKBUF1_insert10/Y -> _1017_/CLK
+      8.1 ps          _787_[7]:           _1017_/Q -> _1763_/A
+    102.6 ps       wb_dat_o[7]:           _1763_/Y -> wb_dat_o[7]
+
+Path _1018_/CLK to _1018_/D delay 202.651 ps
+      0.0 ps  wb_clk_i_bF$buf9: CLKBUF1_insert8/Y -> _1018_/CLK
+    227.7 ps             _786_:          _1018_/Q ->  _895_/A
+    303.1 ps               _4_:           _895_/Y -> _1018_/D
+
+   clock skew at destination = 0
+   hold at destination = -100.42
+
+Path _1678_/CLK to _1678_/D delay 251.258 ps
+      0.0 ps                       wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1678_/CLK
+    192.7 ps  \byte_controller.bit_controller.dout :           _1678_/Q -> _1430_/C
+    284.7 ps                                  _581_:           _1430_/Y -> _1431_/C
+    349.8 ps                                  _380_:           _1431_/Y -> _1678_/D
+
+   clock skew at destination = 0
+   hold at destination = -98.5744
+
+Path _1677_/CLK to _1707_/D delay 260.048 ps
+      0.0 ps                          wb_clk_i_bF$buf11: CLKBUF1_insert6/Y -> _1677_/CLK
+     62.9 ps  \byte_controller.bit_controller.dscl_oen :          _1677_/Q -> _1414_/A
+    157.5 ps                                      _569_:          _1414_/Y -> _1415_/A
+    274.3 ps                                      _377_:          _1415_/Y -> _1707_/D
+
+   clock skew at destination = 0
+   hold at destination = -14.2148
+
+Path _1734_/CLK to _1677_/D delay 299.95 ps
+      0.0 ps  wb_clk_i_bF$buf11: CLKBUF1_insert6/Y -> _1734_/CLK
+    390.2 ps              _784_:          _1734_/Q -> _1677_/D
+
+   clock skew at destination = 0
+   hold at destination = -90.238
+
+Path _1678_/CLK to _1229_/D delay 348.653 ps
+      0.0 ps                       wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1678_/CLK
+    192.7 ps  \byte_controller.bit_controller.dout :           _1678_/Q -> _1135_/B
+    317.3 ps                                  _269_:           _1135_/Y -> _1138_/A
+    407.5 ps                                  _223_:           _1138_/Y -> _1229_/D
+
+   clock skew at destination = -23.6103
+   hold at destination = -35.2637
+
+Path _1678_/CLK to _1228_/D delay 378.173 ps
+      0.0 ps                       wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1678_/CLK
+    192.7 ps  \byte_controller.bit_controller.dout :           _1678_/Q -> _1127_/C
+    304.3 ps                                  _262_:           _1127_/Y -> _1129_/B
+    391.6 ps                                  _222_:           _1129_/Y -> _1228_/D
+
+   clock skew at destination = 11.8052
+   hold at destination = -25.2626
+
+Path _1020_/CLK to _1017_/D delay 431.118 ps
+      0.0 ps  wb_clk_i_bF$buf7: CLKBUF1_insert10/Y -> _1020_/CLK
+    364.1 ps             rxack:           _1020_/Q ->  _886_/A
+    471.6 ps             _130_:            _886_/Y ->  _893_/A
+    520.0 ps          _789_[7]:            _893_/Y -> _1017_/D
+
+   clock skew at destination = 0
+   hold at destination = -88.8491
+
+Path _1025_/CLK to _1012_/D delay 448.7 ps
+      0.0 ps  wb_clk_i_bF$buf0: CLKBUF1_insert17/Y -> _1025_/CLK
+    391.5 ps            ctr[2]:           _1025_/Q ->  _846_/C
+    509.6 ps              _95_:            _846_/Y ->  _847_/A
+    567.0 ps          _789_[2]:            _847_/Y -> _1012_/D
+
+   clock skew at destination = -29.5161
+   hold at destination = -88.8201
+
+Path _1702_/CLK to _1703_/D delay 450.838 ps
+      0.0 ps                          wb_clk_i_bF$buf1: CLKBUF1_insert16/Y -> _1702_/CLK
+    347.4 ps  \byte_controller.bit_controller.cSCL [0]:           _1702_/Q -> _1411_/B
+    461.4 ps                                  _368_[1]:           _1411_/Y -> _1703_/D
+
+   clock skew at destination = 0
+   hold at destination = -10.5425
+
+Path _1704_/CLK to _1705_/D delay 452.466 ps
+      0.0 ps                          wb_clk_i_bF$buf3: CLKBUF1_insert14/Y -> _1704_/CLK
+    347.4 ps  \byte_controller.bit_controller.cSDA [0]:           _1704_/Q -> _1409_/B
+    461.4 ps                                  _369_[1]:           _1409_/Y -> _1705_/D
+
+   clock skew at destination = 0
+   hold at destination = -8.9141
+
+Path _1228_/CLK to _1020_/D delay 458.256 ps
+      0.0 ps           wb_clk_i_bF$buf4: CLKBUF1_insert13/Y -> _1228_/CLK
+    382.3 ps  \byte_controller.ack_out :           _1228_/Q ->  _801_/B
+    496.7 ps                        _2_:            _801_/Y -> _1020_/D
+
+   clock skew at destination = -23.6103
+   hold at destination = -14.8158
+
+Path _1026_/CLK to _1013_/D delay 460.665 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1026_/CLK
+    390.5 ps            ctr[3]:          _1026_/Q ->  _852_/B
+    496.7 ps             _100_:           _852_/Y ->  _853_/C
+    548.5 ps          _789_[3]:           _853_/Y -> _1013_/D
+
+   clock skew at destination = 0
+   hold at destination = -87.882
+
+Design meets minimum hold timing.
+-----------------------------------------
+

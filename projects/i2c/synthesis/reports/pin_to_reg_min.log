@@ -1,0 +1,145 @@
+Vesta static timing analysis, pin-to-register and register-to-pin minimum timing
+
+Top 20 minimum delay paths:
+Path input pin wb_dat_i[3] to _1046_/D delay 146.731 ps
+      0.0 ps  wb_dat_i[3]:         ->  _959_/A
+     64.1 ps        _179_: _959_/Y ->  _961_/C
+    153.8 ps         _28_: _961_/Y -> _1046_/D
+
+   hold at destination = -7.09163
+
+Path input pin wb_dat_i[0] to _1047_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[0]:         ->  _965_/B
+     80.1 ps        _184_: _965_/Y ->  _966_/C
+    144.8 ps         _29_: _966_/Y -> _1047_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[1] to _1048_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[1]:         ->  _968_/B
+     80.1 ps        _186_: _968_/Y ->  _969_/C
+    144.8 ps         _30_: _969_/Y -> _1048_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[2] to _1049_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[2]:         ->  _971_/B
+     80.1 ps        _188_: _971_/Y ->  _972_/C
+    144.8 ps         _31_: _972_/Y -> _1049_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[3] to _1050_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[3]:         ->  _974_/B
+     80.1 ps        _190_: _974_/Y ->  _975_/C
+    144.8 ps         _32_: _975_/Y -> _1050_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[4] to _1051_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[4]:         ->  _977_/B
+     80.1 ps        _192_: _977_/Y ->  _978_/C
+    144.8 ps         _33_: _978_/Y -> _1051_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[5] to _1052_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[5]:         ->  _980_/B
+     80.1 ps        _194_: _980_/Y ->  _981_/C
+    144.8 ps         _34_: _981_/Y -> _1052_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[6] to _1053_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[6]:         ->  _983_/B
+     80.1 ps        _196_: _983_/Y ->  _984_/C
+    144.8 ps         _35_: _984_/Y -> _1053_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[7] to _1054_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[7]:         ->  _986_/B
+     80.1 ps        _198_: _986_/Y ->  _987_/C
+    144.8 ps         _36_: _987_/Y -> _1054_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[5] to _1060_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[5]:          -> _1002_/B
+     80.1 ps        _208_: _1002_/Y -> _1003_/C
+    144.8 ps         _42_: _1003_/Y -> _1060_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[6] to _1061_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[6]:          -> _1004_/B
+     80.1 ps        _209_: _1004_/Y -> _1005_/C
+    144.8 ps         _43_: _1005_/Y -> _1061_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[1] to _1056_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[1]:         ->  _991_/B
+     80.1 ps        _201_: _991_/Y ->  _992_/C
+    144.8 ps         _38_: _992_/Y -> _1056_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[2] to _1057_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[2]:         ->  _994_/B
+     80.1 ps        _203_: _994_/Y ->  _995_/C
+    144.8 ps         _39_: _995_/Y -> _1057_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[3] to _1058_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[3]:         ->  _997_/B
+     80.1 ps        _205_: _997_/Y ->  _998_/C
+    144.8 ps         _40_: _998_/Y -> _1058_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[4] to _1059_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[4]:          -> _1000_/B
+     80.1 ps        _207_: _1000_/Y -> _1001_/C
+    144.8 ps         _41_: _1001_/Y -> _1059_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[7] to _1062_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[7]:          -> _1006_/B
+     80.1 ps        _210_: _1006_/Y -> _1007_/C
+    144.8 ps         _44_: _1007_/Y -> _1062_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[0] to _1055_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[0]:         ->  _989_/B
+     80.1 ps        _200_: _989_/Y ->  _990_/C
+    144.8 ps         _37_: _990_/Y -> _1055_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[1] to _1040_/D delay 191.011 ps
+      0.0 ps  wb_dat_i[1]:         ->  _898_/A
+    107.8 ps        _140_: _898_/Y ->  _941_/C
+    205.9 ps         _22_: _941_/Y -> _1040_/D
+
+   hold at destination = -14.8547
+
+Path input pin wb_dat_i[2] to _1041_/D delay 191.011 ps
+      0.0 ps  wb_dat_i[2]:         ->  _903_/A
+    107.8 ps        _144_: _903_/Y ->  _942_/C
+    205.9 ps         _23_: _942_/Y -> _1041_/D
+
+   hold at destination = -14.8547
+
+Path input pin wb_dat_i[0] to _1039_/D delay 191.011 ps
+      0.0 ps  wb_dat_i[0]:         ->  _920_/A
+    107.8 ps        _155_: _920_/Y ->  _940_/C
+    205.9 ps         _21_: _940_/Y -> _1039_/D
+
+   hold at destination = -14.8547
+
+-----------------------------------------
+

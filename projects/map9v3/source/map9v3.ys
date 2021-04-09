@@ -1,0 +1,24 @@
+# Synthesis script for yosys created by qflow
+read_liberty -lib -ignore_miss_dir -setattr blackbox /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib
+read_verilog  map9v3.v
+
+# High-level synthesis
+synth -top map9v3
+# Map register flops
+dfflibmap -liberty /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib
+opt
+
+# Map combinatorial cells, standard script
+abc -exe yosys-abc -liberty /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
+flatten
+setundef -zero
+
+clean -purge
+# Output buffering
+iopadmap -outpad BUFX2 A:Y -bits
+# Cleanup
+opt
+clean
+rename -enumerate
+write_verilog  map9v3_mapped.v
+stat

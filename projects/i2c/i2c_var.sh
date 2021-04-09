@@ -1,0 +1,11 @@
+#!/bin/tcsh -f
+set projectpath=/home/oleg/tool_RTL_to_GDSII/projects/i2c
+set modulename=i2c_master_top
+set techname=osu035 
+set techdir=/home/oleg/tool_RTL_to_GDSII/tech/osu035
+set sourcedir=/home/oleg/tool_RTL_to_GDSII/projects/i2c/source
+set synthdir=/home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis
+set layoutdir=/home/oleg/tool_RTL_to_GDSII/projects/i2c/layout
+set scriptdir=/home/oleg/tool_RTL_to_GDSII/scripts
+set bindir=/home/oleg/tool_RTL_to_GDSII/bin
+set logdir=/home/oleg/tool_RTL_to_GDSII/projects/i2c/log

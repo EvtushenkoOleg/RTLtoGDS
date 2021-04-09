@@ -1,0 +1,854 @@
+Qflow static timing analysis logfile created on Пт 09 апр 2021 16:30:21 MSK
+Running vesta static timing analysis
+vesta --summary reports --long i2c_master_top.rtlnopwr.v /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.4.89
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu035_stdcells"
+End of library at line 6636
+Lib read /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib:  Processed 6637 lines.
+Parsing module "i2c_master_top"
+Verilog netlist read:  Processed 8189 lines.
+Number of paths analyzed:  160
+
+Top 20 maximum delay paths:
+Path _1737_/CLK to _1741_/D delay 3244.86 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1622_/B
+   2913.4 ps                                    _739_:           _1622_/Y -> _1624_/B
+   3035.4 ps                                    _414_:           _1624_/Y -> _1741_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 209.008
+
+Path _1737_/CLK to _1744_/D delay 3244.86 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1639_/B
+   2913.4 ps                                    _753_:           _1639_/Y -> _1641_/B
+   3035.4 ps                                    _417_:           _1641_/Y -> _1744_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 209.008
+
+Path _1737_/CLK to _1742_/D delay 3204.44 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1627_/D
+   2900.7 ps                                    _743_:           _1627_/Y -> _1628_/C
+   2994.6 ps                                    _415_:           _1628_/Y -> _1742_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 209.322
+
+Path _1737_/CLK to _1749_/D delay 3201.09 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1668_/B
+   2903.1 ps                                    _777_:           _1668_/Y -> _1672_/C
+   2991.9 ps                                    _422_:           _1672_/Y -> _1749_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 208.642
+
+Path _1737_/CLK to _1747_/D delay 3191.14 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1658_/D
+   2900.6 ps                                    _769_:           _1658_/Y -> _1659_/B
+   2986.7 ps                                    _420_:           _1659_/Y -> _1747_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 203.964
+
+Path _1737_/CLK to _1746_/D delay 3191.14 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1652_/D
+   2900.6 ps                                    _764_:           _1652_/Y -> _1653_/B
+   2986.7 ps                                    _419_:           _1653_/Y -> _1746_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 203.964
+
+Path _1737_/CLK to _1745_/D delay 3182.52 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1646_/D
+   2900.6 ps                                    _759_:           _1646_/Y -> _1647_/B
+   2986.7 ps                                    _418_:           _1647_/Y -> _1745_/D
+
+   clock skew at destination = -11.3063
+   setup at destination = 207.146
+
+Path _1688_/CLK to _1713_/D delay 3130.8 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1347_/A
+   1955.4 ps                                           _519_:           _1347_/Y -> _1432_/B
+   2533.0 ps                                           _582_:           _1432_/Y -> _1443_/C
+   2786.0 ps                                           _588_:           _1443_/Y -> _1444_/C
+   2904.6 ps                                           _386_:           _1444_/Y -> _1713_/D
+
+   clock skew at destination = 13.4316
+   setup at destination = 212.815
+
+Path _1688_/CLK to _1711_/D delay 3130.8 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1347_/A
+   1955.4 ps                                           _519_:           _1347_/Y -> _1432_/B
+   2533.0 ps                                           _582_:           _1432_/Y -> _1439_/C
+   2786.0 ps                                           _586_:           _1439_/Y -> _1440_/C
+   2904.6 ps                                           _384_:           _1440_/Y -> _1711_/D
+
+   clock skew at destination = 13.4316
+   setup at destination = 212.815
+
+Path _1688_/CLK to _1712_/D delay 3126.41 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1347_/A
+   1955.4 ps                                           _519_:           _1347_/Y -> _1432_/B
+   2533.0 ps                                           _582_:           _1432_/Y -> _1441_/C
+   2786.0 ps                                           _587_:           _1441_/Y -> _1442_/C
+   2904.6 ps                                           _385_:           _1442_/Y -> _1712_/D
+
+   clock skew at destination = 7.49084
+   setup at destination = 214.366
+
+Path _1688_/CLK to _1709_/D delay 3126.41 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1347_/A
+   1955.4 ps                                           _519_:           _1347_/Y -> _1432_/B
+   2533.0 ps                                           _582_:           _1432_/Y -> _1435_/C
+   2786.0 ps                                           _584_:           _1435_/Y -> _1436_/C
+   2904.6 ps                                           _382_:           _1436_/Y -> _1709_/D
+
+   clock skew at destination = 7.49084
+   setup at destination = 214.366
+
+Path _1688_/CLK to _1710_/D delay 3126.41 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1347_/A
+   1955.4 ps                                           _519_:           _1347_/Y -> _1432_/B
+   2533.0 ps                                           _582_:           _1432_/Y -> _1437_/C
+   2786.0 ps                                           _585_:           _1437_/Y -> _1438_/C
+   2904.6 ps                                           _383_:           _1438_/Y -> _1710_/D
+
+   clock skew at destination = 7.49084
+   setup at destination = 214.366
+
+Path _1688_/CLK to _1708_/D delay 3126.41 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1347_/A
+   1955.4 ps                                           _519_:           _1347_/Y -> _1432_/B
+   2533.0 ps                                           _582_:           _1432_/Y -> _1433_/C
+   2786.0 ps                                           _583_:           _1433_/Y -> _1434_/C
+   2904.6 ps                                           _381_:           _1434_/Y -> _1708_/D
+
+   clock skew at destination = 7.49084
+   setup at destination = 214.366
+
+Path _1737_/CLK to _1735_/D delay 3088.32 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1587_/A
+   2771.1 ps                                    _710_:           _1587_/Y -> _1590_/B
+   2875.8 ps                                    _408_:           _1590_/Y -> _1735_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 212.065
+
+Path _1688_/CLK to _1696_/D delay 3028.83 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1341_/B
+   2027.6 ps                                           _514_:           _1341_/Y -> _1343_/C
+   2482.8 ps                                           _516_:           _1343_/Y -> _1382_/C
+   2695.8 ps                                           _547_:           _1382_/Y -> _1384_/A
+   2811.9 ps                                        _374_[8]:           _1384_/Y -> _1696_/D
+
+   clock skew at destination = 1.62645
+   setup at destination = 215.355
+
+Path _1688_/CLK to _1698_/D delay 3007.2 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1341_/B
+   2027.6 ps                                           _514_:           _1341_/Y -> _1343_/C
+   2482.8 ps                                           _516_:           _1343_/Y -> _1393_/B
+   2691.6 ps                                           _556_:           _1393_/Y -> _1394_/C
+   2783.6 ps                                       _374_[10]:           _1394_/Y -> _1698_/D
+
+   clock skew at destination = 13.4316
+   setup at destination = 210.158
+
+Path _1688_/CLK to _1699_/D delay 3007.2 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1341_/B
+   2027.6 ps                                           _514_:           _1341_/Y -> _1343_/C
+   2482.8 ps                                           _516_:           _1343_/Y -> _1398_/B
+   2691.6 ps                                           _560_:           _1398_/Y -> _1399_/C
+   2783.6 ps                                       _374_[11]:           _1399_/Y -> _1699_/D
+
+   clock skew at destination = 13.4316
+   setup at destination = 210.158
+
+Path _1737_/CLK to _1748_/D delay 3005.5 ps
+      0.0 ps                         wb_clk_i_bF$buf6: CLKBUF1_insert11/Y -> _1737_/CLK
+    436.2 ps  \byte_controller.bit_controller.cnt [2]:           _1737_/Q -> _1245_/A
+    635.1 ps                                    _425_:           _1245_/Y -> _1247_/B
+   1030.7 ps                                    _427_:           _1247_/Y -> _1252_/A
+   1269.4 ps                                    _432_:           _1252_/Y -> _1253_/B
+   1399.4 ps                                    _433_:           _1253_/Y -> _1259_/B
+   1541.6 ps                                    _439_:           _1259_/Y -> _1585_/A
+   1837.5 ps                                    _708_:           _1585_/Y -> _1586_/B
+   2478.3 ps                                    _709_:           _1586_/Y -> _1667_/B
+   2734.5 ps                                    _421_:           _1667_/Y -> _1748_/D
+
+   clock skew at destination = 0.498809
+   setup at destination = 270.486
+
+Path _1688_/CLK to _1700_/D delay 2998.51 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1341_/B
+   2027.6 ps                                           _514_:           _1341_/Y -> _1343_/C
+   2482.8 ps                                           _516_:           _1343_/Y -> _1402_/B
+   2691.6 ps                                           _563_:           _1402_/Y -> _1403_/C
+   2783.6 ps                                       _374_[12]:           _1403_/Y -> _1700_/D
+
+   clock skew at destination = 1.62645
+   setup at destination = 213.27
+
+Path _1688_/CLK to _1693_/D delay 2998.51 ps
+      0.0 ps                                wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1688_/CLK
+    490.4 ps  \byte_controller.bit_controller.filter_cnt [0]:           _1688_/Q -> _1335_/B
+    661.1 ps                                           _508_:           _1335_/Y -> _1336_/B
+    858.0 ps                                           _509_:           _1336_/Y -> _1337_/B
+   1055.5 ps                                           _510_:           _1337_/Y -> _1338_/B
+   1309.1 ps                                           _511_:           _1338_/Y -> _1339_/B
+   1446.5 ps                                           _512_:           _1339_/Y -> _1340_/B
+   1704.0 ps                                           _513_:           _1340_/Y -> _1341_/B
+   2027.6 ps                                           _514_:           _1341_/Y -> _1343_/C
+   2482.8 ps                                           _516_:           _1343_/Y -> _1369_/B
+   2691.6 ps                                           _537_:           _1369_/Y -> _1370_/C
+   2783.6 ps                                        _374_[5]:           _1370_/Y -> _1693_/D
+
+   clock skew at destination = 1.62645
+   setup at destination = 213.27
+
+Computed maximum clock frequency (zero margin) = 308.18 MHz
+-----------------------------------------
+
+Number of paths analyzed:  160
+
+Top 20 minimum delay paths:
+Path _1010_/CLK to output pin wb_dat_o[0] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf1: CLKBUF1_insert16/Y -> _1010_/CLK
+      8.1 ps          _787_[0]:           _1010_/Q -> _1756_/A
+    102.6 ps       wb_dat_o[0]:           _1756_/Y -> wb_dat_o[0]
+
+Path _1013_/CLK to output pin wb_dat_o[3] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1013_/CLK
+      8.1 ps          _787_[3]:          _1013_/Q -> _1759_/A
+    102.6 ps       wb_dat_o[3]:          _1759_/Y -> wb_dat_o[3]
+
+Path _1014_/CLK to output pin wb_dat_o[4] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1014_/CLK
+      8.1 ps          _787_[4]:          _1014_/Q -> _1760_/A
+    102.6 ps       wb_dat_o[4]:          _1760_/Y -> wb_dat_o[4]
+
+Path _1011_/CLK to output pin wb_dat_o[1] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1011_/CLK
+      8.1 ps          _787_[1]:          _1011_/Q -> _1757_/A
+    102.6 ps       wb_dat_o[1]:          _1757_/Y -> wb_dat_o[1]
+
+Path _1016_/CLK to output pin wb_dat_o[6] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf9: CLKBUF1_insert8/Y -> _1016_/CLK
+      8.1 ps          _787_[6]:          _1016_/Q -> _1762_/A
+    102.6 ps       wb_dat_o[6]:          _1762_/Y -> wb_dat_o[6]
+
+Path _1015_/CLK to output pin wb_dat_o[5] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf9: CLKBUF1_insert8/Y -> _1015_/CLK
+      8.1 ps          _787_[5]:          _1015_/Q -> _1761_/A
+    102.6 ps       wb_dat_o[5]:          _1761_/Y -> wb_dat_o[5]
+
+Path _1012_/CLK to output pin wb_dat_o[2] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf7: CLKBUF1_insert10/Y -> _1012_/CLK
+      8.1 ps          _787_[2]:           _1012_/Q -> _1758_/A
+    102.6 ps       wb_dat_o[2]:           _1758_/Y -> wb_dat_o[2]
+
+Path _1017_/CLK to output pin wb_dat_o[7] delay 102.645 ps
+      0.0 ps  wb_clk_i_bF$buf7: CLKBUF1_insert10/Y -> _1017_/CLK
+      8.1 ps          _787_[7]:           _1017_/Q -> _1763_/A
+    102.6 ps       wb_dat_o[7]:           _1763_/Y -> wb_dat_o[7]
+
+Path _1018_/CLK to _1018_/D delay 202.651 ps
+      0.0 ps  wb_clk_i_bF$buf9: CLKBUF1_insert8/Y -> _1018_/CLK
+    227.7 ps             _786_:          _1018_/Q ->  _895_/A
+    303.1 ps               _4_:           _895_/Y -> _1018_/D
+
+   clock skew at destination = 0
+   hold at destination = -100.42
+
+Path _1678_/CLK to _1678_/D delay 251.258 ps
+      0.0 ps                       wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1678_/CLK
+    192.7 ps  \byte_controller.bit_controller.dout :           _1678_/Q -> _1430_/C
+    284.7 ps                                  _581_:           _1430_/Y -> _1431_/C
+    349.8 ps                                  _380_:           _1431_/Y -> _1678_/D
+
+   clock skew at destination = 0
+   hold at destination = -98.5744
+
+Path _1677_/CLK to _1707_/D delay 260.048 ps
+      0.0 ps                          wb_clk_i_bF$buf11: CLKBUF1_insert6/Y -> _1677_/CLK
+     62.9 ps  \byte_controller.bit_controller.dscl_oen :          _1677_/Q -> _1414_/A
+    157.5 ps                                      _569_:          _1414_/Y -> _1415_/A
+    274.3 ps                                      _377_:          _1415_/Y -> _1707_/D
+
+   clock skew at destination = 0
+   hold at destination = -14.2148
+
+Path _1734_/CLK to _1677_/D delay 299.95 ps
+      0.0 ps  wb_clk_i_bF$buf11: CLKBUF1_insert6/Y -> _1734_/CLK
+    390.2 ps              _784_:          _1734_/Q -> _1677_/D
+
+   clock skew at destination = 0
+   hold at destination = -90.238
+
+Path _1678_/CLK to _1229_/D delay 348.653 ps
+      0.0 ps                       wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1678_/CLK
+    192.7 ps  \byte_controller.bit_controller.dout :           _1678_/Q -> _1135_/B
+    317.3 ps                                  _269_:           _1135_/Y -> _1138_/A
+    407.5 ps                                  _223_:           _1138_/Y -> _1229_/D
+
+   clock skew at destination = -23.6103
+   hold at destination = -35.2637
+
+Path _1678_/CLK to _1228_/D delay 378.173 ps
+      0.0 ps                       wb_clk_i_bF$buf2: CLKBUF1_insert15/Y -> _1678_/CLK
+    192.7 ps  \byte_controller.bit_controller.dout :           _1678_/Q -> _1127_/C
+    304.3 ps                                  _262_:           _1127_/Y -> _1129_/B
+    391.6 ps                                  _222_:           _1129_/Y -> _1228_/D
+
+   clock skew at destination = 11.8052
+   hold at destination = -25.2626
+
+Path _1020_/CLK to _1017_/D delay 431.118 ps
+      0.0 ps  wb_clk_i_bF$buf7: CLKBUF1_insert10/Y -> _1020_/CLK
+    364.1 ps             rxack:           _1020_/Q ->  _886_/A
+    471.6 ps             _130_:            _886_/Y ->  _893_/A
+    520.0 ps          _789_[7]:            _893_/Y -> _1017_/D
+
+   clock skew at destination = 0
+   hold at destination = -88.8491
+
+Path _1025_/CLK to _1012_/D delay 448.7 ps
+      0.0 ps  wb_clk_i_bF$buf0: CLKBUF1_insert17/Y -> _1025_/CLK
+    391.5 ps            ctr[2]:           _1025_/Q ->  _846_/C
+    509.6 ps              _95_:            _846_/Y ->  _847_/A
+    567.0 ps          _789_[2]:            _847_/Y -> _1012_/D
+
+   clock skew at destination = -29.5161
+   hold at destination = -88.8201
+
+Path _1702_/CLK to _1703_/D delay 450.838 ps
+      0.0 ps                          wb_clk_i_bF$buf1: CLKBUF1_insert16/Y -> _1702_/CLK
+    347.4 ps  \byte_controller.bit_controller.cSCL [0]:           _1702_/Q -> _1411_/B
+    461.4 ps                                  _368_[1]:           _1411_/Y -> _1703_/D
+
+   clock skew at destination = 0
+   hold at destination = -10.5425
+
+Path _1704_/CLK to _1705_/D delay 452.466 ps
+      0.0 ps                          wb_clk_i_bF$buf3: CLKBUF1_insert14/Y -> _1704_/CLK
+    347.4 ps  \byte_controller.bit_controller.cSDA [0]:           _1704_/Q -> _1409_/B
+    461.4 ps                                  _369_[1]:           _1409_/Y -> _1705_/D
+
+   clock skew at destination = 0
+   hold at destination = -8.9141
+
+Path _1228_/CLK to _1020_/D delay 458.256 ps
+      0.0 ps           wb_clk_i_bF$buf4: CLKBUF1_insert13/Y -> _1228_/CLK
+    382.3 ps  \byte_controller.ack_out :           _1228_/Q ->  _801_/B
+    496.7 ps                        _2_:            _801_/Y -> _1020_/D
+
+   clock skew at destination = -23.6103
+   hold at destination = -14.8158
+
+Path _1026_/CLK to _1013_/D delay 460.665 ps
+      0.0 ps  wb_clk_i_bF$buf8: CLKBUF1_insert9/Y -> _1026_/CLK
+    390.5 ps            ctr[3]:          _1026_/Q ->  _852_/B
+    496.7 ps             _100_:           _852_/Y ->  _853_/C
+    548.5 ps          _789_[3]:           _853_/Y -> _1013_/D
+
+   clock skew at destination = 0
+   hold at destination = -87.882
+
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  48
+
+Top 20 maximum delay paths:
+Path input pin wb_adr_i[1] to _1055_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:         ->  _810_/A
+    142.9 ps         _61_: _810_/Y ->  _811_/B
+    583.1 ps         _62_: _811_/Y ->  _988_/B
+   1433.9 ps        _199_: _988_/Y ->  _989_/C
+   1734.4 ps        _200_: _989_/Y ->  _990_/C
+   1861.3 ps         _37_: _990_/Y -> _1055_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1062_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:          ->  _810_/A
+    142.9 ps         _61_:  _810_/Y ->  _811_/B
+    583.1 ps         _62_:  _811_/Y ->  _988_/B
+   1433.9 ps        _199_:  _988_/Y -> _1006_/C
+   1734.4 ps        _210_: _1006_/Y -> _1007_/C
+   1861.3 ps         _44_: _1007_/Y -> _1062_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1059_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:          ->  _810_/A
+    142.9 ps         _61_:  _810_/Y ->  _811_/B
+    583.1 ps         _62_:  _811_/Y ->  _988_/B
+   1433.9 ps        _199_:  _988_/Y -> _1000_/C
+   1734.4 ps        _207_: _1000_/Y -> _1001_/C
+   1861.3 ps         _41_: _1001_/Y -> _1059_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1058_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:         ->  _810_/A
+    142.9 ps         _61_: _810_/Y ->  _811_/B
+    583.1 ps         _62_: _811_/Y ->  _988_/B
+   1433.9 ps        _199_: _988_/Y ->  _997_/C
+   1734.4 ps        _205_: _997_/Y ->  _998_/C
+   1861.3 ps         _40_: _998_/Y -> _1058_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1057_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:         ->  _810_/A
+    142.9 ps         _61_: _810_/Y ->  _811_/B
+    583.1 ps         _62_: _811_/Y ->  _988_/B
+   1433.9 ps        _199_: _988_/Y ->  _994_/C
+   1734.4 ps        _203_: _994_/Y ->  _995_/C
+   1861.3 ps         _39_: _995_/Y -> _1057_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1056_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:         ->  _810_/A
+    142.9 ps         _61_: _810_/Y ->  _811_/B
+    583.1 ps         _62_: _811_/Y ->  _988_/B
+   1433.9 ps        _199_: _988_/Y ->  _991_/C
+   1734.4 ps        _201_: _991_/Y ->  _992_/C
+   1861.3 ps         _38_: _992_/Y -> _1056_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1061_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:          ->  _810_/A
+    142.9 ps         _61_:  _810_/Y ->  _811_/B
+    583.1 ps         _62_:  _811_/Y ->  _988_/B
+   1433.9 ps        _199_:  _988_/Y -> _1004_/C
+   1734.4 ps        _209_: _1004_/Y -> _1005_/C
+   1861.3 ps         _43_: _1005_/Y -> _1061_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[1] to _1060_/D delay 2051.02 ps
+      0.0 ps  wb_adr_i[1]:          ->  _810_/A
+    142.9 ps         _61_:  _810_/Y ->  _811_/B
+    583.1 ps         _62_:  _811_/Y ->  _988_/B
+   1433.9 ps        _199_:  _988_/Y -> _1002_/C
+   1734.4 ps        _208_: _1002_/Y -> _1003_/C
+   1861.3 ps         _42_: _1003_/Y -> _1060_/D
+
+   setup at destination = 189.751
+
+Path input pin wb_adr_i[0] to _1054_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _986_/C
+   1610.8 ps        _198_: _986_/Y ->  _987_/C
+   1737.6 ps         _36_: _987_/Y -> _1054_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1053_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _983_/C
+   1610.8 ps        _196_: _983_/Y ->  _984_/C
+   1737.6 ps         _35_: _984_/Y -> _1053_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1052_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _980_/C
+   1610.8 ps        _194_: _980_/Y ->  _981_/C
+   1737.6 ps         _34_: _981_/Y -> _1052_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1051_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _977_/C
+   1610.8 ps        _192_: _977_/Y ->  _978_/C
+   1737.6 ps         _33_: _978_/Y -> _1051_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1050_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _974_/C
+   1610.8 ps        _190_: _974_/Y ->  _975_/C
+   1737.6 ps         _32_: _975_/Y -> _1050_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1049_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _971_/C
+   1610.8 ps        _188_: _971_/Y ->  _972_/C
+   1737.6 ps         _31_: _972_/Y -> _1049_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1048_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _968_/C
+   1610.8 ps        _186_: _968_/Y ->  _969_/C
+   1737.6 ps         _30_: _969_/Y -> _1048_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1047_/D delay 1927.29 ps
+      0.0 ps  wb_adr_i[0]:         ->  _817_/A
+    356.0 ps         _68_: _817_/Y ->  _963_/B
+    561.6 ps        _182_: _963_/Y ->  _964_/B
+   1311.3 ps        _183_: _964_/Y ->  _965_/C
+   1610.8 ps        _184_: _965_/Y ->  _966_/C
+   1737.6 ps         _29_: _966_/Y -> _1047_/D
+
+   setup at destination = 189.724
+
+Path input pin wb_adr_i[0] to _1063_/D delay 1816.65 ps
+      0.0 ps  wb_adr_i[0]:          ->  _812_/A
+    106.4 ps         _63_:  _812_/Y ->  _813_/B
+    553.9 ps         _64_:  _813_/Y ->  _897_/B
+   1277.5 ps        _139_:  _897_/Y -> _1008_/B
+   1517.9 ps        _211_: _1008_/Y -> _1009_/C
+   1629.5 ps         _45_: _1009_/Y -> _1063_/D
+
+   setup at destination = 187.174
+
+Path input pin wb_adr_i[0] to _1025_/D delay 1816.65 ps
+      0.0 ps  wb_adr_i[0]:         ->  _812_/A
+    106.4 ps         _63_: _812_/Y ->  _813_/B
+    553.9 ps         _64_: _813_/Y ->  _897_/B
+   1277.5 ps        _139_: _897_/Y ->  _905_/B
+   1517.9 ps        _146_: _905_/Y ->  _906_/C
+   1629.5 ps          _7_: _906_/Y -> _1025_/D
+
+   setup at destination = 187.174
+
+Path input pin wb_adr_i[0] to _1024_/D delay 1816.65 ps
+      0.0 ps  wb_adr_i[0]:         ->  _812_/A
+    106.4 ps         _63_: _812_/Y ->  _813_/B
+    553.9 ps         _64_: _813_/Y ->  _897_/B
+   1277.5 ps        _139_: _897_/Y ->  _900_/B
+   1517.9 ps        _142_: _900_/Y ->  _901_/C
+   1629.5 ps          _6_: _901_/Y -> _1024_/D
+
+   setup at destination = 187.174
+
+Path input pin wb_adr_i[0] to _1028_/D delay 1789.89 ps
+      0.0 ps  wb_adr_i[0]:         ->  _812_/A
+    106.4 ps         _63_: _812_/Y ->  _813_/B
+    553.9 ps         _64_: _813_/Y ->  _897_/B
+   1277.5 ps        _139_: _897_/Y ->  _914_/S
+   1604.3 ps         _10_: _914_/Y -> _1028_/D
+
+   setup at destination = 185.623
+
+-----------------------------------------
+
+Number of paths analyzed:  48
+
+Top 20 minimum delay paths:
+Path input pin wb_dat_i[3] to _1046_/D delay 146.731 ps
+      0.0 ps  wb_dat_i[3]:         ->  _959_/A
+     64.1 ps        _179_: _959_/Y ->  _961_/C
+    153.8 ps         _28_: _961_/Y -> _1046_/D
+
+   hold at destination = -7.09163
+
+Path input pin wb_dat_i[0] to _1047_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[0]:         ->  _965_/B
+     80.1 ps        _184_: _965_/Y ->  _966_/C
+    144.8 ps         _29_: _966_/Y -> _1047_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[1] to _1048_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[1]:         ->  _968_/B
+     80.1 ps        _186_: _968_/Y ->  _969_/C
+    144.8 ps         _30_: _969_/Y -> _1048_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[2] to _1049_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[2]:         ->  _971_/B
+     80.1 ps        _188_: _971_/Y ->  _972_/C
+    144.8 ps         _31_: _972_/Y -> _1049_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[3] to _1050_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[3]:         ->  _974_/B
+     80.1 ps        _190_: _974_/Y ->  _975_/C
+    144.8 ps         _32_: _975_/Y -> _1050_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[4] to _1051_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[4]:         ->  _977_/B
+     80.1 ps        _192_: _977_/Y ->  _978_/C
+    144.8 ps         _33_: _978_/Y -> _1051_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[5] to _1052_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[5]:         ->  _980_/B
+     80.1 ps        _194_: _980_/Y ->  _981_/C
+    144.8 ps         _34_: _981_/Y -> _1052_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[6] to _1053_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[6]:         ->  _983_/B
+     80.1 ps        _196_: _983_/Y ->  _984_/C
+    144.8 ps         _35_: _984_/Y -> _1053_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[7] to _1054_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[7]:         ->  _986_/B
+     80.1 ps        _198_: _986_/Y ->  _987_/C
+    144.8 ps         _36_: _987_/Y -> _1054_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[5] to _1060_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[5]:          -> _1002_/B
+     80.1 ps        _208_: _1002_/Y -> _1003_/C
+    144.8 ps         _42_: _1003_/Y -> _1060_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[6] to _1061_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[6]:          -> _1004_/B
+     80.1 ps        _209_: _1004_/Y -> _1005_/C
+    144.8 ps         _43_: _1005_/Y -> _1061_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[1] to _1056_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[1]:         ->  _991_/B
+     80.1 ps        _201_: _991_/Y ->  _992_/C
+    144.8 ps         _38_: _992_/Y -> _1056_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[2] to _1057_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[2]:         ->  _994_/B
+     80.1 ps        _203_: _994_/Y ->  _995_/C
+    144.8 ps         _39_: _995_/Y -> _1057_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[3] to _1058_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[3]:         ->  _997_/B
+     80.1 ps        _205_: _997_/Y ->  _998_/C
+    144.8 ps         _40_: _998_/Y -> _1058_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[4] to _1059_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[4]:          -> _1000_/B
+     80.1 ps        _207_: _1000_/Y -> _1001_/C
+    144.8 ps         _41_: _1001_/Y -> _1059_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[7] to _1062_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[7]:          -> _1006_/B
+     80.1 ps        _210_: _1006_/Y -> _1007_/C
+    144.8 ps         _44_: _1007_/Y -> _1062_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[0] to _1055_/D delay 150.28 ps
+      0.0 ps  wb_dat_i[0]:         ->  _989_/B
+     80.1 ps        _200_: _989_/Y ->  _990_/C
+    144.8 ps         _37_: _990_/Y -> _1055_/D
+
+   hold at destination = 5.43778
+
+Path input pin wb_dat_i[1] to _1040_/D delay 191.011 ps
+      0.0 ps  wb_dat_i[1]:         ->  _898_/A
+    107.8 ps        _140_: _898_/Y ->  _941_/C
+    205.9 ps         _22_: _941_/Y -> _1040_/D
+
+   hold at destination = -14.8547
+
+Path input pin wb_dat_i[2] to _1041_/D delay 191.011 ps
+      0.0 ps  wb_dat_i[2]:         ->  _903_/A
+    107.8 ps        _144_: _903_/Y ->  _942_/C
+    205.9 ps         _23_: _942_/Y -> _1041_/D
+
+   hold at destination = -14.8547
+
+Path input pin wb_dat_i[0] to _1039_/D delay 191.011 ps
+      0.0 ps  wb_dat_i[0]:         ->  _920_/A
+    107.8 ps        _155_: _920_/Y ->  _940_/C
+    205.9 ps         _21_: _940_/Y -> _1039_/D
+
+   hold at destination = -14.8547
+
+-----------------------------------------
+

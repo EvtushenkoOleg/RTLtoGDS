@@ -1,0 +1,90 @@
+Vesta static timing analysis, pin-to-register and register-to-pin maximum timing
+
+Top 9 maximum delay paths:
+Path input pin N[1] to _282_/D delay 1129.28 ps
+      0.0 ps  N[1]:         -> _169_/A
+    156.6 ps  _33_: _169_/Y -> _209_/A
+    487.2 ps  _68_: _209_/Y -> _219_/B
+    666.6 ps  _77_: _219_/Y -> _223_/B
+    830.5 ps  _81_: _223_/Y -> _227_/C
+    942.1 ps  _12_: _227_/Y -> _282_/D
+
+   setup at destination = 187.145
+
+Path input pin N[1] to _281_/D delay 1098.74 ps
+      0.0 ps  N[1]:         -> _169_/A
+    156.6 ps  _33_: _169_/Y -> _209_/A
+    487.2 ps  _68_: _209_/Y -> _210_/A
+    677.6 ps  _69_: _210_/Y -> _211_/B
+    775.8 ps  _70_: _211_/Y -> _217_/A
+    908.4 ps  _11_: _217_/Y -> _281_/D
+
+   setup at destination = 190.303
+
+Path input pin N[3] to _278_/D delay 1062.98 ps
+      0.0 ps  N[3]:         -> _187_/A
+    114.9 ps  _49_: _187_/Y -> _188_/C
+    404.5 ps  _50_: _188_/Y -> _189_/A
+    547.6 ps  _51_: _189_/Y -> _190_/B
+    657.4 ps  _52_: _190_/Y -> _191_/D
+    772.6 ps  _53_: _191_/Y -> _192_/B
+    877.1 ps   _8_: _192_/Y -> _278_/D
+
+   setup at destination = 185.912
+
+Path input pin N[1] to _277_/D delay 1043.46 ps
+      0.0 ps  N[1]:         -> _169_/A
+    156.6 ps  _33_: _169_/Y -> _175_/A
+    392.9 ps  _38_: _175_/Y -> _176_/B
+    548.2 ps  _39_: _176_/Y -> _177_/C
+    653.5 ps  _40_: _177_/Y -> _180_/C
+    754.8 ps  _43_: _180_/Y -> _181_/B
+    857.8 ps   _7_: _181_/Y -> _277_/D
+
+   setup at destination = 185.672
+
+Path input pin N[3] to _280_/D delay 1000.21 ps
+      0.0 ps  N[3]:         -> _187_/A
+    114.9 ps  _49_: _187_/Y -> _188_/C
+    404.5 ps  _50_: _188_/Y -> _200_/B
+    576.5 ps  _60_: _200_/Y -> _203_/C
+    706.4 ps  _63_: _203_/Y -> _208_/A
+    814.6 ps  _10_: _208_/Y -> _280_/D
+
+   setup at destination = 185.654
+
+Path input pin N[3] to _279_/D delay 901.556 ps
+      0.0 ps  N[3]:         -> _187_/A
+    114.9 ps  _49_: _187_/Y -> _188_/C
+    404.5 ps  _50_: _188_/Y -> _193_/A
+    609.4 ps  _54_: _193_/Y -> _199_/A
+    716.2 ps   _9_: _199_/Y -> _279_/D
+
+   setup at destination = 185.336
+
+Path input pin N[1] to _276_/D delay 750.11 ps
+      0.0 ps   N[1]:         -> _166_/A
+     97.5 ps  _131_: _166_/Y -> _168_/A
+    228.8 ps   _32_: _168_/Y -> _170_/A
+    352.2 ps   _34_: _170_/Y -> _171_/C
+    460.7 ps   _35_: _171_/Y -> _172_/B
+    564.3 ps    _6_: _172_/Y -> _276_/D
+
+   setup at destination = 185.77
+
+Path input pin N[1] to _275_/D delay 387.48 ps
+      0.0 ps   N[1]:         -> _161_/B
+     96.9 ps  _127_: _161_/Y -> _163_/B
+    201.5 ps    _5_: _163_/Y -> _275_/D
+
+   setup at destination = 185.939
+
+Path input pin N[0] to _283_/D delay 333.814 ps
+      0.0 ps  N[0]:         -> _231_/A
+     70.6 ps  _88_: _231_/Y -> _232_/C
+    151.2 ps  _13_: _232_/Y -> _283_/D
+
+   setup at destination = 182.602
+
+-----------------------------------------
+

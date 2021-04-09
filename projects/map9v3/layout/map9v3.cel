@@ -1,0 +1,3654 @@
+cell 1 BUFX2:BUFX2_insert13
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _87_ layer 1 -160 -140
+pin name Y signal _87__bF$buf0 layer 1 170 0
+cell 2 BUFX2:BUFX2_insert12
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _87_ layer 1 -160 -140
+pin name Y signal _87__bF$buf1 layer 1 170 0
+cell 3 BUFX2:BUFX2_insert11
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _87_ layer 1 -160 -140
+pin name Y signal _87__bF$buf2 layer 1 170 0
+cell 4 BUFX2:BUFX2_insert10
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _87_ layer 1 -160 -140
+pin name Y signal _87__bF$buf3 layer 1 170 0
+cell 5 BUFX2:BUFX2_insert9
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _4_ layer 1 -160 -140
+pin name Y signal _4__bF$buf0 layer 1 170 0
+cell 6 BUFX2:BUFX2_insert8
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _4_ layer 1 -160 -140
+pin name Y signal _4__bF$buf1 layer 1 170 0
+cell 7 BUFX2:BUFX2_insert7
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _4_ layer 1 -160 -140
+pin name Y signal _4__bF$buf2 layer 1 170 0
+cell 8 BUFX2:BUFX2_insert6
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _4_ layer 1 -160 -140
+pin name Y signal _4__bF$buf3 layer 1 170 0
+cell 9 BUFX2:BUFX2_insert5
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _4_ layer 1 -160 -140
+pin name Y signal _4__bF$buf4 layer 1 170 0
+cell 10 CLKBUF1:CLKBUF1_insert4
+left -720 right 720 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -480 -1000
+   equiv name twfeed1 layer 1 -480 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed2 layer 1 -320 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed3 layer 1 -160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed4 layer 1 0 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed5 layer 1 160 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed6 layer 1 320 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed7 layer 1 480 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 640 -1000
+   equiv name twfeed8 layer 1 640 1000
+pin name A signal clock layer 1 -590 -240
+pin name Y signal clock_bF$buf0 layer 1 480 410
+cell 11 CLKBUF1:CLKBUF1_insert3
+left -720 right 720 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -480 -1000
+   equiv name twfeed1 layer 1 -480 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed2 layer 1 -320 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed3 layer 1 -160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed4 layer 1 0 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed5 layer 1 160 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed6 layer 1 320 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed7 layer 1 480 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 640 -1000
+   equiv name twfeed8 layer 1 640 1000
+pin name A signal clock layer 1 -590 -240
+pin name Y signal clock_bF$buf1 layer 1 480 410
+cell 12 CLKBUF1:CLKBUF1_insert2
+left -720 right 720 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -480 -1000
+   equiv name twfeed1 layer 1 -480 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed2 layer 1 -320 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed3 layer 1 -160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed4 layer 1 0 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed5 layer 1 160 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed6 layer 1 320 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed7 layer 1 480 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 640 -1000
+   equiv name twfeed8 layer 1 640 1000
+pin name A signal clock layer 1 -590 -240
+pin name Y signal clock_bF$buf2 layer 1 480 410
+cell 13 CLKBUF1:CLKBUF1_insert1
+left -720 right 720 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -480 -1000
+   equiv name twfeed1 layer 1 -480 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed2 layer 1 -320 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed3 layer 1 -160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed4 layer 1 0 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed5 layer 1 160 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed6 layer 1 320 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed7 layer 1 480 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 640 -1000
+   equiv name twfeed8 layer 1 640 1000
+pin name A signal clock layer 1 -590 -240
+pin name Y signal clock_bF$buf3 layer 1 480 410
+cell 14 CLKBUF1:CLKBUF1_insert0
+left -720 right 720 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -480 -1000
+   equiv name twfeed1 layer 1 -480 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed2 layer 1 -320 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed3 layer 1 -160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed4 layer 1 0 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed5 layer 1 160 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed6 layer 1 320 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed7 layer 1 480 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 640 -1000
+   equiv name twfeed8 layer 1 640 1000
+pin name A signal clock layer 1 -590 -240
+pin name Y signal clock_bF$buf4 layer 1 480 410
+cell 15 OAI22X1:_136_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _95_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _93_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _26_ layer 1 0 -300
+cell 16 OAI22X1:_137_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _97_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _95_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _27_ layer 1 0 -300
+cell 17 OAI22X1:_138_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _99_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _97_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _28_ layer 1 0 -300
+cell 18 OAI22X1:_139_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _101_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _99_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _29_ layer 1 0 -300
+cell 19 OAI22X1:_140_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _103_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _101_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _30_ layer 1 0 -300
+cell 20 INVX8:_141_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal reset layer 1 -320 -340
+pin name Y signal _4_ layer 1 -160 410
+cell 21 INVX1:_142_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal state[3] layer 1 -80 -540
+pin name Y signal _112_ layer 1 80 0
+cell 22 INVX4:_143_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal state[0] layer 1 -160 -340
+pin name Y signal _113_ layer 1 0 0
+cell 23 NOR2X1:_144_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[1] layer 1 -160 -540
+pin name B signal _132_[0] layer 1 160 -60
+pin name Y signal _114_ layer 1 0 -300
+cell 24 NOR2X1:_145_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[3] layer 1 -160 -540
+pin name B signal _132_[2] layer 1 160 -60
+pin name Y signal _115_ layer 1 0 -300
+cell 25 NAND2X1:_146_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _114_ layer 1 -160 -340
+pin name B signal _115_ layer 1 160 140
+pin name Y signal _116_ layer 1 100 -680
+cell 26 NOR2X1:_147_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[6] layer 1 -160 -540
+pin name B signal _132_[7] layer 1 160 -60
+pin name Y signal _117_ layer 1 0 -300
+cell 27 NOR2X1:_148_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[5] layer 1 -160 -540
+pin name B signal _132_[4] layer 1 160 -60
+pin name Y signal _118_ layer 1 0 -300
+cell 28 NAND2X1:_149_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _117_ layer 1 -160 -340
+pin name B signal _118_ layer 1 160 140
+pin name Y signal _119_ layer 1 100 -680
+cell 29 NOR2X1:_150_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _116_ layer 1 -160 -540
+pin name B signal _119_ layer 1 160 -60
+pin name Y signal _120_ layer 1 0 -300
+cell 30 OAI21X1:_151_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _112_ layer 1 -160 -330
+pin name B signal _120_ layer 1 -80 -140
+pin name C signal _113_ layer 1 160 300
+pin name Y signal _3_ layer 1 50 -100
+cell 31 INVX1:_152_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal state[4] layer 1 -80 -540
+pin name Y signal _121_ layer 1 80 0
+cell 32 INVX1:_153_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal state[1] layer 1 -80 -540
+pin name Y signal _122_ layer 1 80 0
+cell 33 INVX1:_154_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal startbuf[0] layer 1 -80 -540
+pin name Y signal _123_ layer 1 80 0
+cell 34 NOR2X1:_155_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal startbuf[1] layer 1 -160 -540
+pin name B signal _123_ layer 1 160 -60
+pin name Y signal _124_ layer 1 0 -300
+cell 35 OAI21X1:_156_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _122_ layer 1 -160 -330
+pin name B signal _124_ layer 1 -80 -140
+pin name C signal _121_ layer 1 160 300
+pin name Y signal _2_ layer 1 50 -100
+cell 36 AND2X2:_157_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _124_ layer 1 -240 -260
+pin name B signal state[1] layer 1 -80 -100
+pin name Y signal _0_ layer 1 180 -680
+cell 37 AND2X2:_158_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _120_ layer 1 -240 -260
+pin name B signal state[3] layer 1 -80 -100
+pin name Y signal _1_ layer 1 180 -680
+cell 38 NOR2X1:_159_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal state[3] layer 1 -160 -540
+pin name B signal state[0] layer 1 160 -60
+pin name Y signal _125_ layer 1 0 -300
+cell 39 NAND2X1:_160_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[0] layer 1 -160 -340
+pin name B signal _113_ layer 1 160 140
+pin name Y signal _126_ layer 1 100 -680
+cell 40 OAI21X1:_161_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _113_ layer 1 -160 -330
+pin name B signal N[1] layer 1 -80 -140
+pin name C signal _126_ layer 1 160 300
+pin name Y signal _127_ layer 1 50 -100
+cell 41 NAND2X1:_162_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[0] layer 1 -160 -340
+pin name B signal _125_ layer 1 160 140
+pin name Y signal _128_ layer 1 100 -680
+cell 42 OAI21X1:_163_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _125_ layer 1 -160 -330
+pin name B signal _127_ layer 1 -80 -140
+pin name C signal _128_ layer 1 160 300
+pin name Y signal _5_ layer 1 50 -100
+cell 43 OAI21X1:_164_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal state[3] layer 1 -160 -330
+pin name B signal state[0] layer 1 -80 -140
+pin name C signal _126_ layer 1 160 300
+pin name Y signal _129_ layer 1 50 -100
+cell 44 NAND2X1:_165_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[1] layer 1 -160 -340
+pin name B signal _129_ layer 1 160 140
+pin name Y signal _130_ layer 1 100 -680
+cell 45 INVX1:_166_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal N[1] layer 1 -80 -540
+pin name Y signal _131_ layer 1 80 0
+cell 46 INVX1:_167_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal N[2] layer 1 -80 -540
+pin name Y signal _31_ layer 1 80 0
+cell 47 NAND2X1:_168_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _131_ layer 1 -160 -340
+pin name B signal _31_ layer 1 160 140
+pin name Y signal _32_ layer 1 100 -680
+cell 48 NAND2X1:_169_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal N[1] layer 1 -160 -340
+pin name B signal N[2] layer 1 160 140
+pin name Y signal _33_ layer 1 100 -680
+cell 49 AOI21X1:_170_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _32_ layer 1 -160 -70
+pin name B signal _33_ layer 1 -80 -260
+pin name C signal _113_ layer 1 240 -500
+pin name Y signal _34_ layer 1 80 -680
+cell 50 AOI21X1:_171_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _113_ layer 1 -160 -70
+pin name B signal _114_ layer 1 -80 -260
+pin name C signal _34_ layer 1 240 -500
+pin name Y signal _35_ layer 1 80 -680
+cell 51 OAI21X1:_172_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _125_ layer 1 -160 -330
+pin name B signal _35_ layer 1 -80 -140
+pin name C signal _130_ layer 1 160 300
+pin name Y signal _6_ layer 1 50 -100
+cell 52 NOR2X1:_173_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal state[0] layer 1 -160 -540
+pin name B signal _114_ layer 1 160 -60
+pin name Y signal _36_ layer 1 0 -300
+cell 53 OAI21X1:_174_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _125_ layer 1 -160 -330
+pin name B signal _36_ layer 1 -80 -140
+pin name C signal _132_[2] layer 1 160 300
+pin name Y signal _37_ layer 1 50 -100
+cell 54 INVX1:_175_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _33_ layer 1 -80 -540
+pin name Y signal _38_ layer 1 80 0
+cell 55 OAI21X1:_176_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal N[3] layer 1 -160 -330
+pin name B signal _38_ layer 1 -80 -140
+pin name C signal state[0] layer 1 160 300
+pin name Y signal _39_ layer 1 50 -100
+cell 56 AOI21X1:_177_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal N[3] layer 1 -160 -70
+pin name B signal _38_ layer 1 -80 -260
+pin name C signal _39_ layer 1 240 -500
+pin name Y signal _40_ layer 1 80 -680
+cell 57 INVX1:_178_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _132_[2] layer 1 -80 -540
+pin name Y signal _41_ layer 1 80 0
+cell 58 AND2X2:_179_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _114_ layer 1 -240 -260
+pin name B signal _41_ layer 1 -80 -100
+pin name Y signal _42_ layer 1 180 -680
+cell 59 AOI21X1:_180_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _113_ layer 1 -160 -70
+pin name B signal _42_ layer 1 -80 -260
+pin name C signal _40_ layer 1 240 -500
+pin name Y signal _43_ layer 1 80 -680
+cell 60 OAI21X1:_181_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _125_ layer 1 -160 -330
+pin name B signal _43_ layer 1 -80 -140
+pin name C signal _37_ layer 1 160 300
+pin name Y signal _7_ layer 1 50 -100
+cell 61 INVX4:_182_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _125_ layer 1 -160 -340
+pin name Y signal _44_ layer 1 0 0
+cell 62 OAI21X1:_183_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal state[0] layer 1 -160 -330
+pin name B signal _42_ layer 1 -80 -140
+pin name C signal _44_ layer 1 160 300
+pin name Y signal _45_ layer 1 50 -100
+cell 63 NAND2X1:_184_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[3] layer 1 -160 -340
+pin name B signal _45_ layer 1 160 140
+pin name Y signal _46_ layer 1 100 -680
+cell 64 INVX1:_185_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _116_ layer 1 -80 -540
+pin name Y signal _47_ layer 1 80 0
+cell 65 OAI21X1:_186_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal N[3] layer 1 -160 -330
+pin name B signal _38_ layer 1 -80 -140
+pin name C signal N[4] layer 1 160 300
+pin name Y signal _48_ layer 1 50 -100
+cell 66 NOR2X1:_187_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal N[3] layer 1 -160 -540
+pin name B signal N[4] layer 1 160 -60
+pin name Y signal _49_ layer 1 0 -300
+cell 67 OAI21X1:_188_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _131_ layer 1 -160 -330
+pin name B signal _31_ layer 1 -80 -140
+pin name C signal _49_ layer 1 160 300
+pin name Y signal _50_ layer 1 50 -100
+cell 68 INVX1:_189_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _50_ layer 1 -80 -540
+pin name Y signal _51_ layer 1 80 0
+cell 69 NOR2X1:_190_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _113_ layer 1 -160 -540
+pin name B signal _51_ layer 1 160 -60
+pin name Y signal _52_ layer 1 0 -300
+cell 70 AOI22X1:_191_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _113_ layer 1 -240 -70
+pin name B signal _47_ layer 1 -160 -260
+pin name C signal _48_ layer 1 320 -60
+pin name D signal _52_ layer 1 140 -180
+pin name Y signal _53_ layer 1 10 -430
+cell 71 OAI21X1:_192_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _125_ layer 1 -160 -330
+pin name B signal _53_ layer 1 -80 -140
+pin name C signal _46_ layer 1 160 300
+pin name Y signal _8_ layer 1 50 -100
+cell 72 XNOR2X1:_193_
+left -560 right 560 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed1 layer 1 -320 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed2 layer 1 -160 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed3 layer 1 0 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed4 layer 1 160 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed5 layer 1 320 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed6 layer 1 480 1000
+pin name A signal _50_ layer 1 -210 -360
+pin name B signal N[5] layer 1 440 -300
+pin name Y signal _54_ layer 1 50 -500
+cell 73 INVX1:_194_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _132_[4] layer 1 -80 -540
+pin name Y signal _55_ layer 1 80 0
+cell 74 NOR2X1:_195_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _55_ layer 1 -160 -540
+pin name B signal _47_ layer 1 160 -60
+pin name Y signal _56_ layer 1 0 -300
+cell 75 NOR2X1:_196_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal state[0] layer 1 -160 -540
+pin name B signal _112_ layer 1 160 -60
+pin name Y signal _57_ layer 1 0 -300
+cell 76 OAI21X1:_197_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _132_[4] layer 1 -160 -330
+pin name B signal _116_ layer 1 -80 -140
+pin name C signal _57_ layer 1 160 300
+pin name Y signal _58_ layer 1 50 -100
+cell 77 OAI22X1:_198_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _132_[4] layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _58_ layer 1 320 -260
+pin name D signal _56_ layer 1 160 -140
+pin name Y signal _59_ layer 1 0 -300
+cell 78 AOI21X1:_199_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _54_ layer 1 -160 -70
+pin name B signal state[0] layer 1 -80 -260
+pin name C signal _59_ layer 1 240 -500
+pin name Y signal _9_ layer 1 80 -680
+cell 79 OAI21X1:_200_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal N[5] layer 1 -160 -330
+pin name B signal _50_ layer 1 -80 -140
+pin name C signal N[6] layer 1 160 300
+pin name Y signal _60_ layer 1 50 -100
+cell 80 NOR2X1:_201_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal N[5] layer 1 -160 -540
+pin name B signal N[6] layer 1 160 -60
+pin name Y signal _61_ layer 1 0 -300
+cell 81 INVX1:_202_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _61_ layer 1 -80 -540
+pin name Y signal _62_ layer 1 80 0
+cell 82 OAI21X1:_203_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _50_ layer 1 -160 -330
+pin name B signal _62_ layer 1 -80 -140
+pin name C signal _60_ layer 1 160 300
+pin name Y signal _63_ layer 1 50 -100
+cell 83 NAND3X1:_204_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _55_ layer 1 -240 60
+pin name B signal _114_ layer 1 -40 -100
+pin name C signal _115_ layer 1 80 260
+pin name Y signal _64_ layer 1 -80 680
+cell 84 AND2X2:_205_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _64_ layer 1 -240 -260
+pin name B signal _132_[5] layer 1 -80 -100
+pin name Y signal _65_ layer 1 180 -680
+cell 85 OAI21X1:_206_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _132_[5] layer 1 -160 -330
+pin name B signal _64_ layer 1 -80 -140
+pin name C signal _57_ layer 1 160 300
+pin name Y signal _66_ layer 1 50 -100
+cell 86 OAI22X1:_207_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _132_[5] layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _65_ layer 1 320 -260
+pin name D signal _66_ layer 1 160 -140
+pin name Y signal _67_ layer 1 0 -300
+cell 87 AOI21X1:_208_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _63_ layer 1 -160 -70
+pin name B signal state[0] layer 1 -80 -260
+pin name C signal _67_ layer 1 240 -500
+pin name Y signal _10_ layer 1 80 -680
+cell 88 NAND3X1:_209_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _33_ layer 1 -240 60
+pin name B signal _49_ layer 1 -40 -100
+pin name C signal _61_ layer 1 80 260
+pin name Y signal _68_ layer 1 -80 680
+cell 89 XOR2X1:_210_
+left -560 right 560 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed1 layer 1 -320 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed2 layer 1 -160 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed3 layer 1 0 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed4 layer 1 160 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed5 layer 1 320 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed6 layer 1 480 1000
+pin name A signal _68_ layer 1 -410 -290
+pin name B signal N[7] layer 1 440 -300
+pin name Y signal _69_ layer 1 0 -700
+cell 90 NAND2X1:_211_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal state[0] layer 1 -160 -340
+pin name B signal _69_ layer 1 160 140
+pin name Y signal _70_ layer 1 100 -680
+cell 91 NAND2X1:_212_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[6] layer 1 -160 -340
+pin name B signal _125_ layer 1 160 140
+pin name Y signal _71_ layer 1 100 -680
+cell 92 NOR3X1:_213_
+left -640 right 640 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed1 layer 1 -400 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed2 layer 1 -240 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed3 layer 1 -80 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed4 layer 1 80 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed5 layer 1 240 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed6 layer 1 400 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed7 layer 1 560 1000
+pin name A signal _132_[5] layer 1 -350 -500
+pin name B signal _132_[6] layer 1 -200 -300
+pin name C signal _64_ layer 1 -40 -100
+pin name Y signal _72_ layer 1 -210 -670
+cell 93 OAI21X1:_214_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _132_[5] layer 1 -160 -330
+pin name B signal _64_ layer 1 -80 -140
+pin name C signal _132_[6] layer 1 160 300
+pin name Y signal _73_ layer 1 50 -100
+cell 94 INVX1:_215_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _73_ layer 1 -80 -540
+pin name Y signal _74_ layer 1 80 0
+cell 95 OAI21X1:_216_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _72_ layer 1 -160 -330
+pin name B signal _74_ layer 1 -80 -140
+pin name C signal _57_ layer 1 160 300
+pin name Y signal _75_ layer 1 50 -100
+cell 96 NAND3X1:_217_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _70_ layer 1 -240 60
+pin name B signal _71_ layer 1 -40 -100
+pin name C signal _75_ layer 1 80 260
+pin name Y signal _11_ layer 1 -80 680
+cell 97 INVX1:_218_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _132_[7] layer 1 -80 -540
+pin name Y signal _76_ layer 1 80 0
+cell 98 OAI21X1:_219_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal N[7] layer 1 -160 -330
+pin name B signal _68_ layer 1 -80 -140
+pin name C signal N[8] layer 1 160 300
+pin name Y signal _77_ layer 1 50 -100
+cell 99 INVX1:_220_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal N[8] layer 1 -80 -540
+pin name Y signal _78_ layer 1 80 0
+cell 100 NOR2X1:_221_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal N[7] layer 1 -160 -540
+pin name B signal _68_ layer 1 160 -60
+pin name Y signal _79_ layer 1 0 -300
+cell 101 NAND2X1:_222_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _78_ layer 1 -160 -340
+pin name B signal _79_ layer 1 160 140
+pin name Y signal _80_ layer 1 100 -680
+cell 102 NAND3X1:_223_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal state[0] layer 1 -240 60
+pin name B signal _77_ layer 1 -40 -100
+pin name C signal _80_ layer 1 80 260
+pin name Y signal _81_ layer 1 -80 680
+cell 103 NAND2X1:_224_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[7] layer 1 -160 -340
+pin name B signal _113_ layer 1 160 140
+pin name Y signal _82_ layer 1 100 -680
+cell 104 OAI21X1:_225_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _82_ layer 1 -160 -330
+pin name B signal _72_ layer 1 -80 -140
+pin name C signal _44_ layer 1 160 300
+pin name Y signal _83_ layer 1 50 -100
+cell 105 AOI21X1:_226_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _113_ layer 1 -160 -70
+pin name B signal _120_ layer 1 -80 -260
+pin name C signal _83_ layer 1 240 -500
+pin name Y signal _84_ layer 1 80 -680
+cell 106 AOI22X1:_227_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _76_ layer 1 -240 -70
+pin name B signal _125_ layer 1 -160 -260
+pin name C signal _81_ layer 1 320 -60
+pin name D signal _84_ layer 1 140 -180
+pin name Y signal _12_ layer 1 10 -430
+cell 107 INVX1:_228_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _134_[0] layer 1 -80 -540
+pin name Y signal _85_ layer 1 80 0
+cell 108 INVX1:_229_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal state[2] layer 1 -80 -540
+pin name Y signal _86_ layer 1 80 0
+cell 109 NOR2X1:_230_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _86_ layer 1 -160 -540
+pin name B signal _44_ layer 1 160 -60
+pin name Y signal _87_ layer 1 0 -300
+cell 110 NAND2X1:_231_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal N[0] layer 1 -160 -340
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf3 layer 1 160 140
+end_pin_group
+pin name Y signal _88_ layer 1 100 -680
+cell 111 OAI21X1:_232_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _85_ layer 1 -160 -330
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf2 layer 1 -80 -140
+end_pin_group
+pin name C signal _88_ layer 1 160 300
+pin name Y signal _13_ layer 1 50 -100
+cell 112 INVX1:_233_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[0] layer 1 -80 -540
+pin name Y signal _89_ layer 1 80 0
+cell 113 NOR2X1:_234_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[1] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf1 layer 1 160 -60
+end_pin_group
+pin name Y signal _90_ layer 1 0 -300
+cell 114 AOI21X1:_235_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _89_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf0 layer 1 -80 -260
+end_pin_group
+pin name C signal _90_ layer 1 240 -500
+pin name Y signal _14_ layer 1 80 -680
+cell 115 INVX1:_236_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[1] layer 1 -80 -540
+pin name Y signal _91_ layer 1 80 0
+cell 116 NOR2X1:_237_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[2] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf3 layer 1 160 -60
+end_pin_group
+pin name Y signal _92_ layer 1 0 -300
+cell 117 AOI21X1:_238_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _91_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf2 layer 1 -80 -260
+end_pin_group
+pin name C signal _92_ layer 1 240 -500
+pin name Y signal _15_ layer 1 80 -680
+cell 118 INVX1:_239_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[2] layer 1 -80 -540
+pin name Y signal _93_ layer 1 80 0
+cell 119 NOR2X1:_240_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[3] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf1 layer 1 160 -60
+end_pin_group
+pin name Y signal _94_ layer 1 0 -300
+cell 120 AOI21X1:_241_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _93_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf0 layer 1 -80 -260
+end_pin_group
+pin name C signal _94_ layer 1 240 -500
+pin name Y signal _16_ layer 1 80 -680
+cell 121 INVX1:_242_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[3] layer 1 -80 -540
+pin name Y signal _95_ layer 1 80 0
+cell 122 NOR2X1:_243_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[4] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf3 layer 1 160 -60
+end_pin_group
+pin name Y signal _96_ layer 1 0 -300
+cell 123 AOI21X1:_244_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _95_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf2 layer 1 -80 -260
+end_pin_group
+pin name C signal _96_ layer 1 240 -500
+pin name Y signal _17_ layer 1 80 -680
+cell 124 INVX1:_245_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[4] layer 1 -80 -540
+pin name Y signal _97_ layer 1 80 0
+cell 125 NOR2X1:_246_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[5] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf1 layer 1 160 -60
+end_pin_group
+pin name Y signal _98_ layer 1 0 -300
+cell 126 AOI21X1:_247_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _97_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf0 layer 1 -80 -260
+end_pin_group
+pin name C signal _98_ layer 1 240 -500
+pin name Y signal _18_ layer 1 80 -680
+cell 127 INVX1:_248_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[5] layer 1 -80 -540
+pin name Y signal _99_ layer 1 80 0
+cell 128 NOR2X1:_249_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[6] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf3 layer 1 160 -60
+end_pin_group
+pin name Y signal _100_ layer 1 0 -300
+cell 129 AOI21X1:_250_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _99_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf2 layer 1 -80 -260
+end_pin_group
+pin name C signal _100_ layer 1 240 -500
+pin name Y signal _19_ layer 1 80 -680
+cell 130 INVX1:_251_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[6] layer 1 -80 -540
+pin name Y signal _101_ layer 1 80 0
+cell 131 NOR2X1:_252_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[7] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf1 layer 1 160 -60
+end_pin_group
+pin name Y signal _102_ layer 1 0 -300
+cell 132 AOI21X1:_253_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _101_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf0 layer 1 -80 -260
+end_pin_group
+pin name C signal _102_ layer 1 240 -500
+pin name Y signal _20_ layer 1 80 -680
+cell 133 INVX1:_254_
+left -160 right 160 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed1 layer 1 80 1000
+pin name A signal _135_[7] layer 1 -80 -540
+pin name Y signal _103_ layer 1 80 0
+cell 134 NOR2X1:_255_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[8] layer 1 -160 -540
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf3 layer 1 160 -60
+end_pin_group
+pin name Y signal _104_ layer 1 0 -300
+cell 135 AOI21X1:_256_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _103_ layer 1 -160 -70
+pin_group
+pin name _87__bF$pin/B signal _87__bF$buf2 layer 1 -80 -260
+end_pin_group
+pin name C signal _104_ layer 1 240 -500
+pin name Y signal _21_ layer 1 80 -680
+cell 136 NAND2X1:_257_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal state[4] layer 1 -160 -340
+pin name B signal _86_ layer 1 160 140
+pin name Y signal _105_ layer 1 100 -680
+cell 137 NAND2X1:_258_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _133_ layer 1 -160 -340
+pin name B signal _113_ layer 1 160 140
+pin name Y signal _106_ layer 1 100 -680
+cell 138 OAI21X1:_259_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _105_ layer 1 -160 -330
+pin name B signal _44_ layer 1 -80 -140
+pin name C signal _106_ layer 1 160 300
+pin name Y signal _22_ layer 1 50 -100
+cell 139 XNOR2X1:_260_
+left -560 right 560 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed1 layer 1 -320 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed2 layer 1 -160 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed3 layer 1 0 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed4 layer 1 160 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed5 layer 1 320 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed6 layer 1 480 1000
+pin name A signal _135_[7] layer 1 -210 -360
+pin name B signal _135_[5] layer 1 440 -300
+pin name Y signal _107_ layer 1 50 -500
+cell 140 XOR2X1:_261_
+left -560 right 560 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -320 -1000
+   equiv name twfeed1 layer 1 -320 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed2 layer 1 -160 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed3 layer 1 0 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed4 layer 1 160 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed5 layer 1 320 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 480 -1000
+   equiv name twfeed6 layer 1 480 1000
+pin name A signal _135_[4] layer 1 -410 -290
+pin name B signal _135_[3] layer 1 440 -300
+pin name Y signal _108_ layer 1 0 -700
+cell 141 AND2X2:_262_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _108_ layer 1 -240 -260
+pin name B signal _107_ layer 1 -80 -100
+pin name Y signal _109_ layer 1 180 -680
+cell 142 OAI21X1:_263_
+left -320 right 320 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed1 layer 1 -80 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed2 layer 1 80 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed3 layer 1 240 1000
+pin name A signal _107_ layer 1 -160 -330
+pin name B signal _108_ layer 1 -80 -140
+pin name C signal _57_ layer 1 160 300
+pin name Y signal _110_ layer 1 50 -100
+cell 143 OAI22X1:_264_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _89_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _109_ layer 1 320 -260
+pin name D signal _110_ layer 1 160 -140
+pin name Y signal _23_ layer 1 0 -300
+cell 144 INVX4:_265_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _57_ layer 1 -160 -340
+pin name Y signal _111_ layer 1 0 0
+cell 145 OAI22X1:_266_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _91_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _89_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _24_ layer 1 0 -300
+cell 146 OAI22X1:_267_
+left -400 right 400 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -160 -1000
+   equiv name twfeed1 layer 1 -160 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed2 layer 1 0 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed3 layer 1 160 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 320 -1000
+   equiv name twfeed4 layer 1 320 1000
+pin name A signal _93_ layer 1 -240 -330
+pin name B signal _44_ layer 1 -160 -140
+pin name C signal _91_ layer 1 320 -260
+pin name D signal _111_ layer 1 160 -140
+pin name Y signal _25_ layer 1 0 -300
+cell 147 DFFSR:_268_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal _0_ layer 1 -400 -340
+pin name Q signal state[0] layer 1 1520 450
+pin name R signal vdd layer 1 -1040 -90
+pin_group
+pin name _4__bF$pin/S signal _4__bF$buf4 layer 1 -1020 60
+end_pin_group
+cell 148 DFFSR:_269_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal _2_ layer 1 -400 -340
+pin name Q signal state[1] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 149 DFFSR:_270_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _1_ layer 1 -400 -340
+pin name Q signal state[2] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 150 DFFSR:_271_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf1 layer 1 -40 -500
+end_pin_group
+pin name D signal _3_ layer 1 -400 -340
+pin name Q signal state[3] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf1 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 151 DFFSR:_272_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf0 layer 1 -40 -500
+end_pin_group
+pin name D signal state[2] layer 1 -400 -340
+pin name Q signal state[4] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf0 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 152 DFFSR:_273_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal start layer 1 -400 -340
+pin name Q signal startbuf[0] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf4 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 153 DFFSR:_274_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal startbuf[0] layer 1 -400 -340
+pin name Q signal startbuf[1] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 154 DFFSR:_275_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _5_ layer 1 -400 -340
+pin name Q signal _132_[0] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 155 DFFSR:_276_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf1 layer 1 -40 -500
+end_pin_group
+pin name D signal _6_ layer 1 -400 -340
+pin name Q signal _132_[1] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf1 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 156 DFFSR:_277_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf0 layer 1 -40 -500
+end_pin_group
+pin name D signal _7_ layer 1 -400 -340
+pin name Q signal _132_[2] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf0 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 157 DFFSR:_278_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal _8_ layer 1 -400 -340
+pin name Q signal _132_[3] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf4 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 158 DFFSR:_279_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal _9_ layer 1 -400 -340
+pin name Q signal _132_[4] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 159 DFFSR:_280_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _10_ layer 1 -400 -340
+pin name Q signal _132_[5] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 160 DFFSR:_281_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf1 layer 1 -40 -500
+end_pin_group
+pin name D signal _11_ layer 1 -400 -340
+pin name Q signal _132_[6] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf1 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 161 DFFSR:_282_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf0 layer 1 -40 -500
+end_pin_group
+pin name D signal _12_ layer 1 -400 -340
+pin name Q signal _132_[7] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf0 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 162 DFFSR:_283_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal _13_ layer 1 -400 -340
+pin name Q signal _134_[0] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf4 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 163 DFFSR:_284_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal _14_ layer 1 -400 -340
+pin name Q signal _134_[1] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 164 DFFSR:_285_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _15_ layer 1 -400 -340
+pin name Q signal _134_[2] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 165 DFFSR:_286_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf1 layer 1 -40 -500
+end_pin_group
+pin name D signal _16_ layer 1 -400 -340
+pin name Q signal _134_[3] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf1 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 166 DFFSR:_287_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf0 layer 1 -40 -500
+end_pin_group
+pin name D signal _17_ layer 1 -400 -340
+pin name Q signal _134_[4] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf0 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 167 DFFSR:_288_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal _18_ layer 1 -400 -340
+pin name Q signal _134_[5] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf4 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 168 DFFSR:_289_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal _19_ layer 1 -400 -340
+pin name Q signal _134_[6] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 169 DFFSR:_290_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _20_ layer 1 -400 -340
+pin name Q signal _134_[7] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 170 DFFSR:_291_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf1 layer 1 -40 -500
+end_pin_group
+pin name D signal _21_ layer 1 -400 -340
+pin name Q signal _134_[8] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf1 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 171 DFFSR:_292_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf0 layer 1 -40 -500
+end_pin_group
+pin name D signal _22_ layer 1 -400 -340
+pin name Q signal _133_ layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf0 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 172 DFFSR:_293_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal _23_ layer 1 -400 -340
+pin name Q signal _135_[0] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf4 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 173 DFFSR:_294_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal _24_ layer 1 -400 -340
+pin name Q signal _135_[1] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 174 DFFSR:_295_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _25_ layer 1 -400 -340
+pin name Q signal _135_[2] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 175 DFFSR:_296_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf1 layer 1 -40 -500
+end_pin_group
+pin name D signal _26_ layer 1 -400 -340
+pin name Q signal _135_[3] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf1 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 176 DFFSR:_297_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf0 layer 1 -40 -500
+end_pin_group
+pin name D signal _27_ layer 1 -400 -340
+pin name Q signal _135_[4] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf0 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 177 DFFSR:_298_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf4 layer 1 -40 -500
+end_pin_group
+pin name D signal _28_ layer 1 -400 -340
+pin name Q signal _135_[5] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf4 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 178 DFFSR:_299_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf3 layer 1 -40 -500
+end_pin_group
+pin name D signal _29_ layer 1 -400 -340
+pin name Q signal _135_[6] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf3 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 179 DFFSR:_300_
+left -1760 right 1760 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 -1520 -1000
+   equiv name twfeed1 layer 1 -1520 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 -1360 -1000
+   equiv name twfeed2 layer 1 -1360 1000
+pin name twfeed3 signal TW_PASS_THRU layer 1 -1200 -1000
+   equiv name twfeed3 layer 1 -1200 1000
+pin name twfeed4 signal TW_PASS_THRU layer 1 -1040 -1000
+   equiv name twfeed4 layer 1 -1040 1000
+pin name twfeed5 signal TW_PASS_THRU layer 1 -880 -1000
+   equiv name twfeed5 layer 1 -880 1000
+pin name twfeed6 signal TW_PASS_THRU layer 1 -720 -1000
+   equiv name twfeed6 layer 1 -720 1000
+pin name twfeed7 signal TW_PASS_THRU layer 1 -560 -1000
+   equiv name twfeed7 layer 1 -560 1000
+pin name twfeed8 signal TW_PASS_THRU layer 1 -400 -1000
+   equiv name twfeed8 layer 1 -400 1000
+pin name twfeed9 signal TW_PASS_THRU layer 1 -240 -1000
+   equiv name twfeed9 layer 1 -240 1000
+pin name twfeed10 signal TW_PASS_THRU layer 1 -80 -1000
+   equiv name twfeed10 layer 1 -80 1000
+pin name twfeed11 signal TW_PASS_THRU layer 1 80 -1000
+   equiv name twfeed11 layer 1 80 1000
+pin name twfeed12 signal TW_PASS_THRU layer 1 240 -1000
+   equiv name twfeed12 layer 1 240 1000
+pin name twfeed13 signal TW_PASS_THRU layer 1 400 -1000
+   equiv name twfeed13 layer 1 400 1000
+pin name twfeed14 signal TW_PASS_THRU layer 1 560 -1000
+   equiv name twfeed14 layer 1 560 1000
+pin name twfeed15 signal TW_PASS_THRU layer 1 720 -1000
+   equiv name twfeed15 layer 1 720 1000
+pin name twfeed16 signal TW_PASS_THRU layer 1 880 -1000
+   equiv name twfeed16 layer 1 880 1000
+pin name twfeed17 signal TW_PASS_THRU layer 1 1040 -1000
+   equiv name twfeed17 layer 1 1040 1000
+pin name twfeed18 signal TW_PASS_THRU layer 1 1200 -1000
+   equiv name twfeed18 layer 1 1200 1000
+pin name twfeed19 signal TW_PASS_THRU layer 1 1360 -1000
+   equiv name twfeed19 layer 1 1360 1000
+pin name twfeed20 signal TW_PASS_THRU layer 1 1520 -1000
+   equiv name twfeed20 layer 1 1520 1000
+pin name twfeed21 signal TW_PASS_THRU layer 1 1680 -1000
+   equiv name twfeed21 layer 1 1680 1000
+pin_group
+pin name clock_bF$pin/CLK signal clock_bF$buf2 layer 1 -40 -500
+end_pin_group
+pin name D signal _30_ layer 1 -400 -340
+pin name Q signal _135_[7] layer 1 1520 450
+pin_group
+pin name _4__bF$pin/R signal _4__bF$buf2 layer 1 -1040 -90
+end_pin_group
+pin name S signal vdd layer 1 -1020 60
+cell 180 BUFX2:_301_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[0] layer 1 -160 -140
+pin name Y signal counter[0] layer 1 170 0
+cell 181 BUFX2:_302_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[1] layer 1 -160 -140
+pin name Y signal counter[1] layer 1 170 0
+cell 182 BUFX2:_303_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[2] layer 1 -160 -140
+pin name Y signal counter[2] layer 1 170 0
+cell 183 BUFX2:_304_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[3] layer 1 -160 -140
+pin name Y signal counter[3] layer 1 170 0
+cell 184 BUFX2:_305_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[4] layer 1 -160 -140
+pin name Y signal counter[4] layer 1 170 0
+cell 185 BUFX2:_306_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[5] layer 1 -160 -140
+pin name Y signal counter[5] layer 1 170 0
+cell 186 BUFX2:_307_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[6] layer 1 -160 -140
+pin name Y signal counter[6] layer 1 170 0
+cell 187 BUFX2:_308_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _132_[7] layer 1 -160 -140
+pin name Y signal counter[7] layer 1 170 0
+cell 188 BUFX2:_309_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _133_ layer 1 -160 -140
+pin name Y signal done layer 1 170 0
+cell 189 BUFX2:_310_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[0] layer 1 -160 -140
+pin name Y signal dp[0] layer 1 170 0
+cell 190 BUFX2:_311_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[1] layer 1 -160 -140
+pin name Y signal dp[1] layer 1 170 0
+cell 191 BUFX2:_312_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[2] layer 1 -160 -140
+pin name Y signal dp[2] layer 1 170 0
+cell 192 BUFX2:_313_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[3] layer 1 -160 -140
+pin name Y signal dp[3] layer 1 170 0
+cell 193 BUFX2:_314_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[4] layer 1 -160 -140
+pin name Y signal dp[4] layer 1 170 0
+cell 194 BUFX2:_315_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[5] layer 1 -160 -140
+pin name Y signal dp[5] layer 1 170 0
+cell 195 BUFX2:_316_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[6] layer 1 -160 -140
+pin name Y signal dp[6] layer 1 170 0
+cell 196 BUFX2:_317_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[7] layer 1 -160 -140
+pin name Y signal dp[7] layer 1 170 0
+cell 197 BUFX2:_318_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _134_[8] layer 1 -160 -140
+pin name Y signal dp[8] layer 1 170 0
+cell 198 BUFX2:_319_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[0] layer 1 -160 -140
+pin name Y signal sr[0] layer 1 170 0
+cell 199 BUFX2:_320_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[1] layer 1 -160 -140
+pin name Y signal sr[1] layer 1 170 0
+cell 200 BUFX2:_321_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[2] layer 1 -160 -140
+pin name Y signal sr[2] layer 1 170 0
+cell 201 BUFX2:_322_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[3] layer 1 -160 -140
+pin name Y signal sr[3] layer 1 170 0
+cell 202 BUFX2:_323_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[4] layer 1 -160 -140
+pin name Y signal sr[4] layer 1 170 0
+cell 203 BUFX2:_324_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[5] layer 1 -160 -140
+pin name Y signal sr[5] layer 1 170 0
+cell 204 BUFX2:_325_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[6] layer 1 -160 -140
+pin name Y signal sr[6] layer 1 170 0
+cell 205 BUFX2:_326_
+left -240 right 240 bottom -1000 top 1000
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1000
+   equiv name twfeed1 layer 1 0 1000
+pin name twfeed2 signal TW_PASS_THRU layer 1 160 -1000
+   equiv name twfeed2 layer 1 160 1000
+pin name A signal _135_[7] layer 1 -160 -140
+pin name Y signal sr[7] layer 1 170 0
+pad 1 name twpin_N[8]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[8] signal N[8] layer 1 0 0
+pad 2 name twpin_N[7]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[7] signal N[7] layer 1 0 0
+pad 3 name twpin_N[6]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[6] signal N[6] layer 1 0 0
+pad 4 name twpin_N[5]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[5] signal N[5] layer 1 0 0
+pad 5 name twpin_N[4]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[4] signal N[4] layer 1 0 0
+pad 6 name twpin_N[3]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[3] signal N[3] layer 1 0 0
+pad 7 name twpin_N[2]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[2] signal N[2] layer 1 0 0
+pad 8 name twpin_N[1]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[1] signal N[1] layer 1 0 0
+pad 9 name twpin_N[0]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name N[0] signal N[0] layer 1 0 0
+
+pad 10 name twpin_clock
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name clock signal clock layer 1 0 0
+
+pad 11 name twpin_counter[7]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[7] signal counter[7] layer 1 0 0
+pad 12 name twpin_counter[6]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[6] signal counter[6] layer 1 0 0
+pad 13 name twpin_counter[5]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[5] signal counter[5] layer 1 0 0
+pad 14 name twpin_counter[4]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[4] signal counter[4] layer 1 0 0
+pad 15 name twpin_counter[3]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[3] signal counter[3] layer 1 0 0
+pad 16 name twpin_counter[2]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[2] signal counter[2] layer 1 0 0
+pad 17 name twpin_counter[1]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[1] signal counter[1] layer 1 0 0
+pad 18 name twpin_counter[0]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name counter[0] signal counter[0] layer 1 0 0
+
+pad 19 name twpin_done
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name done signal done layer 1 0 0
+
+pad 20 name twpin_dp[8]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[8] signal dp[8] layer 1 0 0
+pad 21 name twpin_dp[7]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[7] signal dp[7] layer 1 0 0
+pad 22 name twpin_dp[6]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[6] signal dp[6] layer 1 0 0
+pad 23 name twpin_dp[5]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[5] signal dp[5] layer 1 0 0
+pad 24 name twpin_dp[4]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[4] signal dp[4] layer 1 0 0
+pad 25 name twpin_dp[3]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[3] signal dp[3] layer 1 0 0
+pad 26 name twpin_dp[2]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[2] signal dp[2] layer 1 0 0
+pad 27 name twpin_dp[1]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[1] signal dp[1] layer 1 0 0
+pad 28 name twpin_dp[0]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name dp[0] signal dp[0] layer 1 0 0
+
+pad 29 name twpin_reset
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name reset signal reset layer 1 0 0
+
+pad 30 name twpin_sr[7]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[7] signal sr[7] layer 1 0 0
+pad 31 name twpin_sr[6]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[6] signal sr[6] layer 1 0 0
+pad 32 name twpin_sr[5]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[5] signal sr[5] layer 1 0 0
+pad 33 name twpin_sr[4]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[4] signal sr[4] layer 1 0 0
+pad 34 name twpin_sr[3]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[3] signal sr[3] layer 1 0 0
+pad 35 name twpin_sr[2]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[2] signal sr[2] layer 1 0 0
+pad 36 name twpin_sr[1]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[1] signal sr[1] layer 1 0 0
+pad 37 name twpin_sr[0]
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name sr[0] signal sr[0] layer 1 0 0
+
+pad 38 name twpin_start
+corners 4 -80 -200 -80 200 80 200 80 -200
+pin name start signal start layer 1 0 0
+

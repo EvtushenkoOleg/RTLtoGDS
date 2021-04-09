@@ -1,0 +1,75 @@
+Vesta static timing analysis, pin-to-register and register-to-pin minimum timing
+
+Top 9 minimum delay paths:
+Path input pin N[0] to _283_/D delay 141.064 ps
+      0.0 ps  N[0]:         -> _231_/A
+     70.6 ps  _88_: _231_/Y -> _232_/C
+    134.1 ps  _13_: _232_/Y -> _283_/D
+
+   hold at destination = 6.9532
+
+Path input pin N[1] to _275_/D delay 171.173 ps
+      0.0 ps   N[1]:         -> _161_/B
+     96.9 ps  _127_: _161_/Y -> _163_/B
+    162.1 ps    _5_: _163_/Y -> _275_/D
+
+   hold at destination = 9.12134
+
+Path input pin N[8] to _282_/D delay 227.313 ps
+      0.0 ps  N[8]:         -> _219_/C
+     71.8 ps  _77_: _219_/Y -> _223_/B
+    151.0 ps  _81_: _223_/Y -> _227_/C
+    250.0 ps  _12_: _227_/Y -> _282_/D
+
+   hold at destination = -22.6864
+
+Path input pin N[5] to _279_/D delay 228.02 ps
+      0.0 ps  N[5]:         -> _193_/B
+    144.3 ps  _54_: _193_/Y -> _199_/A
+    248.9 ps   _9_: _199_/Y -> _279_/D
+
+   hold at destination = -20.9209
+
+Path input pin N[6] to _280_/D delay 229.595 ps
+      0.0 ps  N[6]:         -> _200_/C
+     63.5 ps  _60_: _200_/Y -> _203_/C
+    146.6 ps  _63_: _203_/Y -> _208_/A
+    247.6 ps  _10_: _208_/Y -> _280_/D
+
+   hold at destination = -17.9839
+
+Path input pin N[4] to _278_/D delay 250.181 ps
+      0.0 ps  N[4]:         -> _186_/C
+     81.4 ps  _48_: _186_/Y -> _191_/C
+    172.9 ps  _53_: _191_/Y -> _192_/B
+    271.3 ps   _8_: _192_/Y -> _278_/D
+
+   hold at destination = -21.168
+
+Path input pin N[3] to _277_/D delay 281.1 ps
+      0.0 ps  N[3]:         -> _177_/A
+    104.5 ps  _40_: _177_/Y -> _180_/C
+    204.4 ps  _43_: _180_/Y -> _181_/B
+    301.5 ps   _7_: _181_/Y -> _277_/D
+
+   hold at destination = -20.4313
+
+Path input pin N[7] to _281_/D delay 298.878 ps
+      0.0 ps  N[7]:         -> _210_/B
+    138.4 ps  _69_: _210_/Y -> _211_/B
+    232.9 ps  _70_: _211_/Y -> _217_/A
+    292.6 ps  _11_: _217_/Y -> _281_/D
+
+   hold at destination = 6.32198
+
+Path input pin N[2] to _276_/D delay 436.871 ps
+      0.0 ps  N[2]:         -> _169_/B
+    143.6 ps  _33_: _169_/Y -> _170_/B
+    259.8 ps  _34_: _170_/Y -> _171_/C
+    362.2 ps  _35_: _171_/Y -> _172_/B
+    427.1 ps   _6_: _172_/Y -> _276_/D
+
+   hold at destination = 9.7513
+
+-----------------------------------------
+
