@@ -1,4 +1,4 @@
-Qflow placement logfile created on Сб 10 апр 2021 00:14:56 MSK
+Placement logfile created on Пн 12 апр 2021 18:37:07 MSK
 Running vlog2Cel to generate input files for graywolf
 vlog2Cel  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef -u 100 -o /home/oleg/RTLtoGDS/projects/i2c/layout/i2c_master_top.cel /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
 No i2c_master_top.cel1 file found for project. . . no partial blockages to apply to layout.
@@ -515,4 +515,4 @@ vlog2Verilog -c -p -v vdd -g gnd -o i2c_master_top.rtlnopwr.v i2c_master_top_ann
 vlog2Verilog -c -b -p -n -v vdd -g gnd -o i2c_master_top.rtlbb.v i2c_master_top_anno.v
 Running vlog2Spice.
 vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o i2c_master_top.spc i2c_master_top.rtl.v
-Placement script ended on Сб 10 апр 2021 00:15:27 MSK
+Placement script ended on Пн 12 апр 2021 18:37:36 MSK

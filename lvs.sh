@@ -47,7 +47,7 @@ rm -f ${synthlog} >& /dev/null
 rm -f ${logdir}/gdsii.log >& /dev/null
 touch ${synthlog}
 set date=`date`
-echo "Qflow LVS logfile created on $date" > ${synthlog}
+echo "LVS logfile created on $date" > ${synthlog}
 
 # Check if last line of migrate log file says "error condition"
 if ( ! -f ${lastlog} ) then
@@ -91,7 +91,7 @@ if ( -M ${layoutdir}/${rootname}.spice < -M ${layoutdir}/${rootname}.mag ) then
     source ${scriptdir}/migrate.sh -x ${projectpath} ${sourcename}
 endif
 
-# Check for technology setup script.  If it is in the qflow technology script
+# Check for technology setup script.  If it is in the technology script
 # as variable "netgen_setup", then use that.  Otherwise, assume it is in the
 # technology directory path.
 

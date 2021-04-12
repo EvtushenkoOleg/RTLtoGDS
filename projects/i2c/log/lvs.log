@@ -1,4 +1,4 @@
-Qflow LVS logfile created on Сб 10 апр 2021 00:15:51 MSK
+LVS logfile created on Пн 12 апр 2021 18:37:57 MSK
 netgen -batch lvs "i2c_master_top.spice i2c_master_top" "/home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.spc i2c_master_top" /home/oleg/RTLtoGDS/tech/osu035/osu035_setup.tcl comp.out -json -blackbox
 Netgen 1.5.163 compiled on Вс 17 янв 2021 00:49:57 MSK
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
@@ -253,4 +253,4 @@ LVS Done.
 LVS reports no net, device, pin, or property mismatches.
 
 Total errors = 0
-LVS checking script ended on Сб 10 апр 2021 00:15:52 MSK
+LVS checking script ended on Пн 12 апр 2021 18:37:58 MSK

@@ -124,7 +124,7 @@ rm -f ${synthlog} >& /dev/null
 rm -f ${logdir}/post_sta.log >& /dev/null
 touch ${synthlog}
 set date=`date`
-echo "Qflow route logfile created on $date" > ${synthlog}
+echo "Route logfile created on $date" > ${synthlog}
 
 # Check if last line of placement log file says "error condition"
 if ( ! -f ${lastlog} ) then

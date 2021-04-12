@@ -158,7 +158,7 @@ if ( $?source_file_list ) then
    endif
 
    cat > ${modulename}.ys << EOF
-# Synthesis script for yosys created by qflow
+# Synthesis script for yosys created
 read_liberty -lib -ignore_miss_dir -setattr blackbox ${libertypath}
 EOF
 
@@ -269,7 +269,7 @@ else
    endif
 
    cat > ${modulename}.ys << EOF
-# Synthesis script for yosys created by qflow
+# Synthesis script for yosys created
 read_liberty -lib -ignore_miss_dir -setattr blackbox ${libertypath}
 EOF
 
@@ -363,7 +363,7 @@ set vlog_opts = ""
 # set vlog_opts = "${vlog_opts} ${modulename}"
 
 cat > ${modulename}.ys << EOF
-# Synthesis script for yosys created by qflow
+# Synthesis script for yosys created
 EOF
 
 # Support for structural verilog---any cell can be called as long as
@@ -420,7 +420,7 @@ end
 
 if ( ${major} == 0 && ${minor} == 0 ) then
    echo "Warning: yosys 0.0.x unsupported.  Please update!"
-   echo "Output is likely to be incompatible with qflow."
+   echo "Output is likely to be incompatible."
 endif
 
 if ( ${major} == 0 && ${minor} < 5 ) then

@@ -1,4 +1,4 @@
-Qflow placement logfile created on Сб 10 апр 2021 00:07:58 MSK
+Placement logfile created on Пн 12 апр 2021 18:36:32 MSK
 Running vlog2Cel to generate input files for graywolf
 vlog2Cel  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef -u 100 -o /home/oleg/RTLtoGDS/projects/map9v3/layout/map9v3.cel /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtlnopwr.v
 No map9v3.cel1 file found for project. . . no partial blockages to apply to layout.
@@ -323,4 +323,4 @@ vlog2Verilog -c -p -v vdd -g gnd -o map9v3.rtlnopwr.v map9v3_anno.v
 vlog2Verilog -c -b -p -n -v vdd -g gnd -o map9v3.rtlbb.v map9v3_anno.v
 Running vlog2Spice.
 vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o map9v3.spc map9v3.rtl.v
-Placement script ended on Сб 10 апр 2021 00:08:07 MSK
+Placement script ended on Пн 12 апр 2021 18:36:42 MSK

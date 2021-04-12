@@ -1,4 +1,4 @@
-Qflow DRC logfile created on Сб 10 апр 2021 00:15:50 MSK
+DRC logfile created on Пн 12 апр 2021 18:37:56 MSK
 magic -dnull -noconsole  /home/oleg/RTLtoGDS/projects/i2c/layout/run_drc_i2c_master_top.tcl
 
 Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
@@ -24,4 +24,4 @@ Scaled magic input cell i2c_master_top geometry by factor of 2
 i2c_master_top: 10000 rects
 Processing timestamp mismatches: FILL, INVX1, DFFSR, NAND2X1, AOI21X1, NOR2X1, NAND3X1, OAI21X1, OAI22X1, NOR3X1, INVX2, AND2X2, BUFX2, CLKBUF1, AOI22X1, INVX4, OR2X2, DFFPOSX1, MUX2X1.
 drc = 0
-DRC checking script ended on Сб 10 апр 2021 00:15:51 MSK
+DRC checking script ended on Пн 12 апр 2021 18:37:57 MSK

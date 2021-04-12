@@ -120,7 +120,7 @@ rm -f ${logdir}/lvs.log >& /dev/null
 rm -f ${logdir}/gdsii.log >& /dev/null
 touch ${synthlog}
 set date=`date`
-echo "Qflow placement logfile created on $date" > ${synthlog}
+echo "Placement logfile created on $date" > ${synthlog}
 
 #----------------------------------------------------------
 # Done with initialization

@@ -52,7 +52,7 @@ rm -f ${logdir}/lvs.log >& /dev/null
 rm -f ${logdir}/gdsii.log >& /dev/null
 touch ${synthlog}
 set date=`date`
-echo "Qflow DRC logfile created on $date" > ${synthlog}
+echo "DRC logfile created on $date" > ${synthlog}
 
 # Check if last line of drc log file says "error condition"
 if ( ! -f ${lastlog} ) then

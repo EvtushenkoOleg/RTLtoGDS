@@ -1,4 +1,4 @@
-Qflow LVS logfile created on Сб 10 апр 2021 00:08:11 MSK
+LVS logfile created on Пн 12 апр 2021 18:36:48 MSK
 netgen -batch lvs "map9v3.spice map9v3" "/home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.spc map9v3" /home/oleg/RTLtoGDS/tech/osu035/osu035_setup.tcl comp.out -json -blackbox
 Netgen 1.5.163 compiled on Вс 17 янв 2021 00:49:57 MSK
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
@@ -237,4 +237,4 @@ LVS Done.
 LVS reports no net, device, pin, or property mismatches.
 
 Total errors = 0
-LVS checking script ended on Сб 10 апр 2021 00:08:11 MSK
+LVS checking script ended on Пн 12 апр 2021 18:36:48 MSK

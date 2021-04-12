@@ -1,4 +1,4 @@
-gdsii logfile created on Сб 10 апр 2021 00:08:11 MSK
+gdsii logfile created on Пн 12 апр 2021 18:36:48 MSK
 magic -dnull -noconsole  /home/oleg/RTLtoGDS/projects/map9v3/layout/generate_gds_map9v3.tcl
 
 Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
@@ -246,4 +246,4 @@ Processing timestamp mismatches: BUFX2, NAND2X1, NOR2X1, FILL, DFFSR, AOI21X1, I
    Writing cell AOI22X1
    Writing cell XOR2X1
    Writing cell XNOR2X1
-GDS generating script ended on Сб 10 апр 2021 00:08:12 MSK
+GDS generating script ended on Пн 12 апр 2021 18:36:49 MSK

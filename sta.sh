@@ -60,10 +60,10 @@ set date=`date`
 if ( $append == 0 ) then
    rm -f ${synthlog} >& /dev/null
    touch ${synthlog}
-   echo "Qflow static timing analysis logfile created on $date" > ${synthlog}
+   echo "Static timing analysis logfile created on $date" > ${synthlog}
 else
    touch ${synthlog}
-   echo "\nQflow static timing analysis logfile appended on $date" >> ${synthlog}
+   echo "\nStatic timing analysis logfile appended on $date" >> ${synthlog}
 endif
 
 

@@ -1,4 +1,4 @@
-Qflow route logfile created on Сб 10 апр 2021 00:15:27 MSK
+Route logfile created on Пн 12 апр 2021 18:37:36 MSK
 qrouter -noc -s i2c_master_top.cfg
 Qrouter detail maze router version 1.4.83.T
 Reading LEF data from file /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef.
@@ -5987,4 +5987,4 @@ vlog2Verilog -c -p -v vdd -g gnd -o i2c_master_top.rtlnopwr.anno.v i2c_master_to
 /home/oleg/RTLtoGDS/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o i2c_master_top.rtlbb.anno.v i2c_master_top_postroute.v
 Running vlog2Spice.
 vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o i2c_master_top.anno.spc i2c_master_top.rtl.anno.v
-Router script ended on Сб 10 апр 2021 00:15:45 MSK
+Router script ended on Пн 12 апр 2021 18:37:52 MSK

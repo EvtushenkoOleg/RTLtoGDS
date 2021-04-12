@@ -1,4 +1,4 @@
-Logfile created on Сб 10 апр 2021 00:14:49 MSK
+Logfile created on Пн 12 апр 2021 18:37:01 MSK
 Running yosys for verilog parsing and synthesis
 yosys  -s i2c_master_top.ys
 
@@ -1735,7 +1735,7 @@ ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.00 sec
+ABC: Parsing finished successfully.  Parsing time =     0.01 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNEGX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFPOSX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSR".
@@ -1837,7 +1837,7 @@ ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.01 sec
+ABC: Parsing finished successfully.  Parsing time =     0.00 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNEGX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFPOSX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSR".
@@ -1849,8 +1849,8 @@ ABC: Scl_LibertyReadGenlib() skipped cell "PADFC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADNC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADVDD" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADGND" without logic function.
-ABC: Library "osu035_stdcells" from "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.02 sec
-ABC: Memory =    0.38 MB. Time =     0.02 sec
+ABC: Library "osu035_stdcells" from "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
+ABC: Memory =    0.38 MB. Time =     0.01 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
 ABC: + scorr 
@@ -1997,9 +1997,9 @@ Dumping module `\i2c_master_top'.
      OR2X2                           7
 
 Warnings: 3 unique messages, 3 total
-End of script. Logfile hash: c268948f21, CPU: user 3.64s system 0.07s, MEM: 21.72 MB peak
+End of script. Logfile hash: bf8344a924, CPU: user 3.60s system 0.07s, MEM: 22.19 MB peak
 Yosys 0.9+3760 (git sha1 40e35993, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)
-Time spent: 24% 2x abc (1 sec), 17% 2x write_verilog (0 sec), ...
+Time spent: 23% 2x abc (1 sec), 17% 27x opt_expr (0 sec), ...
 Running getpowerground to determine power and ground net names.
 getpowerground.tcl  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef
 Running vlogFanout
@@ -2074,4 +2074,4 @@ vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o i2c_mast
 Running spi2xspice.py
 spi2xspice.py "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" i2c_master_top.spc i2c_master_top.xspice
 
-Synthesis script ended on Сб 10 апр 2021 00:14:56 MSK
+Synthesis script ended on Пн 12 апр 2021 18:37:06 MSK

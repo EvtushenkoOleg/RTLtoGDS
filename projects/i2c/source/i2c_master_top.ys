@@ -1,4 +1,4 @@
-# Synthesis script for yosys created by qflow
+# Synthesis script for yosys created
 read_liberty -lib -ignore_miss_dir -setattr blackbox /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib
 read_verilog  i2c_master_top.v
 read_verilog  i2c_master_byte_ctrl.v

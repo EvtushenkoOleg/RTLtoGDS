@@ -1,4 +1,4 @@
-Migration logfile created on Сб 10 апр 2021 00:15:46 MSK
+Migration logfile created on Пн 12 апр 2021 18:37:53 MSK
 magic -dnull -noconsole  migrate_i2c_master_top.tcl
 
 Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
@@ -59,4 +59,4 @@ Extracting AND2X2 into AND2X2.ext:
 Extracting DFFSR into DFFSR.ext:
 Extracting i2c_master_top into i2c_master_top.ext:
 exttospice finished.
-Migration script ended on Сб 10 апр 2021 00:15:50 MSK
+Migration script ended on Пн 12 апр 2021 18:37:56 MSK

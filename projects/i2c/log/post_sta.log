@@ -1,4 +1,4 @@
-Static timing analysis logfile created on Сб 10 апр 2021 00:15:45 MSK
+Static timing analysis logfile created on Пн 12 апр 2021 18:37:52 MSK
 Converting qrouter output to vesta delay format
 Running rc2dly -r i2c_master_top.rc -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib -V /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtl.v
 -d i2c_master_top.dly
