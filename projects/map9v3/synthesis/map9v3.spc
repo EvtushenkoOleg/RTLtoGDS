@@ -1,7 +1,7 @@
 *SPICE netlist created from verilog structural netlist module map9v3 by vlog2Spice (qflow)
 *This file may contain array delimiters, not for use in simulation.
 
-** Start of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
+** Start of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
 
 .subckt AND2X1 Y B vdd gnd A
 M0 a_2_6# A vdd vdd pfet w=4u l=0.4u
@@ -1396,7 +1396,7 @@ M11 a_13_43# B gnd gnd nfet w=4u l=0.4u
 + ad=0p pd=0u as=0p ps=0u 
 .ends XOR2X1
 
-** End of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
+** End of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
 
 .subckt map9v3 vdd gnd N[0] N[1] N[2] N[3] N[4]
 + N[5] N[6] N[7] N[8] clock counter[0] counter[1] counter[2]

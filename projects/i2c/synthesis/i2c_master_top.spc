@@ -1,7 +1,7 @@
 *SPICE netlist created from verilog structural netlist module i2c_master_top by vlog2Spice (qflow)
 *This file may contain array delimiters, not for use in simulation.
 
-** Start of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
+** Start of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
 
 .subckt AND2X1 Y B vdd gnd A
 M0 a_2_6# A vdd vdd pfet w=4u l=0.4u
@@ -1396,7 +1396,7 @@ M11 a_13_43# B gnd gnd nfet w=4u l=0.4u
 + ad=0p pd=0u as=0p ps=0u 
 .ends XOR2X1
 
-** End of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
+** End of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
 
 .subckt i2c_master_top vdd gnd arst_i scl_pad_i scl_pad_o scl_padoen_o sda_pad_i
 + sda_pad_o sda_padoen_o wb_ack_o wb_adr_i[0] wb_adr_i[1] wb_adr_i[2] wb_clk_i wb_cyc_i

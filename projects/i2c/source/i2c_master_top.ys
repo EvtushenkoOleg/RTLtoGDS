@@ -1,5 +1,5 @@
 # Synthesis script for yosys created by qflow
-read_liberty -lib -ignore_miss_dir -setattr blackbox /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib
+read_liberty -lib -ignore_miss_dir -setattr blackbox /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib
 read_verilog  i2c_master_top.v
 read_verilog  i2c_master_byte_ctrl.v
 read_verilog  i2c_master_bit_ctrl.v
@@ -7,11 +7,11 @@ read_verilog  i2c_master_bit_ctrl.v
 # High-level synthesis
 synth -top i2c_master_top
 # Map register flops
-dfflibmap -liberty /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib
+dfflibmap -liberty /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib
 opt
 
 # Map combinatorial cells, standard script
-abc -exe yosys-abc -liberty /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
+abc -exe yosys-abc -liberty /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
 flatten
 setundef -zero
 

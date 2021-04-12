@@ -2,7 +2,7 @@ drc off
 box 0 0 0 0
 gds readonly true
 gds rescale false
-gds read /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.gds2
+gds read /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.gds2
 load i2c_master_top
 select top cell
 expand

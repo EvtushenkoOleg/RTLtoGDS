@@ -1,7 +1,7 @@
-Qflow route logfile created on Пт 09 апр 2021 16:30:21 MSK
+Qflow route logfile created on Сб 10 апр 2021 00:15:27 MSK
 qrouter -noc -s i2c_master_top.cfg
 Qrouter detail maze router version 1.4.83.T
-Reading LEF data from file /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef.
+Reading LEF data from file /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef.
 LEF Read, Line 135: NOTE:  Old format VIARULE ignored.
 LEF Read, Line 136: NOTE:  Old format VIARULE ignored.
 LEF Read, Line 140: NOTE:  Old format VIARULE ignored.
@@ -5976,15 +5976,15 @@ but qrouter wants to write 1025 nets and specialnets.
 Final: No failed routes!
 ----------------------------------------------
 *** Writing RC file i2c_master_top_route.rc
-DEF2Verilog -v /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v -o /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top_postroute.v
--p vdd -g gnd  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef i2c_master_top_route.def
+DEF2Verilog -v /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v -o /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top_postroute.v
+-p vdd -g gnd  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef i2c_master_top_route.def
 
 Generating RTL verilog and SPICE netlist file in directory
-   /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis
+   /home/oleg/RTLtoGDS/projects/i2c/synthesis
 Running vlog2Verilog.
 vlog2Verilog -c -v vdd -g gnd -o i2c_master_top.rtl.anno.v i2c_master_top_postroute.v
 vlog2Verilog -c -p -v vdd -g gnd -o i2c_master_top.rtlnopwr.anno.v i2c_master_top_postroute.v
-/home/oleg/tool_RTL_to_GDSII/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o i2c_master_top.rtlbb.anno.v i2c_master_top_postroute.v
+/home/oleg/RTLtoGDS/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o i2c_master_top.rtlbb.anno.v i2c_master_top_postroute.v
 Running vlog2Spice.
-vlog2Spice -i -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp -o i2c_master_top.anno.spc i2c_master_top.rtl.anno.v
-Router script ended on Пт 09 апр 2021 16:30:36 MSK
+vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o i2c_master_top.anno.spc i2c_master_top.rtl.anno.v
+Router script ended on Сб 10 апр 2021 00:15:45 MSK

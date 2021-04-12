@@ -1,5 +1,5 @@
-gdsii logfile created on Пт 09 апр 2021 16:30:42 MSK
-magic -dnull -noconsole  /home/oleg/tool_RTL_to_GDSII/projects/i2c/layout/generate_gds_i2c_master_top.tcl
+gdsii logfile created on Сб 10 апр 2021 00:15:52 MSK
+magic -dnull -noconsole  /home/oleg/RTLtoGDS/projects/i2c/layout/generate_gds_i2c_master_top.tcl
 
 Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
 Starting magic under Tcl interpreter
@@ -14,7 +14,7 @@ Contact size value ignored (using GDS generation rules).
 Contact size value ignored (using GDS generation rules).
 Contact size value ignored (using GDS generation rules).
 4 Magic internal units = 1 Lambda
-Loading "/home/oleg/tool_RTL_to_GDSII/projects/i2c/layout/generate_gds_i2c_master_top.tcl" from command line.
+Loading "/home/oleg/RTLtoGDS/projects/i2c/layout/generate_gds_i2c_master_top.tcl" from command line.
 Root cell box:
            width x height  (   llx,  lly  ), (   urx,  ury  )
 
@@ -248,4 +248,4 @@ Processing timestamp mismatches: FILL, INVX1, DFFSR, NAND2X1, AOI21X1, NOR2X1, N
    Writing cell NOR3X1
    Writing cell AOI22X1
    Writing cell INVX2
-GDS generating script ended on Пт 09 апр 2021 16:30:42 MSK
+GDS generating script ended on Сб 10 апр 2021 00:15:52 MSK

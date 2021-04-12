@@ -1,10 +1,10 @@
-Qflow placement logfile created on Пт 09 апр 2021 16:29:53 MSK
+Qflow placement logfile created on Сб 10 апр 2021 00:14:56 MSK
 Running vlog2Cel to generate input files for graywolf
-vlog2Cel  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef -u 100 -o /home/oleg/tool_RTL_to_GDSII/projects/i2c/layout/i2c_master_top.cel /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
+vlog2Cel  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef -u 100 -o /home/oleg/RTLtoGDS/projects/i2c/layout/i2c_master_top.cel /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
 No i2c_master_top.cel1 file found for project. . . no partial blockages to apply to layout.
 No i2c_master_top.cel2 file found for project. . . continuing without pin placement hints
 Running getfillcell to determine cell to use for fill.
-getfillcell.tcl i2c_master_top  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef FILL
+getfillcell.tcl i2c_master_top  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef FILL
 Running GrayWolf placement
 graywolf  i2c_master_top
 
@@ -468,9 +468,9 @@ TimberWolfSC terminated normally with no errors and 1 warning[s]
 twflow terminated normally with no errors and 0 warning[s]
 
 Running getantennacell to determine cell to use for antenna anchors.
-getantennacell.tcl i2c_master_top  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef 
+getantennacell.tcl i2c_master_top  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef 
 Running getfillcell to determine cell to use for fill.
-getfillcell.tcl i2c_master_top  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef FILL
+getfillcell.tcl i2c_master_top  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef FILL
 Using cell FILL for fill
 Running place2def to translate graywolf output to DEF format.
 place2def.tcl i2c_master_top FILL 
@@ -487,7 +487,7 @@ Summary: Total components = 1004
   Other cells = 1004
 Done with place2def.tcl
 Running addspacers to generate power stripes and align cell right edge
-addspacers -stripe 5 150 PG -p vdd -g gnd -f FILL -O  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef -o i2c_master_top_filled.def i2c_master_top
+addspacers -stripe 5 150 PG -p vdd -g gnd -f FILL -O  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef -o i2c_master_top_filled.def i2c_master_top
 Stripe pitch requested = 150, stripe pitch used = 150.4
 Stripe width requested = 5, stripe width used = 6.4
 Initial core layout: (80 100) to (53200 38100) (scale um * 100)
@@ -498,21 +498,21 @@ Reading DEF file i2c_master_top.def. . .
 Recalculating pin positions
 Writing DEF file i2c_master_top_mod.def. . .
 Done with arrangepins.tcl
-DEF2Verilog -v /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v -o /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top_anno.v
--p vdd -g gnd  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef i2c_master_top.def
+DEF2Verilog -v /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v -o /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top_anno.v
+-p vdd -g gnd  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef i2c_master_top.def
 
 Generating RTL verilog and SPICE netlist file in directory
-   /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis
+   /home/oleg/RTLtoGDS/projects/i2c/synthesis
 Files:
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtl.v
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlbb.v
-   Spice:   /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.spc
+   Verilog: /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtl.v
+   Verilog: /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
+   Verilog: /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlbb.v
+   Spice:   /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.spc
 
 Running vlog2Verilog.
 vlog2Verilog -c -v vdd -g gnd -o i2c_master_top.rtl.v i2c_master_top_anno.v
 vlog2Verilog -c -p -v vdd -g gnd -o i2c_master_top.rtlnopwr.v i2c_master_top_anno.v
 vlog2Verilog -c -b -p -n -v vdd -g gnd -o i2c_master_top.rtlbb.v i2c_master_top_anno.v
 Running vlog2Spice.
-vlog2Spice -i -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp -o i2c_master_top.spc i2c_master_top.rtl.v
-Placement script ended on Пт 09 апр 2021 16:30:21 MSK
+vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o i2c_master_top.spc i2c_master_top.rtl.v
+Placement script ended on Сб 10 апр 2021 00:15:27 MSK

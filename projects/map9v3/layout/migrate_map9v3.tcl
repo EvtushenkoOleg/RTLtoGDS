@@ -1,7 +1,7 @@
 box 0 0 0 0
 drc off
 snap int
-lef read /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef
+lef read /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef
 def read map9v3
 load map9v3
 select top cell

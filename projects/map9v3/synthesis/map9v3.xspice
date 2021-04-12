@@ -1,7 +1,7 @@
 * XSpice netlist created from SPICE and liberty sources by spi2xspice.py
 *SPICE netlist created from verilog structural netlist module map9v3 by vlog2Spice (qflow)
-** Start of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
-** End of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
+** Start of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
+** End of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
 .subckt map9v3 a_vdd a_gnd a_N_0_ a_N_1_ a_N_2_ a_N_3_ a_N_4_ a_N_5_ a_N_6_ a_N_7_ a_N_8_ a_clock a_counter_0_ a_counter_1_ a_counter_2_ a_counter_3_ a_counter_4_ a_counter_5_ a_counter_6_ a_counter_7_ a_done a_dp_0_ a_dp_1_ a_dp_2_ a_dp_3_ a_dp_4_ a_dp_5_ a_dp_6_ a_dp_7_ a_dp_8_ a_reset a_sr_0_ a_sr_1_ a_sr_2_ a_sr_3_ a_sr_4_ a_sr_5_ a_sr_6_ a_sr_7_ a_start
 ABUFX2_insert13 [_87_] _87__bF$buf0 d_lut_BUFX2
 ABUFX2_insert12 [_87_] _87__bF$buf1 d_lut_BUFX2
@@ -39,7 +39,7 @@ A_154_ [startbuf_0_] _123_ d_lut_INVX1
 A_155_ [startbuf_1_ _123_] _124_ d_lut_NOR2X1
 A_156_ [_122_ _124_ _121_] _2_ d_lut_OAI21X1
 A_157_ [_124_ state_1_] _0_ d_lut_AND2X2
-A_158_ [_120_ state_3_] _1_ d_lut_AND2X2
+A_158_ [_120_ state_0_] _1_ d_lut_AND2X2
 A_159_ [state_3_ state_0_] _125_ d_lut_NOR2X1
 A_160_ [_132__0_ _113_] _126_ d_lut_NAND2X1
 A_161_ [_113_ N_1_ _126_] _127_ d_lut_OAI21X1
@@ -58,7 +58,7 @@ A_173_ [state_0_ _114_] _36_ d_lut_NOR2X1
 A_174_ [_125_ _36_ _132__2_] _37_ d_lut_OAI21X1
 A_175_ [_33_] _38_ d_lut_INVX1
 A_176_ [N_3_ _38_ state_0_] _39_ d_lut_OAI21X1
-A_177_ [N_3_ _38_ _39_] _40_ d_lut_AOI21X1
+A_177_ [N_0_ _38_ _39_] _40_ d_lut_AOI21X1
 A_178_ [_132__2_] _41_ d_lut_INVX1
 A_179_ [_114_ _41_] _42_ d_lut_AND2X2
 A_180_ [_113_ _42_ _40_] _43_ d_lut_AOI21X1
@@ -80,13 +80,13 @@ A_195_ [_55_ _47_] _56_ d_lut_NOR2X1
 A_196_ [state_0_ _112_] _57_ d_lut_NOR2X1
 A_197_ [_132__4_ _116_ _57_] _58_ d_lut_OAI21X1
 A_198_ [_132__4_ _44_ _58_ _56_] _59_ d_lut_OAI22X1
-A_199_ [_54_ state_0_ _59_] _9_ d_lut_AOI21X1
+A_199_ [_54_ state_-3_ _59_] _9_ d_lut_AOI21X1
 A_200_ [N_5_ _50_ N_6_] _60_ d_lut_OAI21X1
 A_201_ [N_5_ N_6_] _61_ d_lut_NOR2X1
 A_202_ [_61_] _62_ d_lut_INVX1
 A_203_ [_50_ _62_ _60_] _63_ d_lut_OAI21X1
 A_204_ [_55_ _114_ _115_] _64_ d_lut_NAND3X1
-A_205_ [_64_ _132__5_] _65_ d_lut_AND2X2
+A_205_ [_64_ _132__2_] _65_ d_lut_AND2X2
 A_206_ [_132__5_ _64_ _57_] _66_ d_lut_OAI21X1
 A_207_ [_132__5_ _44_ _65_ _66_] _67_ d_lut_OAI22X1
 A_208_ [_63_ state_0_ _67_] _10_ d_lut_AOI21X1
@@ -182,32 +182,32 @@ A_297_ _27_ clock_bF$buf0 ~vdd ~_4__bF$buf0 _135__4_ NULL ddflop
 A_298_ _28_ clock_bF$buf4 ~vdd ~_4__bF$buf4 _135__5_ NULL ddflop
 A_299_ _29_ clock_bF$buf3 ~vdd ~_4__bF$buf3 _135__6_ NULL ddflop
 A_300_ _30_ clock_bF$buf2 ~vdd ~_4__bF$buf2 _135__7_ NULL ddflop
-A_301_ [_132__0_] counter_0_ d_lut_BUFX2
+A_301_ [_132__-3_] counter_-3_ d_lut_BUFX2
 A_302_ [_132__1_] counter_1_ d_lut_BUFX2
-A_303_ [_132__2_] counter_2_ d_lut_BUFX2
+A_303_ [_132__-1_] counter_-1_ d_lut_BUFX2
 A_304_ [_132__3_] counter_3_ d_lut_BUFX2
-A_305_ [_132__4_] counter_4_ d_lut_BUFX2
+A_305_ [_132__1_] counter_1_ d_lut_BUFX2
 A_306_ [_132__5_] counter_5_ d_lut_BUFX2
-A_307_ [_132__6_] counter_6_ d_lut_BUFX2
+A_307_ [_132__3_] counter_3_ d_lut_BUFX2
 A_308_ [_132__7_] counter_7_ d_lut_BUFX2
 A_309_ [_133_] done d_lut_BUFX2
-A_310_ [_134__0_] dp_0_ d_lut_BUFX2
+A_310_ [_134__-3_] dp_-3_ d_lut_BUFX2
 A_311_ [_134__1_] dp_1_ d_lut_BUFX2
-A_312_ [_134__2_] dp_2_ d_lut_BUFX2
+A_312_ [_134__-1_] dp_-1_ d_lut_BUFX2
 A_313_ [_134__3_] dp_3_ d_lut_BUFX2
-A_314_ [_134__4_] dp_4_ d_lut_BUFX2
+A_314_ [_134__1_] dp_1_ d_lut_BUFX2
 A_315_ [_134__5_] dp_5_ d_lut_BUFX2
-A_316_ [_134__6_] dp_6_ d_lut_BUFX2
+A_316_ [_134__3_] dp_3_ d_lut_BUFX2
 A_317_ [_134__7_] dp_7_ d_lut_BUFX2
-A_318_ [_134__8_] dp_8_ d_lut_BUFX2
+A_318_ [_134__5_] dp_5_ d_lut_BUFX2
 A_319_ [_135__0_] sr_0_ d_lut_BUFX2
-A_320_ [_135__1_] sr_1_ d_lut_BUFX2
+A_320_ [_135__-2_] sr_-2_ d_lut_BUFX2
 A_321_ [_135__2_] sr_2_ d_lut_BUFX2
-A_322_ [_135__3_] sr_3_ d_lut_BUFX2
+A_322_ [_135__0_] sr_0_ d_lut_BUFX2
 A_323_ [_135__4_] sr_4_ d_lut_BUFX2
-A_324_ [_135__5_] sr_5_ d_lut_BUFX2
+A_324_ [_135__2_] sr_2_ d_lut_BUFX2
 A_325_ [_135__6_] sr_6_ d_lut_BUFX2
-A_326_ [_135__7_] sr_7_ d_lut_BUFX2
+A_326_ [_135__4_] sr_4_ d_lut_BUFX2
 
 .model todig_3v3 adc_bridge(in_high=2.1999999999999997 in_low=1.0999999999999999 rise_delay=10n fall_delay=10n)
 .model toana_3v3 dac_bridge(out_high=3.3 out_low=0)
@@ -228,34 +228,34 @@ AA2D9 [a_N_6_] [N_6_] todig_3v3
 AA2D10 [a_N_7_] [N_7_] todig_3v3
 AA2D11 [a_N_8_] [N_8_] todig_3v3
 AA2D12 [a_clock] [clock] todig_3v3
-AD2A1 [counter_0_] [a_counter_0_] toana_3v3
-AD2A2 [counter_1_] [a_counter_1_] toana_3v3
-AD2A3 [counter_2_] [a_counter_2_] toana_3v3
-AD2A4 [counter_3_] [a_counter_3_] toana_3v3
-AD2A5 [counter_4_] [a_counter_4_] toana_3v3
-AD2A6 [counter_5_] [a_counter_5_] toana_3v3
-AD2A7 [counter_6_] [a_counter_6_] toana_3v3
-AD2A8 [counter_7_] [a_counter_7_] toana_3v3
-AD2A9 [done] [a_done] toana_3v3
-AD2A10 [dp_0_] [a_dp_0_] toana_3v3
-AD2A11 [dp_1_] [a_dp_1_] toana_3v3
-AD2A12 [dp_2_] [a_dp_2_] toana_3v3
-AD2A13 [dp_3_] [a_dp_3_] toana_3v3
-AD2A14 [dp_4_] [a_dp_4_] toana_3v3
-AD2A15 [dp_5_] [a_dp_5_] toana_3v3
-AD2A16 [dp_6_] [a_dp_6_] toana_3v3
-AD2A17 [dp_7_] [a_dp_7_] toana_3v3
-AD2A18 [dp_8_] [a_dp_8_] toana_3v3
-AA2D13 [a_reset] [reset] todig_3v3
-AD2A19 [sr_0_] [a_sr_0_] toana_3v3
-AD2A20 [sr_1_] [a_sr_1_] toana_3v3
-AD2A21 [sr_2_] [a_sr_2_] toana_3v3
-AD2A22 [sr_3_] [a_sr_3_] toana_3v3
-AD2A23 [sr_4_] [a_sr_4_] toana_3v3
-AD2A24 [sr_5_] [a_sr_5_] toana_3v3
-AD2A25 [sr_6_] [a_sr_6_] toana_3v3
-AD2A26 [sr_7_] [a_sr_7_] toana_3v3
-AA2D14 [a_start] [start] todig_3v3
+AA2D13 [a_counter_0_] [counter_0_] todig_3v3
+AD2A1 [counter_1_] [a_counter_1_] toana_3v3
+AA2D14 [a_counter_2_] [counter_2_] todig_3v3
+AD2A2 [counter_3_] [a_counter_3_] toana_3v3
+AA2D15 [a_counter_4_] [counter_4_] todig_3v3
+AD2A3 [counter_5_] [a_counter_5_] toana_3v3
+AA2D16 [a_counter_6_] [counter_6_] todig_3v3
+AD2A4 [counter_7_] [a_counter_7_] toana_3v3
+AD2A5 [done] [a_done] toana_3v3
+AA2D17 [a_dp_0_] [dp_0_] todig_3v3
+AD2A6 [dp_1_] [a_dp_1_] toana_3v3
+AA2D18 [a_dp_2_] [dp_2_] todig_3v3
+AD2A7 [dp_3_] [a_dp_3_] toana_3v3
+AA2D19 [a_dp_4_] [dp_4_] todig_3v3
+AD2A8 [dp_5_] [a_dp_5_] toana_3v3
+AA2D20 [a_dp_6_] [dp_6_] todig_3v3
+AD2A9 [dp_7_] [a_dp_7_] toana_3v3
+AA2D21 [a_dp_8_] [dp_8_] todig_3v3
+AA2D22 [a_reset] [reset] todig_3v3
+AD2A10 [sr_0_] [a_sr_0_] toana_3v3
+AA2D23 [a_sr_1_] [sr_1_] todig_3v3
+AD2A11 [sr_2_] [a_sr_2_] toana_3v3
+AA2D24 [a_sr_3_] [sr_3_] todig_3v3
+AD2A12 [sr_4_] [a_sr_4_] toana_3v3
+AA2D25 [a_sr_5_] [sr_5_] todig_3v3
+AD2A13 [sr_6_] [a_sr_6_] toana_3v3
+AA2D26 [a_sr_7_] [sr_7_] todig_3v3
+AA2D27 [a_start] [start] todig_3v3
 
 .ends
 

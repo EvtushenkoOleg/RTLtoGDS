@@ -1,7 +1,7 @@
-Qflow route logfile created on Пт 09 апр 2021 17:27:48 MSK
+Qflow route logfile created on Сб 10 апр 2021 00:08:07 MSK
 qrouter -noc -s map9v3.cfg
 Qrouter detail maze router version 1.4.83.T
-Reading LEF data from file /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef.
+Reading LEF data from file /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef.
 LEF Read, Line 135: NOTE:  Old format VIARULE ignored.
 LEF Read, Line 136: NOTE:  Old format VIARULE ignored.
 LEF Read, Line 140: NOTE:  Old format VIARULE ignored.
@@ -1306,15 +1306,15 @@ but qrouter wants to write 219 nets and specialnets.
 Final: No failed routes!
 ----------------------------------------------
 *** Writing RC file map9v3_route.rc
-DEF2Verilog -v /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtlnopwr.v -o /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3_postroute.v
--p vdd -g gnd  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef map9v3_route.def
+DEF2Verilog -v /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtlnopwr.v -o /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3_postroute.v
+-p vdd -g gnd  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef map9v3_route.def
 
 Generating RTL verilog and SPICE netlist file in directory
-   /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis
+   /home/oleg/RTLtoGDS/projects/map9v3/synthesis
 Running vlog2Verilog.
 vlog2Verilog -c -v vdd -g gnd -o map9v3.rtl.anno.v map9v3_postroute.v
 vlog2Verilog -c -p -v vdd -g gnd -o map9v3.rtlnopwr.anno.v map9v3_postroute.v
-/home/oleg/tool_RTL_to_GDSII/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o map9v3.rtlbb.anno.v map9v3_postroute.v
+/home/oleg/RTLtoGDS/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o map9v3.rtlbb.anno.v map9v3_postroute.v
 Running vlog2Spice.
-vlog2Spice -i -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp -o map9v3.anno.spc map9v3.rtl.anno.v
-Router script ended on Пт 09 апр 2021 17:27:51 MSK
+vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o map9v3.anno.spc map9v3.rtl.anno.v
+Router script ended on Сб 10 апр 2021 00:08:09 MSK

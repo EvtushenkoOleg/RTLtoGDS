@@ -3,6 +3,6 @@ gds vendor true ; gds rescale false ; gds read  /home/oleg/RTLtoGDS/tech/osu035/
 
  ; lef read  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef
 
-def read i2c_master_top
+def read map9v3
 select top cell
 expand

@@ -1,6 +1,6 @@
-Qflow static timing analysis logfile created on Пт 09 апр 2021 17:27:48 MSK
+Qflow static timing analysis logfile created on Сб 10 апр 2021 00:08:07 MSK
 Running vesta static timing analysis
-vesta --summary reports --long map9v3.rtlnopwr.v /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib
+vesta --summary reports --long map9v3.rtlnopwr.v /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib
 ----------------------------------------------
 Vesta static timing analysis tool
 for qflow 1.4.89
@@ -9,7 +9,7 @@ for qflow 1.4.89
 
 Parsing library "osu035_stdcells"
 End of library at line 6636
-Lib read /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib:  Processed 6637 lines.
+Lib read /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib:  Processed 6637 lines.
 Parsing module "map9v3"
 Verilog netlist read:  Processed 1713 lines.
 Number of paths analyzed:  57

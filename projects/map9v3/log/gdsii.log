@@ -1,5 +1,5 @@
-gdsii logfile created on Пт 09 апр 2021 17:27:53 MSK
-magic -dnull -noconsole  /home/oleg/tool_RTL_to_GDSII/projects/map9v3/layout/generate_gds_map9v3.tcl
+gdsii logfile created on Сб 10 апр 2021 00:08:11 MSK
+magic -dnull -noconsole  /home/oleg/RTLtoGDS/projects/map9v3/layout/generate_gds_map9v3.tcl
 
 Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
 Starting magic under Tcl interpreter
@@ -14,7 +14,7 @@ Contact size value ignored (using GDS generation rules).
 Contact size value ignored (using GDS generation rules).
 Contact size value ignored (using GDS generation rules).
 4 Magic internal units = 1 Lambda
-Loading "/home/oleg/tool_RTL_to_GDSII/projects/map9v3/layout/generate_gds_map9v3.tcl" from command line.
+Loading "/home/oleg/RTLtoGDS/projects/map9v3/layout/generate_gds_map9v3.tcl" from command line.
 Root cell box:
            width x height  (   llx,  lly  ), (   urx,  ury  )
 
@@ -246,4 +246,4 @@ Processing timestamp mismatches: BUFX2, NAND2X1, NOR2X1, FILL, DFFSR, AOI21X1, I
    Writing cell AOI22X1
    Writing cell XOR2X1
    Writing cell XNOR2X1
-GDS generating script ended on Пт 09 апр 2021 17:27:54 MSK
+GDS generating script ended on Сб 10 апр 2021 00:08:12 MSK

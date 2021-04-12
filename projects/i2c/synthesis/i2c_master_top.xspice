@@ -1,7 +1,7 @@
 * XSpice netlist created from SPICE and liberty sources by spi2xspice.py
 *SPICE netlist created from verilog structural netlist module i2c_master_top by vlog2Spice (qflow)
-** Start of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
-** End of included library /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp
+** Start of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
+** End of included library /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp
 .subckt i2c_master_top a_vdd a_gnd a_arst_i a_scl_pad_i a_scl_pad_o a_scl_padoen_o a_sda_pad_i a_sda_pad_o a_sda_padoen_o a_wb_ack_o a_wb_adr_i_0_ a_wb_adr_i_1_ a_wb_adr_i_2_ a_wb_clk_i a_wb_cyc_i a_wb_dat_i_0_ a_wb_dat_i_1_ a_wb_dat_i_2_ a_wb_dat_i_3_ a_wb_dat_i_4_ a_wb_dat_i_5_ a_wb_dat_i_6_ a_wb_dat_i_7_ a_wb_dat_o_0_ a_wb_dat_o_1_ a_wb_dat_o_2_ a_wb_dat_o_3_ a_wb_dat_o_4_ a_wb_dat_o_5_ a_wb_dat_o_6_ a_wb_dat_o_7_ a_wb_inta_o a_wb_rst_i a_wb_stb_i a_wb_we_i
 ABUFX2_insert28 [arst_i] arst_i_bF$buf0 d_lut_BUFX2
 ABUFX2_insert27 [arst_i] arst_i_bF$buf1 d_lut_BUFX2

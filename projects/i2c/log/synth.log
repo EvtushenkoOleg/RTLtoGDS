@@ -1,4 +1,4 @@
-Logfile created on Пт 09 апр 2021 16:29:47 MSK
+Logfile created on Сб 10 апр 2021 00:14:49 MSK
 Running yosys for verilog parsing and synthesis
 yosys  -s i2c_master_top.ys
 
@@ -1734,7 +1734,7 @@ Running ABC command: yosys-abc -s -f <abc-temp-dir>/abc.script 2>&1
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib 
+ABC: + read_lib -w /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib 
 ABC: Parsing finished successfully.  Parsing time =     0.00 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNEGX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFPOSX1".
@@ -1747,7 +1747,7 @@ ABC: Scl_LibertyReadGenlib() skipped cell "PADFC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADNC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADVDD" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADGND" without logic function.
-ABC: Library "osu035_stdcells" from "/home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
+ABC: Library "osu035_stdcells" from "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
 ABC: Memory =    0.38 MB. Time =     0.01 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
@@ -1785,7 +1785,7 @@ Running ABC command: yosys-abc -s -f <abc-temp-dir>/abc.script 2>&1
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib 
+ABC: + read_lib -w /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib 
 ABC: Parsing finished successfully.  Parsing time =     0.00 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNEGX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFPOSX1".
@@ -1798,7 +1798,7 @@ ABC: Scl_LibertyReadGenlib() skipped cell "PADFC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADNC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADVDD" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADGND" without logic function.
-ABC: Library "osu035_stdcells" from "/home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
+ABC: Library "osu035_stdcells" from "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
 ABC: Memory =    0.38 MB. Time =     0.01 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
@@ -1836,8 +1836,8 @@ Running ABC command: yosys-abc -s -f <abc-temp-dir>/abc.script 2>&1
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.00 sec
+ABC: + read_lib -w /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.01 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNEGX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFPOSX1".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSR".
@@ -1849,8 +1849,8 @@ ABC: Scl_LibertyReadGenlib() skipped cell "PADFC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADNC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADVDD" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADGND" without logic function.
-ABC: Library "osu035_stdcells" from "/home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
-ABC: Memory =    0.38 MB. Time =     0.01 sec
+ABC: Library "osu035_stdcells" from "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.02 sec
+ABC: Memory =    0.38 MB. Time =     0.02 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
 ABC: + scorr 
@@ -1997,13 +1997,13 @@ Dumping module `\i2c_master_top'.
      OR2X2                           7
 
 Warnings: 3 unique messages, 3 total
-End of script. Logfile hash: e7fbce8638, CPU: user 3.61s system 0.06s, MEM: 22.14 MB peak
+End of script. Logfile hash: c268948f21, CPU: user 3.64s system 0.07s, MEM: 21.72 MB peak
 Yosys 0.9+3760 (git sha1 40e35993, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)
-Time spent: 23% 2x abc (1 sec), 17% 27x opt_expr (0 sec), ...
+Time spent: 24% 2x abc (1 sec), 17% 2x write_verilog (0 sec), ...
 Running getpowerground to determine power and ground net names.
-getpowerground.tcl  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef
+getpowerground.tcl  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef
 Running vlogFanout
-vlogFanout -l 200 -c 30 -I i2c_master_top_nofanout -s nullstring -p /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -b BUFX2,CLKBUF1 -i A,A -o Y,Y i2c_master_top_mapped.v i2c_master_top_sized.v
+vlogFanout -l 200 -c 30 -I i2c_master_top_nofanout -s nullstring -p /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib -b BUFX2,CLKBUF1 -i A,A -o Y,Y i2c_master_top_mapped.v i2c_master_top_sized.v
 
 vlogFanout for qflow 1.4.89
 Parsing library "osu035_stdcells"
@@ -2049,29 +2049,29 @@ Gate counts by drive strength:
 
 Number of gates changed: 0
 Running vlog2Verilog for antenna cell mapping.
-vlog2Verilog -c -p -v vdd -g gnd  -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef 
+vlog2Verilog -c -p -v vdd -g gnd  -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef 
    -o i2c_master_top.v i2c_master_top_sized.v
 
 Generating RTL verilog and SPICE netlist file in directory
-	 /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis
+	 /home/oleg/RTLtoGDS/projects/i2c/synthesis
 Files:
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtl.v
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtlbb.v
-   Spice:   /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.spc
+   Verilog: /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtl.v
+   Verilog: /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlnopwr.v
+   Verilog: /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtlbb.v
+   Spice:   /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.spc
 
 Running vlog2Verilog.
-vlog2Verilog -c -v vdd -g gnd  -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef 
+vlog2Verilog -c -v vdd -g gnd  -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef 
 	-o i2c_master_top.rtl.v
    i2c_master_top.v
-vlog2Verilog -c -p -v vdd -g gnd  -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef 
+vlog2Verilog -c -p -v vdd -g gnd  -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef 
 	-o i2c_master_top.rtlnopwr.v
    i2c_master_top.v
-/home/oleg/tool_RTL_to_GDSII/bin/vlog2Verilog -c -p -b -n -v vdd -g gnd  -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef
+/home/oleg/RTLtoGDS/bin/vlog2Verilog -c -p -b -n -v vdd -g gnd  -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef
    -o i2c_master_top.rtlbb.v
 Running vlog2Spice.
-vlog2Spice -i -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp -o i2c_master_top.spc i2c_master_top.rtl.v
+vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o i2c_master_top.spc i2c_master_top.rtl.v
 Running spi2xspice.py
-spi2xspice.py "/home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib" i2c_master_top.spc i2c_master_top.xspice
+spi2xspice.py "/home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib" i2c_master_top.spc i2c_master_top.xspice
 
-Synthesis script ended on Пт 09 апр 2021 16:29:53 MSK
+Synthesis script ended on Сб 10 апр 2021 00:14:56 MSK

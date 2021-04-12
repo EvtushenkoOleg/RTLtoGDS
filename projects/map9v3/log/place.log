@@ -1,10 +1,10 @@
-Qflow placement logfile created on Пт 09 апр 2021 17:27:38 MSK
+Qflow placement logfile created on Сб 10 апр 2021 00:07:58 MSK
 Running vlog2Cel to generate input files for graywolf
-vlog2Cel  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef -u 100 -o /home/oleg/tool_RTL_to_GDSII/projects/map9v3/layout/map9v3.cel /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtlnopwr.v
+vlog2Cel  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef -u 100 -o /home/oleg/RTLtoGDS/projects/map9v3/layout/map9v3.cel /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtlnopwr.v
 No map9v3.cel1 file found for project. . . no partial blockages to apply to layout.
 No map9v3.cel2 file found for project. . . continuing without pin placement hints
 Running getfillcell to determine cell to use for fill.
-getfillcell.tcl map9v3  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef FILL
+getfillcell.tcl map9v3  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef FILL
 Running GrayWolf placement
 graywolf  map9v3
 
@@ -275,9 +275,9 @@ TimberWolfSC terminated normally with no errors and 0 warning[s]
 twflow terminated normally with no errors and 0 warning[s]
 
 Running getantennacell to determine cell to use for antenna anchors.
-getantennacell.tcl map9v3  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef 
+getantennacell.tcl map9v3  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef 
 Running getfillcell to determine cell to use for fill.
-getfillcell.tcl map9v3  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef FILL
+getfillcell.tcl map9v3  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef FILL
 Using cell FILL for fill
 Running place2def to translate graywolf output to DEF format.
 place2def.tcl map9v3 FILL 
@@ -294,7 +294,7 @@ Summary: Total components = 205
   Other cells = 205
 Done with place2def.tcl
 Running addspacers to generate power stripes and align cell right edge
-addspacers -stripe 5 150 PG -p vdd -g gnd -f FILL -O  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef -o map9v3_filled.def map9v3
+addspacers -stripe 5 150 PG -p vdd -g gnd -f FILL -O  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef -o map9v3_filled.def map9v3
 Stripe pitch requested = 150, stripe pitch used = 150.4
 Stripe width requested = 5, stripe width used = 6.4
 Initial core layout: (80 100) to (24080 18100) (scale um * 100)
@@ -306,21 +306,21 @@ Reading DEF file map9v3.def. . .
 Recalculating pin positions
 Writing DEF file map9v3_mod.def. . .
 Done with arrangepins.tcl
-DEF2Verilog -v /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtlnopwr.v -o /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3_anno.v
--p vdd -g gnd  -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef map9v3.def
+DEF2Verilog -v /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtlnopwr.v -o /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3_anno.v
+-p vdd -g gnd  -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef map9v3.def
 
 Generating RTL verilog and SPICE netlist file in directory
-   /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis
+   /home/oleg/RTLtoGDS/projects/map9v3/synthesis
 Files:
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtl.v
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtlnopwr.v
-   Verilog: /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.rtlbb.v
-   Spice:   /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.spc
+   Verilog: /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtl.v
+   Verilog: /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtlnopwr.v
+   Verilog: /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.rtlbb.v
+   Spice:   /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.spc
 
 Running vlog2Verilog.
 vlog2Verilog -c -v vdd -g gnd -o map9v3.rtl.v map9v3_anno.v
 vlog2Verilog -c -p -v vdd -g gnd -o map9v3.rtlnopwr.v map9v3_anno.v
 vlog2Verilog -c -b -p -n -v vdd -g gnd -o map9v3.rtlbb.v map9v3_anno.v
 Running vlog2Spice.
-vlog2Spice -i -l  /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.sp -o map9v3.spc map9v3.rtl.v
-Placement script ended on Пт 09 апр 2021 17:27:48 MSK
+vlog2Spice -i -l  /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.sp -o map9v3.spc map9v3.rtl.v
+Placement script ended on Сб 10 апр 2021 00:08:07 MSK

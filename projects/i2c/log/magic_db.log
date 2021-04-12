@@ -1,4 +1,4 @@
-Migration logfile created on Пт 09 апр 2021 16:30:37 MSK
+Migration logfile created on Сб 10 апр 2021 00:15:46 MSK
 magic -dnull -noconsole  migrate_i2c_master_top.tcl
 
 Magic 8.3 revision 98 - Compiled on Вс 17 янв 2021 00:19:06 MSK.
@@ -21,7 +21,7 @@ Root cell box:
 microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
 lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
 internal:      0 x 0       (     0,  0    ), (     0,  0    )
-Reading LEF data from file /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lef.
+Reading LEF data from file /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lef.
 This action cannot be undone.
 LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
 LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
@@ -59,4 +59,4 @@ Extracting AND2X2 into AND2X2.ext:
 Extracting DFFSR into DFFSR.ext:
 Extracting i2c_master_top into i2c_master_top.ext:
 exttospice finished.
-Migration script ended on Пт 09 апр 2021 16:30:40 MSK
+Migration script ended on Сб 10 апр 2021 00:15:50 MSK

@@ -1,17 +1,17 @@
-Qflow LVS logfile created on Пт 09 апр 2021 17:27:53 MSK
-netgen -batch lvs "map9v3.spice map9v3" "/home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.spc map9v3" /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_setup.tcl comp.out -json -blackbox
+Qflow LVS logfile created on Сб 10 апр 2021 00:08:11 MSK
+netgen -batch lvs "map9v3.spice map9v3" "/home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.spc map9v3" /home/oleg/RTLtoGDS/tech/osu035/osu035_setup.tcl comp.out -json -blackbox
 Netgen 1.5.163 compiled on Вс 17 янв 2021 00:49:57 MSK
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
 Generating JSON file result
 Treating empty subcircuits as black-box cells
 Reading netlist file map9v3.spice
-Reading netlist file /home/oleg/tool_RTL_to_GDSII/projects/map9v3/synthesis/map9v3.spc
-Reading setup file /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_setup.tcl
+Reading netlist file /home/oleg/RTLtoGDS/projects/map9v3/synthesis/map9v3.spc
+Reading setup file /home/oleg/RTLtoGDS/tech/osu035/osu035_setup.tcl
 No property w found for device r
 No property l found for device r
-Error /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_setup.tcl:5 (ignoring), No such cell or bad file number!
-Error /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_setup.tcl:6 (ignoring), No such cell or bad file number!
+Error /home/oleg/RTLtoGDS/tech/osu035/osu035_setup.tcl:5 (ignoring), No such cell or bad file number!
+Error /home/oleg/RTLtoGDS/tech/osu035/osu035_setup.tcl:6 (ignoring), No such cell or bad file number!
 Warning:  There were errors reading the setup file
 Comparison output logged to file comp.out
 Logging to file "comp.out" enabled
@@ -233,8 +233,8 @@ Netlists match uniquely.
 Result: Circuits match uniquely.
 Logging to file "comp.out" disabled
 LVS Done.
-/home/oleg/tool_RTL_to_GDSII/scripts/count_lvs.py
+/home/oleg/RTLtoGDS/scripts/count_lvs.py
 LVS reports no net, device, pin, or property mismatches.
 
 Total errors = 0
-LVS checking script ended on Пт 09 апр 2021 17:27:53 MSK
+LVS checking script ended on Сб 10 апр 2021 00:08:11 MSK

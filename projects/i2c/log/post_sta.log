@@ -1,10 +1,11 @@
-Static timing analysis logfile created on Пт 09 апр 2021 16:30:36 MSK
+Static timing analysis logfile created on Сб 10 апр 2021 00:15:45 MSK
 Converting qrouter output to vesta delay format
-Running rc2dly -r i2c_master_top.rc -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -V /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtl.v
+Running rc2dly -r i2c_master_top.rc -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib -V /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtl.v
 -d i2c_master_top.dly
 Converting qrouter output to SDF delay format
-Running rc2dly -r i2c_master_top.rc -l /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib -V /home/oleg/tool_RTL_to_GDSII/projects/i2c/synthesis/i2c_master_top.rtl.v
+Running rc2dly -r i2c_master_top.rc -l /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib -V /home/oleg/RTLtoGDS/projects/i2c/synthesis/i2c_master_top.rtl.v
 -d i2c_master_top.sdf
+Creating example SDC file for timing
 Creating OpenSTA input file i2c_master_top.conf
 Running OpenSTA static timing analysis with back-annotated extracted wire delays
 sta  < i2c_master_top.conf
@@ -15,7 +16,7 @@ This is free software, and you are free to change and redistribute it
 under certain conditions; type `show_copying' for details. 
 This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
 Error: history.tcl, 330 invoked "return" outside of a proc.
-Warning: /home/oleg/tool_RTL_to_GDSII/tech/osu035/osu035_stdcells.lib, line 8 library osu035_stdcells already exists.
+Warning: /home/oleg/RTLtoGDS/tech/osu035/osu035_stdcells.lib, line 8 library osu035_stdcells already exists.
 Warning: i2c_master_top.rtlnopwr.v, line 943 module FILL not found.  Creating black box for FILL52720x30100.
 Warning: i2c_master_top_post.sdc, 1 port 'clock' not found.
 Warning: i2c_master_top_post.sdc, 2 virtual clock clock can not be propagated.

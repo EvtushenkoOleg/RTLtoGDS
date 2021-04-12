@@ -1,7 +1,7 @@
 magic
 tech scmos
 magscale 1 2
-timestamp 1617978472
+timestamp 1618002490
 << metal1 >>
 rect 1866 1814 1878 1816
 rect 1851 1806 1853 1814
@@ -2937,1143 +2937,1143 @@ rect 2442 116 2444 124
 rect 2452 116 2454 124
 rect 2442 114 2454 116
 use BUFX2  _312_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 -1 210
 box -4 -6 52 206
 use DFFSR  _285_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 -1 210
 box -4 -6 356 206
 use BUFX2  _313_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 1 210
 box -4 -6 52 206
 use DFFSR  _286_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 1 210
 box -4 -6 356 206
 use FILL  SFILL5360x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 552 0 -1 210
 box -4 -6 20 206
 use FILL  SFILL5200x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 536 0 -1 210
 box -4 -6 20 206
 use BUFX2  BUFX2_insert12
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 568 0 1 210
 box -4 -6 52 206
 use NOR2X1  _240_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 472 0 1 210
 box -4 -6 52 206
 use AOI21X1  _241_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 472 0 1 210
 box -4 -6 68 206
 use AOI21X1  _238_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 520 0 -1 210
 box -4 -6 68 206
 use NOR2X1  _237_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 408 0 -1 210
 box -4 -6 52 206
 use FILL  SFILL6160x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 616 0 1 210
 box -4 -6 20 206
 use FILL  SFILL6000x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 600 0 1 210
 box -4 -6 20 206
 use FILL  SFILL5840x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 584 0 1 210
 box -4 -6 20 206
 use FILL  SFILL5680x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 568 0 1 210
 box -4 -6 20 206
 use FILL  SFILL5680x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 584 0 -1 210
 box -4 -6 20 206
 use FILL  SFILL5520x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 568 0 -1 210
 box -4 -6 20 206
 use DFFSR  _289_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 632 0 1 210
 box -4 -6 356 206
 use DFFSR  _273_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 584 0 -1 210
 box -4 -6 356 206
 use BUFX2  _316_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 936 0 -1 210
 box -4 -6 52 206
 use INVX8  _141_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1064 0 -1 210
 box -4 -6 84 206
 use BUFX2  _310_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1112 0 -1 210
 box -4 -6 52 206
 use NOR2X1  _249_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 984 0 1 210
 box -4 -6 52 206
 use AOI21X1  _250_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1096 0 1 210
 box -4 -6 68 206
 use INVX1  _228_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1112 0 -1 210
 box -4 -6 36 206
 use OAI21X1  _232_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1144 0 -1 210
 box -4 -6 68 206
 use DFFSR  _283_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1560 0 -1 210
 box -4 -6 356 206
 use CLKBUF1  CLKBUF1_insert1
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1096 0 1 210
 box -4 -6 148 206
 use NAND2X1  _231_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1288 0 1 210
 box -4 -6 52 206
 use CLKBUF1  CLKBUF1_insert0
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1288 0 1 210
 box -4 -6 148 206
 use BUFX2  BUFX2_insert5
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1432 0 1 210
 box -4 -6 52 206
 use DFFSR  _274_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1560 0 -1 210
 box -4 -6 356 206
 use DFFSR  _272_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1480 0 1 210
 box -4 -6 356 206
 use FILL  SFILL18320x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1832 0 1 210
 box -4 -6 20 206
 use FILL  SFILL18480x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1848 0 1 210
 box -4 -6 20 206
 use FILL  SFILL18640x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1864 0 1 210
 box -4 -6 20 206
 use FILL  SFILL18800x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1880 0 1 210
 box -4 -6 20 206
 use BUFX2  _307_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1944 0 1 210
 box -4 -6 52 206
 use INVX1  _152_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1944 0 1 210
 box -4 -6 36 206
 use FILL  SFILL19120x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1928 0 -1 210
 box -4 -6 20 206
 use FILL  SFILL19280x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1944 0 -1 210
 box -4 -6 20 206
 use FILL  SFILL19440x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1960 0 -1 210
 box -4 -6 20 206
 use INVX1  _154_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1976 0 -1 210
 box -4 -6 36 206
 use OAI21X1  _156_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2040 0 1 210
 box -4 -6 68 206
 use FILL  SFILL19600x100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1976 0 -1 210
 box -4 -6 20 206
 use INVX1  _153_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2072 0 1 210
 box -4 -6 36 206
 use AND2X2  _157_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2056 0 -1 210
 box -4 -6 68 206
 use NOR2X1  _155_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2008 0 -1 210
 box -4 -6 52 206
 use DFFSR  _268_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2072 0 1 210
 box -4 -6 356 206
 use DFFSR  _269_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2120 0 -1 210
 box -4 -6 356 206
 use OAI21X1  _219_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2472 0 -1 210
 box -4 -6 68 206
 use INVX1  _220_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2456 0 1 210
 box -4 -6 36 206
 use BUFX2  _304_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2456 0 1 210
 box -4 -6 52 206
 use FILL  FILL23760x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2504 0 1 210
 box -4 -6 20 206
 use FILL  FILL23920x2100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2520 0 1 210
 box -4 -6 20 206
 use BUFX2  _321_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 -1 610
 box -4 -6 52 206
 use INVX1  _239_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 56 0 -1 610
 box -4 -6 36 206
 use DFFSR  _295_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 440 0 -1 610
 box -4 -6 356 206
 use DFFSR  _296_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 792 0 -1 610
 box -4 -6 356 206
 use BUFX2  BUFX2_insert8
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 904 0 -1 610
 box -4 -6 52 206
 use BUFX2  BUFX2_insert9
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 952 0 -1 610
 box -4 -6 52 206
 use BUFX2  BUFX2_insert13
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 952 0 -1 610
 box -4 -6 52 206
 use NOR2X1  _230_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1048 0 -1 610
 box -4 -6 52 206
 use DFFSR  _270_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1048 0 -1 610
 box -4 -6 356 206
 use FILL  SFILL7920x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 808 0 -1 610
 box -4 -6 20 206
 use FILL  SFILL8080x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 824 0 -1 610
 box -4 -6 20 206
 use FILL  SFILL8240x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 840 0 -1 610
 box -4 -6 20 206
 use FILL  SFILL8400x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 856 0 -1 610
 box -4 -6 20 206
 use INVX1  _229_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1432 0 -1 610
 box -4 -6 36 206
 use NAND2X1  _257_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1480 0 -1 610
 box -4 -6 52 206
 use INVX1  _215_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1480 0 -1 610
 box -4 -6 36 206
 use DFFSR  _281_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1864 0 -1 610
 box -4 -6 356 206
 use NAND2X1  _212_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1928 0 -1 610
 box -4 -6 52 206
 use NAND3X1  _217_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2040 0 -1 610
 box -4 -6 68 206
 use NAND2X1  _211_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2040 0 -1 610
 box -4 -6 52 206
 use DFFSR  _282_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2088 0 -1 610
 box -4 -6 356 206
 use FILL  SFILL18640x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1880 0 -1 610
 box -4 -6 20 206
 use FILL  SFILL18800x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1896 0 -1 610
 box -4 -6 20 206
 use FILL  SFILL18960x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1912 0 -1 610
 box -4 -6 20 206
 use FILL  SFILL19120x4100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1928 0 -1 610
 box -4 -6 20 206
 use BUFX2  _308_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2440 0 -1 610
 box -4 -6 52 206
 use NAND2X1  _222_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2536 0 -1 610
 box -4 -6 52 206
 use BUFX2  _322_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 1 610
 box -4 -6 52 206
 use CLKBUF1  CLKBUF1_insert4
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 56 0 1 610
 box -4 -6 148 206
 use CLKBUF1  CLKBUF1_insert3
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 200 0 1 610
 box -4 -6 148 206
 use INVX1  _242_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 344 0 1 610
 box -4 -6 36 206
 use OAI22X1  _267_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 376 0 1 610
 box -4 -6 84 206
 use OAI22X1  _136_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 536 0 1 610
 box -4 -6 84 206
 use INVX4  _265_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 584 0 1 610
 box -4 -6 52 206
 use CLKBUF1  CLKBUF1_insert2
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 648 0 1 610
 box -4 -6 148 206
 use FILL  SFILL5840x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 584 0 1 610
 box -4 -6 20 206
 use FILL  SFILL6000x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 600 0 1 610
 box -4 -6 20 206
 use FILL  SFILL6160x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 616 0 1 610
 box -4 -6 20 206
 use FILL  SFILL6320x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 632 0 1 610
 box -4 -6 20 206
 use BUFX2  BUFX2_insert6
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 840 0 1 610
 box -4 -6 52 206
 use DFFSR  _271_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 840 0 1 610
 box -4 -6 356 206
 use AND2X2  _158_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1256 0 1 610
 box -4 -6 68 206
 use BUFX2  BUFX2_insert7
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1256 0 1 610
 box -4 -6 52 206
 use NOR3X1  _213_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1432 0 1 610
 box -4 -6 132 206
 use OAI21X1  _214_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1432 0 1 610
 box -4 -6 68 206
 use OAI21X1  _216_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1496 0 1 610
 box -4 -6 68 206
 use OAI21X1  _225_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1560 0 1 610
 box -4 -6 68 206
 use NAND2X1  _224_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1672 0 1 610
 box -4 -6 52 206
 use AOI21X1  _226_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1736 0 1 610
 box -4 -6 68 206
 use NOR2X1  _147_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1736 0 1 610
 box -4 -6 52 206
 use FILL  SFILL17840x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1784 0 1 610
 box -4 -6 20 206
 use FILL  SFILL18000x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1800 0 1 610
 box -4 -6 20 206
 use DFFSR  _278_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1848 0 1 610
 box -4 -6 356 206
 use FILL  SFILL18160x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1816 0 1 610
 box -4 -6 20 206
 use FILL  SFILL18320x6100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1832 0 1 610
 box -4 -6 20 206
 use AOI22X1  _227_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2200 0 1 610
 box -4 -6 84 206
 use INVX1  _218_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2312 0 1 610
 box -4 -6 36 206
 use XOR2X1  _210_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2312 0 1 610
 box -4 -6 116 206
 use NAND3X1  _223_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2424 0 1 610
 box -4 -6 68 206
 use NOR2X1  _221_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2536 0 1 610
 box -4 -6 52 206
 use BUFX2  _323_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 -1 1010
 box -4 -6 52 206
 use DFFSR  _297_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 -1 1010
 box -4 -6 356 206
 use OAI22X1  _137_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 488 0 -1 1010
 box -4 -6 84 206
 use XOR2X1  _261_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 600 0 -1 1010
 box -4 -6 116 206
 use INVX1  _245_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 600 0 -1 1010
 box -4 -6 36 206
 use OAI22X1  _138_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 776 0 -1 1010
 box -4 -6 84 206
 use FILL  SFILL6320x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 648 0 -1 1010
 box -4 -6 20 206
 use FILL  SFILL6480x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 664 0 -1 1010
 box -4 -6 20 206
 use FILL  SFILL6640x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 680 0 -1 1010
 box -4 -6 20 206
 use FILL  SFILL6800x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 696 0 -1 1010
 box -4 -6 20 206
 use INVX1  _248_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 808 0 -1 1010
 box -4 -6 36 206
 use DFFSR  _298_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1160 0 -1 1010
 box -4 -6 356 206
 use DFFSR  _280_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1160 0 -1 1010
 box -4 -6 356 206
 use OAI21X1  _151_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1576 0 -1 1010
 box -4 -6 68 206
 use INVX1  _142_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1576 0 -1 1010
 box -4 -6 36 206
 use NOR2X1  _196_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1656 0 -1 1010
 box -4 -6 52 206
 use NOR2X1  _148_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1656 0 -1 1010
 box -4 -6 52 206
 use NOR2X1  _150_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1704 0 -1 1010
 box -4 -6 52 206
 use NAND2X1  _149_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1800 0 -1 1010
 box -4 -6 52 206
 use INVX1  _194_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1800 0 -1 1010
 box -4 -6 36 206
 use NAND3X1  _204_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1896 0 -1 1010
 box -4 -6 68 206
 use NAND2X1  _146_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2008 0 -1 1010
 box -4 -6 52 206
 use OAI21X1  _192_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2008 0 -1 1010
 box -4 -6 68 206
 use OAI21X1  _183_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2136 0 -1 1010
 box -4 -6 68 206
 use NAND2X1  _184_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2184 0 -1 1010
 box -4 -6 52 206
 use FILL  SFILL18320x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1848 0 -1 1010
 box -4 -6 20 206
 use FILL  SFILL18480x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1864 0 -1 1010
 box -4 -6 20 206
 use FILL  SFILL18640x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1880 0 -1 1010
 box -4 -6 20 206
 use FILL  SFILL18800x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1896 0 -1 1010
 box -4 -6 20 206
 use NOR2X1  _145_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2232 0 -1 1010
 box -4 -6 52 206
 use AOI21X1  _180_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2232 0 -1 1010
 box -4 -6 68 206
 use AND2X2  _179_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2360 0 -1 1010
 box -4 -6 68 206
 use INVX1  _178_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2392 0 -1 1010
 box -4 -6 36 206
 use OAI21X1  _176_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2456 0 -1 1010
 box -4 -6 68 206
 use AOI21X1  _177_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2520 0 -1 1010
 box -4 -6 68 206
 use FILL  FILL23920x8100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2536 0 -1 1010
 box -4 -6 20 206
 use BUFX2  _314_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 1 1010
 box -4 -6 52 206
 use DFFSR  _287_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 1 1010
 box -4 -6 356 206
 use AOI21X1  _244_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 408 0 1 1010
 box -4 -6 68 206
 use NOR2X1  _243_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 472 0 1 1010
 box -4 -6 52 206
 use OAI21X1  _263_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 520 0 1 1010
 box -4 -6 68 206
 use AND2X2  _262_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 584 0 1 1010
 box -4 -6 68 206
 use BUFX2  _324_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 760 0 1 1010
 box -4 -6 52 206
 use FILL  SFILL6480x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 648 0 1 1010
 box -4 -6 20 206
 use FILL  SFILL6640x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 664 0 1 1010
 box -4 -6 20 206
 use FILL  SFILL6800x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 680 0 1 1010
 box -4 -6 20 206
 use FILL  SFILL6960x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 696 0 1 1010
 box -4 -6 20 206
 use XNOR2X1  _260_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 872 0 1 1010
 box -4 -6 116 206
 use OAI22X1  _139_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 952 0 1 1010
 box -4 -6 84 206
 use DFFSR  _299_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 952 0 1 1010
 box -4 -6 356 206
 use AND2X2  _205_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1368 0 1 1010
 box -4 -6 68 206
 use OAI21X1  _259_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1432 0 1 1010
 box -4 -6 68 206
 use OAI21X1  _206_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1432 0 1 1010
 box -4 -6 68 206
 use OAI22X1  _207_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1576 0 1 1010
 box -4 -6 84 206
 use AOI21X1  _208_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1640 0 1 1010
 box -4 -6 68 206
 use OAI21X1  _197_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1704 0 1 1010
 box -4 -6 68 206
 use NOR2X1  _159_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1704 0 1 1010
 box -4 -6 52 206
 use INVX1  _185_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1752 0 1 1010
 box -4 -6 36 206
 use NOR2X1  _195_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1832 0 1 1010
 box -4 -6 52 206
 use AOI22X1  _191_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1896 0 1 1010
 box -4 -6 84 206
 use NOR2X1  _190_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1976 0 1 1010
 box -4 -6 52 206
 use OAI21X1  _181_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2088 0 1 1010
 box -4 -6 68 206
 use DFFSR  _277_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2088 0 1 1010
 box -4 -6 356 206
 use FILL  SFILL18320x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1832 0 1 1010
 box -4 -6 20 206
 use FILL  SFILL18480x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1848 0 1 1010
 box -4 -6 20 206
 use FILL  SFILL18640x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1864 0 1 1010
 box -4 -6 20 206
 use FILL  SFILL18800x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1880 0 1 1010
 box -4 -6 20 206
 use OAI21X1  _186_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2440 0 1 1010
 box -4 -6 68 206
 use FILL  FILL23760x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2504 0 1 1010
 box -4 -6 20 206
 use FILL  FILL23920x10100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2520 0 1 1010
 box -4 -6 20 206
 use BUFX2  _320_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 -1 1410
 box -4 -6 52 206
 use DFFSR  _294_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 -1 1410
 box -4 -6 356 206
 use INVX1  _236_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 408 0 -1 1410
 box -4 -6 36 206
 use OAI22X1  _266_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 440 0 -1 1410
 box -4 -6 84 206
 use OAI22X1  _264_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 520 0 -1 1410
 box -4 -6 84 206
 use INVX1  _254_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 632 0 -1 1410
 box -4 -6 36 206
 use OAI22X1  _140_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 696 0 -1 1410
 box -4 -6 84 206
 use FILL  SFILL6320x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 648 0 -1 1410
 box -4 -6 20 206
 use FILL  SFILL6480x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 664 0 -1 1410
 box -4 -6 20 206
 use FILL  SFILL6640x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 680 0 -1 1410
 box -4 -6 20 206
 use FILL  SFILL6800x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 696 0 -1 1410
 box -4 -6 20 206
 use BUFX2  BUFX2_insert11
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 824 0 -1 1410
 box -4 -6 52 206
 use DFFSR  _284_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 824 0 -1 1410
 box -4 -6 356 206
 use DFFSR  _292_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1528 0 -1 1410
 box -4 -6 356 206
 use INVX4  _143_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1576 0 -1 1410
 box -4 -6 52 206
 use AOI21X1  _199_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1576 0 -1 1410
 box -4 -6 68 206
 use OAI22X1  _198_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1720 0 -1 1410
 box -4 -6 84 206
 use INVX4  _182_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1768 0 -1 1410
 box -4 -6 52 206
 use OAI21X1  _164_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1768 0 -1 1410
 box -4 -6 68 206
 use FILL  SFILL18800x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1896 0 -1 1410
 box -4 -6 20 206
 use FILL  SFILL18640x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1880 0 -1 1410
 box -4 -6 20 206
 use FILL  SFILL18480x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1864 0 -1 1410
 box -4 -6 20 206
 use FILL  SFILL18320x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1848 0 -1 1410
 box -4 -6 20 206
 use AOI21X1  _171_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1896 0 -1 1410
 box -4 -6 68 206
 use OAI21X1  _174_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2008 0 -1 1410
 box -4 -6 68 206
 use NOR2X1  _173_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1960 0 -1 1410
 box -4 -6 52 206
 use OAI21X1  _161_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2136 0 -1 1410
 box -4 -6 68 206
 use AOI21X1  _170_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2232 0 -1 1410
 box -4 -6 68 206
 use INVX1  _189_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2168 0 -1 1410
 box -4 -6 36 206
 use INVX1  _166_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2232 0 -1 1410
 box -4 -6 36 206
 use NAND2X1  _168_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2264 0 -1 1410
 box -4 -6 52 206
 use OAI21X1  _188_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2312 0 -1 1410
 box -4 -6 68 206
 use INVX1  _167_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2376 0 -1 1410
 box -4 -6 36 206
 use INVX1  _175_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2408 0 -1 1410
 box -4 -6 36 206
 use NAND3X1  _209_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2440 0 -1 1410
 box -4 -6 68 206
 use FILL  FILL23760x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2520 0 -1 1410
 box -4 -6 20 206
 use FILL  FILL23920x12100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2536 0 -1 1410
 box -4 -6 20 206
 use BUFX2  _319_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 1 1410
 box -4 -6 52 206
 use DFFSR  _293_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 1 1410
 box -4 -6 356 206
 use INVX1  _233_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 408 0 1 1410
 box -4 -6 36 206
 use DFFSR  _300_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 440 0 1 1410
 box -4 -6 356 206
 use AOI21X1  _247_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 856 0 1 1410
 box -4 -6 68 206
 use NOR2X1  _246_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 920 0 1 1410
 box -4 -6 52 206
 use AOI21X1  _235_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 968 0 1 1410
 box -4 -6 68 206
 use BUFX2  BUFX2_insert10
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1032 0 1 1410
 box -4 -6 52 206
 use NOR2X1  _234_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1128 0 1 1410
 box -4 -6 52 206
 use FILL  SFILL7920x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 792 0 1 1410
 box -4 -6 20 206
 use FILL  SFILL8080x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 808 0 1 1410
 box -4 -6 20 206
 use FILL  SFILL8240x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 824 0 1 1410
 box -4 -6 20 206
 use FILL  SFILL8400x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 840 0 1 1410
 box -4 -6 20 206
 use BUFX2  _311_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1128 0 1 1410
 box -4 -6 52 206
 use NOR2X1  _252_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1176 0 1 1410
 box -4 -6 52 206
 use AOI21X1  _253_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1288 0 1 1410
 box -4 -6 68 206
 use INVX1  _251_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1320 0 1 1410
 box -4 -6 36 206
 use BUFX2  _309_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1320 0 1 1410
 box -4 -6 52 206
 use NAND2X1  _258_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1368 0 1 1410
 box -4 -6 52 206
 use DFFSR  _279_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1416 0 1 1410
 box -4 -6 356 206
 use BUFX2  _305_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1816 0 1 1410
 box -4 -6 52 206
 use FILL  SFILL18800x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1880 0 1 1410
 box -4 -6 20 206
 use OAI21X1  _172_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1816 0 1 1410
 box -4 -6 68 206
 use FILL  SFILL19280x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1928 0 1 1410
 box -4 -6 20 206
 use FILL  SFILL19120x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1912 0 1 1410
 box -4 -6 20 206
 use FILL  SFILL18960x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1896 0 1 1410
 box -4 -6 20 206
 use NAND2X1  _165_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1992 0 1 1410
 box -4 -6 52 206
 use NOR2X1  _144_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1992 0 1 1410
 box -4 -6 52 206
 use OAI21X1  _163_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2088 0 1 1410
 box -4 -6 68 206
 use NAND2X1  _160_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2088 0 1 1410
 box -4 -6 52 206
 use NAND2X1  _162_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2200 0 1 1410
 box -4 -6 52 206
 use XNOR2X1  _193_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2200 0 1 1410
 box -4 -6 116 206
 use OAI21X1  _203_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2312 0 1 1410
 box -4 -6 68 206
 use OAI21X1  _200_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2376 0 1 1410
 box -4 -6 68 206
 use INVX1  _202_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2472 0 1 1410
 box -4 -6 36 206
 use NOR2X1  _201_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2472 0 1 1410
 box -4 -6 52 206
 use FILL  FILL23920x14100
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2520 0 1 1410
 box -4 -6 20 206
 use BUFX2  _318_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 56 0 -1 1810
 box -4 -6 52 206
 use DFFSR  _291_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 408 0 -1 1810
 box -4 -6 356 206
 use NOR2X1  _255_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 408 0 -1 1810
 box -4 -6 52 206
 use AOI21X1  _256_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 520 0 -1 1810
 box -4 -6 68 206
 use BUFX2  _326_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 568 0 -1 1810
 box -4 -6 52 206
 use DFFSR  _288_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 632 0 -1 1810
 box -4 -6 356 206
 use FILL  SFILL5680x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 584 0 -1 1810
 box -4 -6 20 206
 use FILL  SFILL5840x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 600 0 -1 1810
 box -4 -6 20 206
 use FILL  SFILL6000x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 616 0 -1 1810
 box -4 -6 20 206
 use FILL  SFILL6160x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 632 0 -1 1810
 box -4 -6 20 206
 use BUFX2  _315_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 984 0 -1 1810
 box -4 -6 52 206
 use BUFX2  _317_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1080 0 -1 1810
 box -4 -6 52 206
 use DFFSR  _290_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1432 0 -1 1810
 box -4 -6 356 206
 use BUFX2  _325_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1432 0 -1 1810
 box -4 -6 52 206
 use BUFX2  _306_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1480 0 -1 1810
 box -4 -6 52 206
 use DFFSR  _276_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1528 0 -1 1810
 box -4 -6 356 206
 use BUFX2  _302_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1944 0 -1 1810
 box -4 -6 52 206
 use DFFSR  _275_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 1992 0 -1 1810
 box -4 -6 356 206
 use FILL  SFILL18800x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1896 0 -1 1810
 box -4 -6 20 206
 use FILL  SFILL18960x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1912 0 -1 1810
 box -4 -6 20 206
 use FILL  SFILL19120x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1928 0 -1 1810
 box -4 -6 20 206
 use FILL  SFILL19280x16100
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 1944 0 -1 1810
 box -4 -6 20 206
 use BUFX2  _301_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2344 0 -1 1810
 box -4 -6 52 206
 use NOR2X1  _187_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2392 0 -1 1810
 box -4 -6 52 206
 use NAND2X1  _169_
-timestamp 1617978472
+timestamp 1618002490
 transform -1 0 2488 0 -1 1810
 box -4 -6 52 206
 use BUFX2  _303_
-timestamp 1617978472
+timestamp 1618002490
 transform 1 0 2488 0 -1 1810
 box -4 -6 52 206
 << labels >>
